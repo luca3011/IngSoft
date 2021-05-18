@@ -1,0 +1,9 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="0" gr:y="0" id="mov2#mpkg1#hym1" name="Aggiungi Cliente">
+  <OperationUnits>
+    <InputCollectorUnit gr:x="140" gr:y="195" id="mov2#mpkg1#hym1#icu2">
+      <OKLink id="mov2#mpkg1#hym1#icu2#oln1" name="OKFlow1" to="mov2#mpkg1#hym1#page5" automaticCoupling="true"/>
+    </InputCollectorUnit>
+    <OKCollectorUnit gr:x="965" gr:y="180" id="mov2#mpkg1#hym1#okcu1" name="Creato con successo"/>
+    <KOCollectorUnit gr:x="965" gr:y="335" id="mov2#mpkg1#hym1#kocu1" name="Non creato"/>
+  </OperationUnits>
+</HybridModule>

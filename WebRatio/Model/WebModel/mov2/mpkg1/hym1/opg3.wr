@@ -1,0 +1,8 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="695" gr:y="175" id="mov2#mpkg1#hym1#opg3" name="Operation Group 2" transaction="true">
+  <OperationUnits>
+    <CreateUnit gr:x="0" gr:y="0" id="mov2#mpkg1#hym1#opg3#cru3" name="Create1" entity="ent4">
+      <KOLink id="mov2#mpkg1#hym1#opg3#cru3#kln4" name="KOFlow1" to="mov2#mpkg1#hym1#page5#mssu1" automaticCoupling="true"/>
+      <OKLink id="mov2#mpkg1#hym1#opg3#cru3#oln5" name="OKFlow2" to="mov2#mpkg1#hym1#okcu1" automaticCoupling="true"/>
+    </CreateUnit>
+  </OperationUnits>
+</OperationGroup>

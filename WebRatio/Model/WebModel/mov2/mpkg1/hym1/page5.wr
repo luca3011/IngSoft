@@ -1,0 +1,20 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="435" gr:y="145" id="mov2#mpkg1#hym1#page5" name="Aggiunta cliente" ajaxEnabled="false" linkOrder="mov2#mpkg1#hym1#page5#ln2">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="mov2#mpkg1#hym1#page5#enu1" name="Form1" entity="ent4" linkOrder="mov2#mpkg1#hym1#page5#enu1#ln1">
+      <Field id="mov2#mpkg1#hym1#page5#enu1#fld1" name="Codice Fiscale" type="string" modifiable="true" attribute="ent4#att4" preloaded="false"/>
+      <Field id="mov2#mpkg1#hym1#page5#enu1#fld2" name="nome" type="string" modifiable="true" attribute="ent4#att5"/>
+      <Field id="mov2#mpkg1#hym1#page5#enu1#fld3" name="cognome" type="string" modifiable="true" attribute="ent4#att6"/>
+      <Field id="mov2#mpkg1#hym1#page5#enu1#fld4" name="via_indirizzo" type="string" modifiable="true" attribute="ent4#att7"/>
+      <Field id="mov2#mpkg1#hym1#page5#enu1#fld5" name="citta_indirizzo" type="string" modifiable="true" attribute="ent4#att8"/>
+      <Field id="mov2#mpkg1#hym1#page5#enu1#fld6" name="cap_indirizzo" type="integer" modifiable="true" attribute="ent4#att9"/>
+      <Field id="mov2#mpkg1#hym1#page5#enu1#fld7" name="data_nascita" type="date" modifiable="true" attribute="ent4#att10"/>
+      <Field id="mov2#mpkg1#hym1#page5#enu1#fld8" name="telefono" type="string" modifiable="true" attribute="ent4#att11"/>
+      <Field id="mov2#mpkg1#hym1#page5#enu1#fld9" name="email" type="string" modifiable="true" attribute="ent4#att12"/>
+      <Link id="mov2#mpkg1#hym1#page5#enu1#ln1" name="Conferma" to="mov2#mpkg1#hym1#opg3#cru3" type="normal" validate="true" ajaxEnabled="true" gr:bendpoints="-131,12,129,17"/>
+      <Link id="mov2#mpkg1#hym1#page5#enu1#ln5" name="Flow5" to="mov2#mpkg1#hym1#opg3#cru3" type="transport" validate="true" gr:bendpoints="129,-27,-121,-42">
+        <LinkParameter id="mov2#mpkg1#hym1#page5#enu1#ln5#par11" name="Cliente Object_Cliente Object" source="entityBean" target="mov2#mpkg1#hym1#opg3#cru3.entityBeans"/>
+      </Link>
+    </EntryUnit>
+    <MultiMessageUnit gr:x="5" gr:y="100" id="mov2#mpkg1#hym1#page5#mssu1" name="Errore">
+      <Message xml:space="preserve">Pirla
+</Message>    </MultiMessageUnit>  </ContentUnits>  <layout:Grid containerType="grid">    <layout:Row>      <layout:Cell colspan="12">        <layout:Unit unitId="mov2#mpkg1#hym1#page5#enu1">          <layout:Field field="mov2#mpkg1#hym1#page5#enu1#fld1"/>          <layout:Field field="mov2#mpkg1#hym1#page5#enu1#fld2"/>          <layout:Field field="mov2#mpkg1#hym1#page5#enu1#fld3"/>          <layout:Field field="mov2#mpkg1#hym1#page5#enu1#fld4"/>          <layout:Field field="mov2#mpkg1#hym1#page5#enu1#fld5"/>          <layout:Field field="mov2#mpkg1#hym1#page5#enu1#fld6"/>          <layout:Field field="mov2#mpkg1#hym1#page5#enu1#fld7"/>          <layout:Field field="mov2#mpkg1#hym1#page5#enu1#fld8"/>          <layout:Field field="mov2#mpkg1#hym1#page5#enu1#fld9"/>          <layout:Link link="mov2#mpkg1#hym1#page5#enu1#ln1"/>        </layout:Unit>      </layout:Cell>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>    </layout:Row>    <layout:Row>      <layout:Cell colspan="12">        <layout:Unit unitId="mov2#mpkg1#hym1#page5#mssu1"/>      </layout:Cell>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>      <layout:Cell/>    </layout:Row>  </layout:Grid>  <Link id="mov2#mpkg1#hym1#page5#ln2" name="Annulla" to="mov2#mpkg1#hym1#kocu1" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="-5,119,-510,-1"/></Page>

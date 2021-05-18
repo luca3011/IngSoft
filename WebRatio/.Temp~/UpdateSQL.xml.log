@@ -1,33 +1,26 @@
-[18 mag 2021 14:02:18] DEBUG Executing SQL script
-[18 mag 2021 14:02:18] INFO ================================================================================
-[18 mag 2021 14:02:18] INFO onError= 'stop'
-[18 mag 2021 14:02:18] INFO autoCommit= 'false'
-[18 mag 2021 14:02:18] INFO username= 'manager'
-[18 mag 2021 14:02:18] INFO outputPath= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.xml'
-[18 mag 2021 14:02:18] INFO outputLogPath= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.xml.log'
-[18 mag 2021 14:02:18] INFO encoding= ''
-[18 mag 2021 14:02:18] INFO driverClass= 'org.apache.derby.jdbc.ClientDriver'
-[18 mag 2021 14:02:18] INFO sqlScript= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.sql'
-[18 mag 2021 14:02:18] INFO eventSocketPort= '62559'
-[18 mag 2021 14:02:18] INFO statementSeparator= ';'
-[18 mag 2021 14:02:18] INFO derby.system.home= 'D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby'
-[18 mag 2021 14:02:18] INFO password= 'manager'
-[18 mag 2021 14:02:18] INFO url= 'jdbc:derby://localhost:50124/UtentiDB;create=true'
-[18 mag 2021 14:02:18] INFO ================================================================================
-[18 mag 2021 14:02:18] INFO Connecting to the Database...
-[18 mag 2021 14:02:18] INFO Database connection estabilished
-[18 mag 2021 14:02:18] INFO transaction isolation: 2
-[18 mag 2021 14:02:18] DEBUG ================================================================================
-[18 mag 2021 14:02:18] DEBUG Executing SQL script file: D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.sql
-[18 mag 2021 14:02:18] DEBUG Executing statement:  alter table "APP"."GROUP"  add column  "MODULE_OID"  integer
-[18 mag 2021 14:02:18] DEBUG Executing statement:  alter table "APP"."GROUP"   add constraint FK_GROUP_MODULE foreign key ("MODULE_OID") references "APP"."MODULE" ("OID")
-[18 mag 2021 14:02:18] DEBUG Executing statement:    create table "APP"."GROUP_MODULE" ( "GROUP_OID"  integer not null, "MODULE_OID"  integer not null, primary key ("GROUP_OID", "MODULE_OID") )
-[18 mag 2021 14:02:18] DEBUG Executing statement:  alter table "APP"."GROUP_MODULE"   add constraint FK_GROUP_MODULE_GROUP foreign key ("GROUP_OID") references "APP"."GROUP" ("OID")
-[18 mag 2021 14:02:18] DEBUG Executing statement:  alter table "APP"."GROUP_MODULE"   add constraint FK_GROUP_MODULE_MODULE foreign key ("MODULE_OID") references "APP"."MODULE" ("OID")
-[18 mag 2021 14:02:18] DEBUG Executing statement:    create table "APP"."USER_GROUP" ( "USER_OID"  integer not null, "GROUP_OID"  integer not null, primary key ("USER_OID", "GROUP_OID") )
-[18 mag 2021 14:02:18] DEBUG Executing statement:  alter table "APP"."USER_GROUP"   add constraint FK_USER_GROUP_USER foreign key ("USER_OID") references "APP"."USER" ("OID")
-[18 mag 2021 14:02:18] DEBUG Executing statement:  alter table "APP"."USER_GROUP"   add constraint FK_USER_GROUP_GROUP foreign key ("GROUP_OID") references "APP"."GROUP" ("OID")
-[18 mag 2021 14:02:18] DEBUG ================================================================================
-[18 mag 2021 14:02:18] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
-[18 mag 2021 14:02:18] INFO Database connection closed
-[18 mag 2021 14:02:18] DEBUG Total time: 777 milliseconds
+[18 mag 2021 18:43:13] DEBUG Executing SQL script
+[18 mag 2021 18:43:13] INFO ================================================================================
+[18 mag 2021 18:43:13] INFO onError= 'stop'
+[18 mag 2021 18:43:13] INFO autoCommit= 'false'
+[18 mag 2021 18:43:13] INFO username= 'manager'
+[18 mag 2021 18:43:13] INFO outputPath= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.xml'
+[18 mag 2021 18:43:13] INFO outputLogPath= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.xml.log'
+[18 mag 2021 18:43:13] INFO encoding= ''
+[18 mag 2021 18:43:13] INFO driverClass= 'org.apache.derby.jdbc.ClientDriver'
+[18 mag 2021 18:43:13] INFO sqlScript= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.sql'
+[18 mag 2021 18:43:13] INFO eventSocketPort= '49731'
+[18 mag 2021 18:43:14] INFO statementSeparator= ';'
+[18 mag 2021 18:43:14] INFO derby.system.home= 'D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby'
+[18 mag 2021 18:43:14] INFO password= 'manager'
+[18 mag 2021 18:43:14] INFO url= 'jdbc:derby://localhost:50124/PraticaMenteDB;create=true'
+[18 mag 2021 18:43:14] INFO ================================================================================
+[18 mag 2021 18:43:14] INFO Connecting to the Database...
+[18 mag 2021 18:43:14] INFO Database connection estabilished
+[18 mag 2021 18:43:14] INFO transaction isolation: 2
+[18 mag 2021 18:43:14] DEBUG ================================================================================
+[18 mag 2021 18:43:14] DEBUG Executing SQL script file: D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.sql
+[18 mag 2021 18:43:14] DEBUG Executing statement:  create table "APP"."CLIENTE" ( "CF"  varchar(16)  not null, "NOME"  varchar(40), "COGNOME"  varchar(40), "VIA_INDIRIZZO"  varchar(75), "CITTA_INDIRIZZO"  varchar(75), "CAP_INDIRIZZO"  integer, "DATA_NASCITA"  date, "TELEFONO"  varchar(15), "EMAIL"  varchar(40), primary key ("CF") )
+[18 mag 2021 18:43:14] DEBUG ================================================================================
+[18 mag 2021 18:43:14] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[18 mag 2021 18:43:14] INFO Database connection closed
+[18 mag 2021 18:43:14] DEBUG Total time: 1175 milliseconds

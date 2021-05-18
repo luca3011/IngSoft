@@ -1,33 +1,46 @@
-[18 mag 2021 14:07:13] Building database metadata model
-[18 mag 2021 14:07:13] Properties: {partialRefresh=true, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@7ec23849, includeTables=true, username=manager, outputLogPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml.log, readIndexes=null, driverClass=org.apache.derby.jdbc.ClientDriver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.DerbyMetaDataProvider, outputPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:derby://localhost:50124/PraticaMenteDB;create=true, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=true, retrieveAllNames=true, tablesToRefresh=, eventSocketPort=51308}
-[18 mag 2021 14:07:13] URL: jdbc:derby://localhost:50124/PraticaMenteDB;create=true
-[18 mag 2021 14:07:13] Product name: Apache Derby
-[18 mag 2021 14:07:13] Product version: 10.5.3.0 - (802917)
-[18 mag 2021 14:07:13] Driver name: Apache Derby Network Client JDBC Driver
-[18 mag 2021 14:07:13] Driver version: 10.5.3.0 - (802917)
-[18 mag 2021 14:07:13] Driver major version: 10
-[18 mag 2021 14:07:13] Driver minor version: 5
-[18 mag 2021 14:07:13] Identifier quote string: 5
-[18 mag 2021 14:07:13] Retrieving schemas
-[18 mag 2021 14:07:13]   Found schema: APP
-[18 mag 2021 14:07:13]   Found schema: NULLID
-[18 mag 2021 14:07:13]   Found schema: SQLJ
-[18 mag 2021 14:07:13]   Found schema: SYS
-[18 mag 2021 14:07:13]   Found schema: SYSCAT
-[18 mag 2021 14:07:13]   Found schema: SYSCS_DIAG
-[18 mag 2021 14:07:13]   Found schema: SYSCS_UTIL
-[18 mag 2021 14:07:13]   Found schema: SYSFUN
-[18 mag 2021 14:07:13]   Found schema: SYSIBM
-[18 mag 2021 14:07:13]   Found schema: SYSPROC
-[18 mag 2021 14:07:13]   Found schema: SYSSTAT
-[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'APP'
-[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'NULLID'
-[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SQLJ'
-[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCAT'
-[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_DIAG'
-[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_UTIL'
-[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSFUN'
-[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSPROC'
-[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSSTAT'
-[18 mag 2021 14:07:13] Database metadata retrieved (41 ms)
-[18 mag 2021 14:07:14] Database connection closed
+[18 mag 2021 18:50:48] Building database metadata model
+[18 mag 2021 18:50:48] Properties: {partialRefresh=false, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@7ec23849, includeTables=true, username=manager, outputLogPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml.log, readIndexes=null, driverClass=org.apache.derby.jdbc.ClientDriver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.DerbyMetaDataProvider, outputPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:derby://localhost:50124/PraticaMenteDB;create=true, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=false, retrieveAllNames=false, tablesToRefresh=, eventSocketPort=65029}
+[18 mag 2021 18:50:48] URL: jdbc:derby://localhost:50124/PraticaMenteDB;create=true
+[18 mag 2021 18:50:48] Product name: Apache Derby
+[18 mag 2021 18:50:48] Product version: 10.5.3.0 - (802917)
+[18 mag 2021 18:50:48] Driver name: Apache Derby Network Client JDBC Driver
+[18 mag 2021 18:50:48] Driver version: 10.5.3.0 - (802917)
+[18 mag 2021 18:50:48] Driver major version: 10
+[18 mag 2021 18:50:48] Driver minor version: 5
+[18 mag 2021 18:50:48] Identifier quote string: 5
+[18 mag 2021 18:50:48] Retrieving schemas
+[18 mag 2021 18:50:48]   Found schema: APP
+[18 mag 2021 18:50:48]   Found schema: NULLID
+[18 mag 2021 18:50:48]   Found schema: SQLJ
+[18 mag 2021 18:50:48]   Found schema: SYS
+[18 mag 2021 18:50:48]   Found schema: SYSCAT
+[18 mag 2021 18:50:48]   Found schema: SYSCS_DIAG
+[18 mag 2021 18:50:48]   Found schema: SYSCS_UTIL
+[18 mag 2021 18:50:48]   Found schema: SYSFUN
+[18 mag 2021 18:50:48]   Found schema: SYSIBM
+[18 mag 2021 18:50:48]   Found schema: SYSPROC
+[18 mag 2021 18:50:48]   Found schema: SYSSTAT
+[18 mag 2021 18:50:48] Retrieving [TABLE, VIEW, SYNONYM] for schema 'APP'
+[18 mag 2021 18:50:48]   Found 'APP.CLIENTE' [type = TABLE]
+[18 mag 2021 18:50:48] Retrieving [TABLE, VIEW, SYNONYM] for schema 'NULLID'
+[18 mag 2021 18:50:48] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SQLJ'
+[18 mag 2021 18:50:48] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCAT'
+[18 mag 2021 18:50:48] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_DIAG'
+[18 mag 2021 18:50:48] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_UTIL'
+[18 mag 2021 18:50:48] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSFUN'
+[18 mag 2021 18:50:48] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSPROC'
+[18 mag 2021 18:50:48] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSSTAT'
+[18 mag 2021 18:50:48] Retrieving columns for 'APP.CLIENTE' [type = TABLE]
+[18 mag 2021 18:50:48]   Found column: CF [type = VARCHAR][SQL/XOPEN type = 12][size = 16][dec. digits = 0]
+[18 mag 2021 18:50:48]   Found column: NOME [type = VARCHAR][SQL/XOPEN type = 12][size = 40][dec. digits = 0]
+[18 mag 2021 18:50:48]   Found column: COGNOME [type = VARCHAR][SQL/XOPEN type = 12][size = 40][dec. digits = 0]
+[18 mag 2021 18:50:48]   Found column: VIA_INDIRIZZO [type = VARCHAR][SQL/XOPEN type = 12][size = 75][dec. digits = 0]
+[18 mag 2021 18:50:48]   Found column: CITTA_INDIRIZZO [type = VARCHAR][SQL/XOPEN type = 12][size = 75][dec. digits = 0]
+[18 mag 2021 18:50:48]   Found column: CAP_INDIRIZZO [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[18 mag 2021 18:50:48]   Found column: DATA_NASCITA [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[18 mag 2021 18:50:48]   Found column: TELEFONO [type = VARCHAR][SQL/XOPEN type = 12][size = 15][dec. digits = 0]
+[18 mag 2021 18:50:48]   Found column: EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 40][dec. digits = 0]
+[18 mag 2021 18:50:48] Retrieving primary keys for 'APP.CLIENTE' [type = TABLE]
+[18 mag 2021 18:50:48]   Found primary key column: CF
+[18 mag 2021 18:50:48] Database metadata retrieved (63 ms)
+[18 mag 2021 18:50:48] Database connection closed
