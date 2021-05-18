@@ -1,33 +1,33 @@
-[18 mag 2021 11:18:18] Building database metadata model
-[18 mag 2021 11:18:18] Properties: {partialRefresh=true, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@6ba67ab5, includeTables=true, username=manager, outputLogPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml.log, readIndexes=null, driverClass=org.apache.derby.jdbc.ClientDriver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.DerbyMetaDataProvider, outputPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:derby://localhost:50124/PraticaMenteDB;create=true, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=true, retrieveAllNames=true, tablesToRefresh=, eventSocketPort=60306}
-[18 mag 2021 11:18:18] URL: jdbc:derby://localhost:50124/PraticaMenteDB;create=true
-[18 mag 2021 11:18:18] Product name: Apache Derby
-[18 mag 2021 11:18:18] Product version: 10.5.3.0 - (802917)
-[18 mag 2021 11:18:18] Driver name: Apache Derby Network Client JDBC Driver
-[18 mag 2021 11:18:18] Driver version: 10.5.3.0 - (802917)
-[18 mag 2021 11:18:18] Driver major version: 10
-[18 mag 2021 11:18:18] Driver minor version: 5
-[18 mag 2021 11:18:18] Identifier quote string: 5
-[18 mag 2021 11:18:18] Retrieving schemas
-[18 mag 2021 11:18:18]   Found schema: APP
-[18 mag 2021 11:18:18]   Found schema: NULLID
-[18 mag 2021 11:18:18]   Found schema: SQLJ
-[18 mag 2021 11:18:18]   Found schema: SYS
-[18 mag 2021 11:18:18]   Found schema: SYSCAT
-[18 mag 2021 11:18:18]   Found schema: SYSCS_DIAG
-[18 mag 2021 11:18:18]   Found schema: SYSCS_UTIL
-[18 mag 2021 11:18:18]   Found schema: SYSFUN
-[18 mag 2021 11:18:18]   Found schema: SYSIBM
-[18 mag 2021 11:18:18]   Found schema: SYSPROC
-[18 mag 2021 11:18:18]   Found schema: SYSSTAT
-[18 mag 2021 11:18:18] Retrieving [TABLE, VIEW, SYNONYM] for schema 'APP'
-[18 mag 2021 11:18:18] Retrieving [TABLE, VIEW, SYNONYM] for schema 'NULLID'
-[18 mag 2021 11:18:18] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SQLJ'
-[18 mag 2021 11:18:18] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCAT'
-[18 mag 2021 11:18:18] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_DIAG'
-[18 mag 2021 11:18:18] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_UTIL'
-[18 mag 2021 11:18:18] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSFUN'
-[18 mag 2021 11:18:18] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSPROC'
-[18 mag 2021 11:18:18] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSSTAT'
-[18 mag 2021 11:18:18] Database metadata retrieved (49 ms)
-[18 mag 2021 11:18:18] Database connection closed
+[18 mag 2021 14:07:13] Building database metadata model
+[18 mag 2021 14:07:13] Properties: {partialRefresh=true, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@7ec23849, includeTables=true, username=manager, outputLogPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml.log, readIndexes=null, driverClass=org.apache.derby.jdbc.ClientDriver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.DerbyMetaDataProvider, outputPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:derby://localhost:50124/PraticaMenteDB;create=true, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=true, retrieveAllNames=true, tablesToRefresh=, eventSocketPort=51308}
+[18 mag 2021 14:07:13] URL: jdbc:derby://localhost:50124/PraticaMenteDB;create=true
+[18 mag 2021 14:07:13] Product name: Apache Derby
+[18 mag 2021 14:07:13] Product version: 10.5.3.0 - (802917)
+[18 mag 2021 14:07:13] Driver name: Apache Derby Network Client JDBC Driver
+[18 mag 2021 14:07:13] Driver version: 10.5.3.0 - (802917)
+[18 mag 2021 14:07:13] Driver major version: 10
+[18 mag 2021 14:07:13] Driver minor version: 5
+[18 mag 2021 14:07:13] Identifier quote string: 5
+[18 mag 2021 14:07:13] Retrieving schemas
+[18 mag 2021 14:07:13]   Found schema: APP
+[18 mag 2021 14:07:13]   Found schema: NULLID
+[18 mag 2021 14:07:13]   Found schema: SQLJ
+[18 mag 2021 14:07:13]   Found schema: SYS
+[18 mag 2021 14:07:13]   Found schema: SYSCAT
+[18 mag 2021 14:07:13]   Found schema: SYSCS_DIAG
+[18 mag 2021 14:07:13]   Found schema: SYSCS_UTIL
+[18 mag 2021 14:07:13]   Found schema: SYSFUN
+[18 mag 2021 14:07:13]   Found schema: SYSIBM
+[18 mag 2021 14:07:13]   Found schema: SYSPROC
+[18 mag 2021 14:07:13]   Found schema: SYSSTAT
+[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'APP'
+[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'NULLID'
+[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SQLJ'
+[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCAT'
+[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_DIAG'
+[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_UTIL'
+[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSFUN'
+[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSPROC'
+[18 mag 2021 14:07:13] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSSTAT'
+[18 mag 2021 14:07:13] Database metadata retrieved (41 ms)
+[18 mag 2021 14:07:14] Database connection closed
