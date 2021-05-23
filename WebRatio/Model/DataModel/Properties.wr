@@ -54,23 +54,23 @@
     <Attribute id="ent1#att28" name="tipologia" type="string"/>
     <Attribute id="ent1#att29" name="descrizione" type="string"/>
   </Entity>
-  <Entity gr:x="725" gr:y="365" id="ent2" name="Intervento" duration="persistent" attributeOrder="ent2#att2 ent2#att20 ent2#att21 ent2#att22">
-    <Attribute id="ent2#att2" key="true" name="id_intervento" type="integer"/>
-    <Attribute id="ent2#att20" name="descrizione" type="string"/>
-    <Attribute id="ent2#att21" name="ditta" type="string"/>
-    <Attribute id="ent2#att22" name="tipologia" type="string"/>
+  <Entity gr:x="725" gr:y="365" id="ent2" name="Intervento" duration="persistent" attributeOrder="ent2#att2 ent2#att20 ent2#att21 ent2#att22" db:database="db1" db:table="INTERVENTO">
+    <Attribute id="ent2#att2" key="true" name="id_intervento" type="integer" db:column="ID_INTERVENTO"/>
+    <Attribute id="ent2#att20" name="descrizione" type="string" db:column="DESCRIZIONE"/>
+    <Attribute id="ent2#att21" name="ditta" type="string" db:column="DITTA"/>
+    <Attribute id="ent2#att22" name="tipologia" type="string" db:column="TIPOLOGIA"/>
   </Entity>
   <db:Database id="db1" name="PraticaMenteDB" type="Apache Derby" runtimeType="Apache Derby" url="jdbc:derby://localhost:50124/PraticaMenteDB;create=true" username="manager" cryptedPassword="true" password="bWFuYWdlcg==" schema="APP"/>
-  <Entity gr:x="400" gr:y="335" id="ent3" name="Immobile" duration="persistent" attributeOrder="ent3#att3 ent3#att14 ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19">
-    <Attribute id="ent3#att3" key="true" name="id_immobile" type="integer"/>
-    <Attribute id="ent3#att14" name="via_indirizzo" type="string"/>
-    <Attribute id="ent3#att15" name="cap_indirizzo" type="integer"/>
-    <Attribute id="ent3#att16" name="citta_indirizzo" type="string"/>
-    <Attribute id="ent3#att17" name="foglio_catasto" type="integer"/>
-    <Attribute id="ent3#att18" name="particella_catasto" type="integer"/>
-    <Attribute id="ent3#att19" name="sub_catasto" type="integer"/>
+  <Entity gr:x="395" gr:y="350" id="ent3" name="Immobile" duration="persistent" attributeOrder="ent3#att3 ent3#att14 ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19" db:database="db1" db:table="IMMOBILE">
+    <Attribute id="ent3#att3" key="true" name="id_immobile" type="integer" db:column="ID_IMMOBILE"/>
+    <Attribute id="ent3#att14" name="via_indirizzo" type="string" db:column="VIA_INDIRIZZO"/>
+    <Attribute id="ent3#att15" name="cap_indirizzo" type="integer" db:column="CAP_INDIRIZZO"/>
+    <Attribute id="ent3#att16" name="citta_indirizzo" type="string" db:column="CITTA_INDIRIZZO"/>
+    <Attribute id="ent3#att17" name="foglio_catasto" type="integer" db:column="FOGLIO_CATASTO"/>
+    <Attribute id="ent3#att18" name="particella_catasto" type="integer" db:column="PARTICELLA_CATASTO"/>
+    <Attribute id="ent3#att19" name="sub_catasto" type="integer" db:column="SUB_CATASTO"/>
   </Entity>
-  <Entity gr:x="130" gr:y="315" id="ent4" name="Cliente" duration="persistent" attributeOrder="ent4#att4 ent4#att5 ent4#att6 ent4#att7 ent4#att8 ent4#att9 ent4#att10 ent4#att11 ent4#att12" db:database="db1" db:isView="false" db:table="CLIENTE">
+  <Entity gr:x="105" gr:y="300" id="ent4" name="Cliente" duration="persistent" attributeOrder="ent4#att4 ent4#att5 ent4#att6 ent4#att7 ent4#att8 ent4#att9 ent4#att10 ent4#att11 ent4#att12 ent4#att23" db:database="db1" db:isView="false" db:table="CLIENTE">
     <Attribute id="ent4#att4" key="true" name="cf" type="string" db:column="CF"/>
     <Attribute id="ent4#att5" name="nome" type="string" db:column="NOME"/>
     <Attribute id="ent4#att6" name="cognome" type="string" db:column="COGNOME"/>
@@ -80,10 +80,15 @@
     <Attribute id="ent4#att10" name="data_nascita" type="date" db:column="DATA_NASCITA"/>
     <Attribute id="ent4#att11" name="telefono" type="string" db:column="TELEFONO"/>
     <Attribute id="ent4#att12" name="email" type="string" db:column="EMAIL"/>
+    <Attribute id="ent4#att23" name="nome_cognome" type="string" derivationQuery="simpleCalculated::Self.ent4#att5 || ' ' || Self.ent4#att6"/>
   </Entity>
-  <Relationship id="rel1" name="Cliente_Immobile" sourceEntity="ent4" targetEntity="ent3">
-    <RelationshipRole1 id="rel1#role1" name="ClienteToImmobile" maxCard="N"/>
-    <RelationshipRole2 id="rel1#role2" name="ImmobileToCliente" maxCard="1"/>
+  <Relationship id="rel1" name="Cliente_Immobile" sourceEntity="ent4" targetEntity="ent3" db:database="db1" db:table="IMMOBILE">
+    <RelationshipRole1 id="rel1#role1" name="ClienteToImmobile" maxCard="N" cascadeDelete="true">
+      <db:JoinColumn attribute="ent4#att4" name="CLIENTE_CF"/>
+    </RelationshipRole1>
+    <RelationshipRole2 id="rel1#role2" name="ImmobileToCliente" maxCard="1">
+      <db:JoinColumn attribute="ent3#att3" name="ID_IMMOBILE"/>
+    </RelationshipRole2>
   </Relationship>
   <db:Database id="db3" name="UtentiDB" type="Apache Derby" url="jdbc:derby://localhost:50124/UtentiDB;create=true" username="manager" cryptedPassword="true" password="bWFuYWdlcg==" schema="APP"/>
   <Entity gr:x="895" gr:y="580" id="ent7" name="Tipologia" duration="persistent" attributeOrder="ent7#att30 ent7#att31">
@@ -94,9 +99,13 @@
     <RelationshipRole1 id="rel4#role7" name="InterventoToTipologia" maxCard="1"/>
     <RelationshipRole2 id="rel4#role8" name="TipologiaToIntervento" maxCard="N"/>
   </Relationship>
-  <Relationship id="rel6" name="Immobile_Intervento" sourceEntity="ent3" targetEntity="ent2">
-    <RelationshipRole1 id="rel6#role11" name="ImmobileToIntervento" maxCard="N"/>
-    <RelationshipRole2 id="rel6#role12" name="InterventoToImmobile" maxCard="1"/>
+  <Relationship id="rel6" name="Immobile_Intervento" sourceEntity="ent3" targetEntity="ent2" db:database="db1" db:table="INTERVENTO">
+    <RelationshipRole1 id="rel6#role11" name="ImmobileToIntervento" maxCard="N">
+      <db:JoinColumn attribute="ent3#att3" name="IMMOBILE_ID_IMMOBILE"/>
+    </RelationshipRole1>
+    <RelationshipRole2 id="rel6#role12" name="InterventoToImmobile" maxCard="1">
+      <db:JoinColumn attribute="ent2#att2" name="ID_INTERVENTO"/>
+    </RelationshipRole2>
   </Relationship>
   <Relationship id="rel9" name="Intervento_Pratica" sourceEntity="ent2" targetEntity="ent1">
     <RelationshipRole1 id="rel9#role17" name="InterventoToPratica" maxCard="N"/>

@@ -1,0 +1,98 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="mov2#mpkg2#hym6#page10" name="Aggiunta cliente" linkOrder="mov2#mpkg2#hym6#page10#ln17" layout:pageLayout="WebRatio/Basic" ajaxEnabled="true" gr:x="330" gr:y="130">
+  <ContentUnits>
+    <EntryUnit id="mov2#mpkg2#hym6#page10#enu3" name="Form1" linkOrder="mov2#mpkg2#hym6#page10#enu3#ln15 mov2#mpkg2#hym6#page10#enu3#ln22" gr:x="0" gr:y="0" entity="ent3" fieldOrder="mov2#mpkg2#hym6#page10#enu3#fld10 mov2#mpkg2#hym6#page10#enu3#fld11 mov2#mpkg2#hym6#page10#enu3#fld12 mov2#mpkg2#hym6#page10#enu3#fld13 mov2#mpkg2#hym6#page10#enu3#fld14 mov2#mpkg2#hym6#page10#enu3#fld15 mov2#mpkg2#hym6#page10#enu3#fld17">
+      <Link id="mov2#mpkg2#hym6#page10#enu3#ln15" name="Conferma" to="mov2#mpkg2#hym6#opg1#seu2" type="normal" validate="true" ajaxEnabled="true" gr:bendpoints="-131,12,129,17">
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln15#par29" name="cap_indirizzo_PASSING" source="mov2#mpkg2#hym6#page10#enu3#fld11" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln15#par30" name="citta_indirizzo_PASSING" source="mov2#mpkg2#hym6#page10#enu3#fld12" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln15#par31" name="foglio_catasto_PASSING" source="mov2#mpkg2#hym6#page10#enu3#fld13" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln15#par32" name="Immobile Object_PASSING" source="entityBean" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln15#par33" name="ImmobileToCliente_PASSING" source="mov2#mpkg2#hym6#page10#enu3#fld17" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln15#par34" name="particella_catasto_PASSING" source="mov2#mpkg2#hym6#page10#enu3#fld14" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln15#par35" name="sub_catasto_PASSING" source="mov2#mpkg2#hym6#page10#enu3#fld15" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln15#par36" name="via_indirizzo_PASSING" source="mov2#mpkg2#hym6#page10#enu3#fld10" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln15#par49" name="ImmobileToCliente_AttCondition1" source="mov2#mpkg2#hym6#page10#enu3#fld17" target="mov2#mpkg2#hym6#opg1#seu2#su8#acond1"/>
+      </Link>
+      <VRValidationLink linkId="mov2#mpkg2#hym6#page10#enu3#ln15" action="validate"/>
+      <VRules/>
+      <Link id="mov2#mpkg2#hym6#page10#enu3#ln22" name="Autocomplete" to="mov2#mpkg2#hym6#page16#inu6" type="normal" validate="false">
+        <LinkParameter id="mov2#mpkg2#hym6#page10#enu3#ln22#par14" name="ImmobileToCliente_name" source="mov2#mpkg2#hym6#page10#enu3#fld17" target="mov2#mpkg2#hym6#page16#inu6#su12#acond4"/>
+      </Link>
+      <Field id="mov2#mpkg2#hym6#page10#enu3#fld10" name="via_indirizzo" type="string" modifiable="true" attribute="ent3#att14" contentType="text/plain">
+        <VRules>
+          <MandatoryValidationRule id="mov2#mpkg2#hym6#page10#enu3#fld10#mnd12" name="Mandatory12"/>
+        </VRules>
+      </Field>
+      <Field id="mov2#mpkg2#hym6#page10#enu3#fld11" name="cap_indirizzo" type="integer" modifiable="true" attribute="ent3#att15">
+        <VRules>
+          <MandatoryValidationRule id="mov2#mpkg2#hym6#page10#enu3#fld11#mnd8" name="Mandatory8"/>
+          <ValueLengthValidationRule id="mov2#mpkg2#hym6#page10#enu3#fld11#vl4" name="Value Length4" predicate="eq" value="5"/>
+        </VRules>
+      </Field>
+      <Field id="mov2#mpkg2#hym6#page10#enu3#fld12" name="citta_indirizzo" type="string" modifiable="true" attribute="ent3#att16" contentType="text/plain">
+        <VRules>
+          <MandatoryValidationRule id="mov2#mpkg2#hym6#page10#enu3#fld12#mnd9" name="Mandatory9"/>
+        </VRules>
+      </Field>
+      <Field id="mov2#mpkg2#hym6#page10#enu3#fld13" name="foglio_catasto" type="integer" modifiable="true" attribute="ent3#att17">
+        <VRules>
+          <MandatoryValidationRule id="mov2#mpkg2#hym6#page10#enu3#fld13#mnd10" name="Mandatory10"/>
+        </VRules>
+      </Field>
+      <Field id="mov2#mpkg2#hym6#page10#enu3#fld14" name="particella_catasto" type="integer" modifiable="true" attribute="ent3#att18">
+        <VRules>
+          <MandatoryValidationRule id="mov2#mpkg2#hym6#page10#enu3#fld14#mnd11" name="Mandatory11"/>
+        </VRules>
+      </Field>
+      <Field id="mov2#mpkg2#hym6#page10#enu3#fld15" name="sub_catasto" type="integer" modifiable="true" attribute="ent3#att19"/>
+      <Field id="mov2#mpkg2#hym6#page10#enu3#fld17" type="string" modifiable="true" name="ImmobileToCliente" ajaxAutocompleteEnabled="true" ajaxAutocompleteLink="mov2#mpkg2#hym6#page10#enu3#ln22" ajaxAutocompleteIndicator="true">
+        <VRules/>
+      </Field>
+    </EntryUnit>
+    <MultiMessageUnit id="mov2#mpkg2#hym6#page10#mssu2" name="Errore" gr:x="95" gr:y="125"/>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg2#hym6#page10#enu3">
+          <layout:Link link="mov2#mpkg2#hym6#page10#enu3#ln15"/>
+          <layout:Link link="mov2#mpkg2#hym6#page10#enu3#ln22"/>
+          <layout:Field field="mov2#mpkg2#hym6#page10#enu3#fld10"/>
+          <layout:Field field="mov2#mpkg2#hym6#page10#enu3#fld11"/>
+          <layout:Field field="mov2#mpkg2#hym6#page10#enu3#fld12"/>
+          <layout:Field field="mov2#mpkg2#hym6#page10#enu3#fld13"/>
+          <layout:Field field="mov2#mpkg2#hym6#page10#enu3#fld14"/>
+          <layout:Field field="mov2#mpkg2#hym6#page10#enu3#fld15"/>
+          <layout:Field field="mov2#mpkg2#hym6#page10#enu3#fld17"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg2#hym6#page10#mssu2"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="mov2#mpkg2#hym6#page10#ln17" name="Annulla" to="mov2#mpkg2#hym6#kocu2" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="0,140,-565,0"/>
+</Page>

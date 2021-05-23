@@ -1,0 +1,14 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="10" gr:y="65" id="mov2#mpkg2#hym8" name="Elimina Immobile">
+  <OperationUnits>
+    <InputCollectorUnit gr:x="70" gr:y="200" id="mov2#mpkg2#hym8#icu8">
+      <InputCollectorParameter id="mov2#mpkg2#hym8#icu8#icp6" name="Id immobile"/>
+      <OKLink id="mov2#mpkg2#hym8#icu8#oln26" name="OKFlow26" to="mov2#mpkg2#hym8#page15#mssu10" ajaxOpenWindow="true" ajaxWindowAutoResizing="true">
+        <LinkParameter id="mov2#mpkg2#hym8#icu8#oln26#par108" name="Id immobile_PASSING" source="mov2#mpkg2#hym8#icu8#icp6" passing="true"/>
+      </OKLink>
+    </InputCollectorUnit>
+    <OKCollectorUnit gr:x="965" gr:y="325" id="mov2#mpkg2#hym8#okcu8" name="OK Port8"/>
+    <OKCollectorUnit gr:x="1000" gr:y="470" id="mov2#mpkg2#hym8#okcu9" name="OK Port9">
+      <OutputCollectorParameter id="mov2#mpkg2#hym8#okcu9#ocp4" name="Errore"/>
+    </OKCollectorUnit>
+  </OperationUnits>
+</HybridModule>

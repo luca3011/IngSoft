@@ -1,0 +1,20 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="370" gr:y="275" id="mov2#mpkg1#hym3#opg7" name="Operation Group 7" transaction="true">
+  <OperationUnits>
+    <SelectorUnit id="mov2#mpkg1#hym3#opg7#seu7" entity="ent4" name="Modifica cliente" gr:x="0" gr:y="0" distinctAttributes="ent4#att5 ent4#att6 ent4#att7 ent4#att8 ent4#att9 ent4#att10 ent4#att11 ent4#att12" maxResults="1">
+      <Selector id="mov2#mpkg1#hym3#opg7#seu7#su14" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov2#mpkg1#hym3#opg7#seu7#su14#kcond12" predicate="in" implied="false" name="KeyCondition7"/>
+      </Selector>
+      <OKLink id="mov2#mpkg1#hym3#opg7#seu7#oln18" name="OKFlow18" to="mov2#mpkg1#hym3#page13#enu4">
+        <LinkParameter id="mov2#mpkg1#hym3#opg7#seu7#oln18#par43" name="cap_indirizzo_cap_indirizzo" source="ent4#att9Array" target="mov2#mpkg1#hym3#page13#enu4#fld32_slot"/>
+        <LinkParameter id="mov2#mpkg1#hym3#opg7#seu7#oln18#par44" name="cf_cf" source="ent4#att4Array" target="mov2#mpkg1#hym3#page13#enu4#fld27_slot"/>
+        <LinkParameter id="mov2#mpkg1#hym3#opg7#seu7#oln18#par45" name="citta_indirizzo_citta_indirizzo" source="ent4#att8Array" target="mov2#mpkg1#hym3#page13#enu4#fld31_slot"/>
+        <LinkParameter id="mov2#mpkg1#hym3#opg7#seu7#oln18#par46" name="cognome_cognome" source="ent4#att6Array" target="mov2#mpkg1#hym3#page13#enu4#fld29_slot"/>
+        <LinkParameter id="mov2#mpkg1#hym3#opg7#seu7#oln18#par71" name="data_nascita_data_nascita" source="ent4#att10Array" target="mov2#mpkg1#hym3#page13#enu4#fld33_slot"/>
+        <LinkParameter id="mov2#mpkg1#hym3#opg7#seu7#oln18#par72" name="email_email" source="ent4#att12Array" target="mov2#mpkg1#hym3#page13#enu4#fld35_slot"/>
+        <LinkParameter id="mov2#mpkg1#hym3#opg7#seu7#oln18#par74" name="nome_nome" source="ent4#att5Array" target="mov2#mpkg1#hym3#page13#enu4#fld28_slot"/>
+        <LinkParameter id="mov2#mpkg1#hym3#opg7#seu7#oln18#par75" name="telefono_telefono" source="ent4#att11Array" target="mov2#mpkg1#hym3#page13#enu4#fld34_slot"/>
+        <LinkParameter id="mov2#mpkg1#hym3#opg7#seu7#oln18#par76" name="via_indirizzo_via_indirizzo" source="ent4#att7Array" target="mov2#mpkg1#hym3#page13#enu4#fld30_slot"/>
+      </OKLink>
+    </SelectorUnit>
+  </OperationUnits>
+</OperationGroup>

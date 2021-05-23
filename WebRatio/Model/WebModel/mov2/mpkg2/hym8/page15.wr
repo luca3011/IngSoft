@@ -1,0 +1,32 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="360" gr:y="290" id="mov2#mpkg2#hym8#page15" name="Page 15">
+  <ContentUnits>
+    <MultiMessageUnit gr:x="0" gr:y="0" id="mov2#mpkg2#hym8#page15#mssu10" name="Message10" linkOrder="mov2#mpkg2#hym8#page15#mssu10#ln40 mov2#mpkg2#hym8#page15#mssu10#ln41">
+      <Message xml:space="preserve">Sicuro di voler eliminare l'immobile?</Message>
+      <Link id="mov2#mpkg2#hym8#page15#mssu10#ln40" name="Conferma" to="mov2#mpkg2#hym8#opg9#dlu5" type="normal" validate="true">
+        <LinkParameter id="mov2#mpkg2#hym8#page15#mssu10#ln40#par109" name="Id immobile_PASSING_KeyCondition10 [id_immobile]" sourceLinkParameter="mov2#mpkg2#hym8#icu8#oln26#par108" target="mov2#mpkg2#hym8#opg9#dlu5#su11#kcond10.ent3#att3"/>
+      </Link>
+      <Link id="mov2#mpkg2#hym8#page15#mssu10#ln41" name="Annulla" to="mov2#mpkg2#hym8#okcu8" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="49,121,-646,-34;274,132,-386,122"/>
+    </MultiMessageUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg2#hym8#page15#mssu10">
+          <layout:Link link="mov2#mpkg2#hym8#page15#mssu10#ln40"/>
+          <layout:Link link="mov2#mpkg2#hym8#page15#mssu10#ln41"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

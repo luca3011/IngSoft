@@ -1,0 +1,13 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="560" gr:y="285" id="mov2#mpkg2#hym8#opg9" name="Operation Group 9" transaction="true">
+  <OperationUnits>
+    <DeleteUnit gr:x="0" gr:y="0" id="mov2#mpkg2#hym8#opg9#dlu5" name="Delete5" entity="ent3">
+      <Selector id="mov2#mpkg2#hym8#opg9#dlu5#su11" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov2#mpkg2#hym8#opg9#dlu5#su11#kcond10" name="KeyCondition10" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov2#mpkg2#hym8#opg9#dlu5#oln27" name="OKFlow27" to="mov2#mpkg2#hym8#okcu8" automaticCoupling="true"/>
+      <KOLink id="mov2#mpkg2#hym8#opg9#dlu5#kln16" name="KOFlow16" to="mov2#mpkg2#hym8#okcu9">
+        <LinkParameter id="mov2#mpkg2#hym8#opg9#dlu5#kln16#par107" name="Errore di eliminazione_Errore" sourceValue="Errore di eliminazione" target="mov2#mpkg2#hym8#okcu9#ocp4"/>
+      </KOLink>
+    </DeleteUnit>
+  </OperationUnits>
+</OperationGroup>

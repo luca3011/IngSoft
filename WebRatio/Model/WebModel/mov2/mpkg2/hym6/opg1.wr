@@ -1,0 +1,41 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov2#mpkg2#hym6#opg1" name="Operation Group 2" transaction="true" gr:x="610" gr:y="165">
+  <OperationUnits>
+    <CreateUnit id="mov2#mpkg2#hym6#opg1#cru4" name="Create1" gr:x="305" gr:y="20" entity="ent3">
+      <OKLink id="mov2#mpkg2#hym6#opg1#cru4#oln6" name="OKFlow6" to="mov2#mpkg2#hym6#opg1#cnu2">
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#cru4#oln6#par69" name="id_immobile_KeyCondition1 [id_immobile] [Immobile] [Source]" source="ent3#att3Array" target="mov2#mpkg2#hym6#opg1#cnu2#su3#kcond3.ent3#att3"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#cru4#oln6#par70" name="cf_PASSING_KeyCondition2 [cf] [Cliente] [Target]" sourceLinkParameter="mov2#mpkg2#hym6#inn3#oln13#par68" target="mov2#mpkg2#hym6#opg1#cnu2#su4#kcond4.ent4#att4"/>
+      </OKLink>
+      <KOLink id="mov2#mpkg2#hym6#opg1#cru4#kln11" name="KOFlow1" to="mov2#mpkg2#hym6#page10#mssu2" gr:bendpoints="-21,95,374,45;-265,111,230,51">
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#cru4#kln11#par47" name="Errore di inserimento_Shown Messages" target="mov2#mpkg2#hym6#page10#mssu2.shownMessages" sourceValue="Errore di inserimento"/>
+      </KOLink>
+    </CreateUnit>
+    <ConnectUnit gr:x="415" gr:y="0" id="mov2#mpkg2#hym6#opg1#cnu2" name="Connect1" relationship="rel1#role2">
+      <SourceSelector id="mov2#mpkg2#hym6#opg1#cnu2#su3" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov2#mpkg2#hym6#opg1#cnu2#su3#kcond3" name="KeyCondition1" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="mov2#mpkg2#hym6#opg1#cnu2#su4" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov2#mpkg2#hym6#opg1#cnu2#su4#kcond4" name="KeyCondition2" predicate="in" implied="false"/>
+      </TargetSelector>
+      <OKLink id="mov2#mpkg2#hym6#opg1#cnu2#oln8" name="OKFlow8" to="mov2#mpkg2#hym6#okcu2">
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#cnu2#oln8#par2" name="Source id_immobile [Immobile]_ID immobile creato" source="sourceent3#att3" target="mov2#mpkg2#hym6#okcu2#ocp2"/>
+      </OKLink>
+    </ConnectUnit>
+    <SelectorUnit gr:x="0" gr:y="10" id="mov2#mpkg2#hym6#opg1#seu2" name="Selector2" entity="ent4" maxResults="1">
+      <Selector id="mov2#mpkg2#hym6#opg1#seu2#su8" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="mov2#mpkg2#hym6#opg1#seu2#su8#acond1" name="AttCondition1" predicate="eq" booleanOperator="or" implied="false" attributes="ent4#att4" ignoreCase="true"/>
+      </Selector>
+      <OKLink id="mov2#mpkg2#hym6#opg1#seu2#oln12" name="OKFlow12" to="mov2#mpkg2#hym6#inn3">
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par50" name="nome_cognome_Input" source="ent4#att23Array" target="mov2#mpkg2#hym6#inn3.isnotnull"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par51" name="cap_indirizzo_PASSING" sourceLinkParameter="mov2#mpkg2#hym6#page10#enu3#ln15#par29" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par52" name="citta_indirizzo_PASSING" sourceLinkParameter="mov2#mpkg2#hym6#page10#enu3#ln15#par30" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par53" name="foglio_catasto_PASSING" sourceLinkParameter="mov2#mpkg2#hym6#page10#enu3#ln15#par31" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par54" name="Immobile Object_PASSING" sourceLinkParameter="mov2#mpkg2#hym6#page10#enu3#ln15#par32" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par55" name="ImmobileToCliente_PASSING" sourceLinkParameter="mov2#mpkg2#hym6#page10#enu3#ln15#par33" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par56" name="particella_catasto_PASSING" sourceLinkParameter="mov2#mpkg2#hym6#page10#enu3#ln15#par34" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par57" name="sub_catasto_PASSING" sourceLinkParameter="mov2#mpkg2#hym6#page10#enu3#ln15#par35" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par58" name="via_indirizzo_PASSING" sourceLinkParameter="mov2#mpkg2#hym6#page10#enu3#ln15#par36" passing="true"/>
+        <LinkParameter id="mov2#mpkg2#hym6#opg1#seu2#oln12#par59" name="cf_PASSING" source="ent4#att4Array" passing="true"/>
+      </OKLink>
+    </SelectorUnit>
+  </OperationUnits>
+</OperationGroup>

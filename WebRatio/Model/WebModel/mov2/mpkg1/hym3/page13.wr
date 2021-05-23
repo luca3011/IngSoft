@@ -1,0 +1,79 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="585" gr:y="290" id="mov2#mpkg1#hym3#page13" name="Page 13" linkOrder="mov2#mpkg1#hym3#page13#ln35">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="mov2#mpkg1#hym3#page13#enu4" name="Form4" entity="ent4" fieldOrder="mov2#mpkg1#hym3#page13#enu4#fld27 mov2#mpkg1#hym3#page13#enu4#fld28 mov2#mpkg1#hym3#page13#enu4#fld29 mov2#mpkg1#hym3#page13#enu4#fld33 mov2#mpkg1#hym3#page13#enu4#fld30 mov2#mpkg1#hym3#page13#enu4#fld31 mov2#mpkg1#hym3#page13#enu4#fld32 mov2#mpkg1#hym3#page13#enu4#fld34 mov2#mpkg1#hym3#page13#enu4#fld35" linkOrder="mov2#mpkg1#hym3#page13#enu4#ln11">
+      <Field id="mov2#mpkg1#hym3#page13#enu4#fld27" name="cf" type="string" attribute="ent4#att4" preloaded="true"/>
+      <Field id="mov2#mpkg1#hym3#page13#enu4#fld28" name="nome" type="string" attribute="ent4#att5" preloaded="true"/>
+      <Field id="mov2#mpkg1#hym3#page13#enu4#fld29" name="cognome" type="string" attribute="ent4#att6" preloaded="true"/>
+      <Field id="mov2#mpkg1#hym3#page13#enu4#fld30" name="via_indirizzo" type="string" modifiable="true" attribute="ent4#att7" preloaded="true"/>
+      <Field id="mov2#mpkg1#hym3#page13#enu4#fld31" name="citta_indirizzo" type="string" modifiable="true" attribute="ent4#att8" preloaded="true">
+        <VRules>
+          <MandatoryValidationRule id="mov2#mpkg1#hym3#page13#enu4#fld31#mnd5" name="Mandatory5"/>
+        </VRules>
+      </Field>
+      <Field id="mov2#mpkg1#hym3#page13#enu4#fld32" name="cap_indirizzo" type="integer" modifiable="true" attribute="ent4#att9" preloaded="true">
+        <VRules>
+          <ValueLengthValidationRule id="mov2#mpkg1#hym3#page13#enu4#fld32#vl3" name="Value Length3" predicate="eq" value="5"/>
+        </VRules>
+      </Field>
+      <Field id="mov2#mpkg1#hym3#page13#enu4#fld33" name="data_nascita" type="date" attribute="ent4#att10" preloaded="true"/>
+      <Field id="mov2#mpkg1#hym3#page13#enu4#fld34" name="telefono" type="string" modifiable="true" attribute="ent4#att11" preloaded="true">
+        <VRules>
+          <MandatoryValidationRule id="mov2#mpkg1#hym3#page13#enu4#fld34#mnd7" name="Mandatory7"/>
+        </VRules>
+      </Field>
+      <Field id="mov2#mpkg1#hym3#page13#enu4#fld35" name="email" type="string" modifiable="true" attribute="ent4#att12" preloaded="true">
+        <VRules>
+          <EMailValidationRule id="mov2#mpkg1#hym3#page13#enu4#fld35#email2" name="EMail2"/>
+          <MandatoryValidationRule id="mov2#mpkg1#hym3#page13#enu4#fld35#mnd6" name="Mandatory6"/>
+        </VRules>
+      </Field>
+      <Link id="mov2#mpkg1#hym3#page13#enu4#ln11" name="Conferma" to="mov2#mpkg1#hym3#opg8#inn1" type="normal" validate="true">
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln11#par78" name="Cliente Object_Input" source="entityBean" target="mov2#mpkg1#hym3#opg8#inn1.isnotnull"/>
+      </Link>
+      <Link id="mov2#mpkg1#hym3#page13#enu4#ln16" name="Flow16" to="mov2#mpkg1#hym3#opg8#mfu1" type="transport" validate="true" gr:bendpoints="112,-52,-168,-52;188,-54,-92,-54">
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par79" name="cap_indirizzo_cap_indirizzo" source="mov2#mpkg1#hym3#page13#enu4#fld32" target="mov2#mpkg1#hym3#opg8#mfu1.ent4#att9"/>
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par80" name="citta_indirizzo_citta_indirizzo" source="mov2#mpkg1#hym3#page13#enu4#fld31" target="mov2#mpkg1#hym3#opg8#mfu1.ent4#att8"/>
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par81" name="Cliente Object_Cliente Object" source="entityBean" target="mov2#mpkg1#hym3#opg8#mfu1.entityBeans"/>
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par82" name="cognome_cognome" source="mov2#mpkg1#hym3#page13#enu4#fld29" target="mov2#mpkg1#hym3#opg8#mfu1.ent4#att6"/>
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par83" name="data_nascita_data_nascita" source="mov2#mpkg1#hym3#page13#enu4#fld33" target="mov2#mpkg1#hym3#opg8#mfu1.ent4#att10"/>
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par84" name="email_email" source="mov2#mpkg1#hym3#page13#enu4#fld35" target="mov2#mpkg1#hym3#opg8#mfu1.ent4#att12"/>
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par85" name="cf_KeyCondition1 [cf]" source="mov2#mpkg1#hym3#page13#enu4#fld27" target="mov2#mpkg1#hym3#opg8#mfu1#su1#kcond1.ent4#att4"/>
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par86" name="nome_nome" source="mov2#mpkg1#hym3#page13#enu4#fld28" target="mov2#mpkg1#hym3#opg8#mfu1.ent4#att5"/>
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par87" name="telefono_telefono" source="mov2#mpkg1#hym3#page13#enu4#fld34" target="mov2#mpkg1#hym3#opg8#mfu1.ent4#att11"/>
+        <LinkParameter id="mov2#mpkg1#hym3#page13#enu4#ln16#par89" name="via_indirizzo_via_indirizzo" source="mov2#mpkg1#hym3#page13#enu4#fld30" target="mov2#mpkg1#hym3#opg8#mfu1.ent4#att7"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg1#hym3#page13#enu4">
+          <layout:Link link="mov2#mpkg1#hym3#page13#enu4#ln11"/>
+          <layout:Field field="mov2#mpkg1#hym3#page13#enu4#fld27"/>
+          <layout:Field field="mov2#mpkg1#hym3#page13#enu4#fld28"/>
+          <layout:Field field="mov2#mpkg1#hym3#page13#enu4#fld29"/>
+          <layout:Field field="mov2#mpkg1#hym3#page13#enu4#fld33"/>
+          <layout:Field field="mov2#mpkg1#hym3#page13#enu4#fld30"/>
+          <layout:Field field="mov2#mpkg1#hym3#page13#enu4#fld31"/>
+          <layout:Field field="mov2#mpkg1#hym3#page13#enu4#fld32"/>
+          <layout:Field field="mov2#mpkg1#hym3#page13#enu4#fld34"/>
+          <layout:Field field="mov2#mpkg1#hym3#page13#enu4#fld35"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="mov2#mpkg1#hym3#page13#ln35" name="Annulla" to="mov2#mpkg1#hym3#kocu4" type="normal" validate="true" gr:bendpoints="-2,129,-452,-1">
+    <LinkParameter id="mov2#mpkg1#hym3#page13#ln35#par97" name="Operazione annullata_Problema" sourceValue="Operazione annullata" target="mov2#mpkg1#hym3#kocu4#ocp3"/>
+  </Link>
+</Page>

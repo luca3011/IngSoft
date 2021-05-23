@@ -1,0 +1,27 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="mov2#mpkg2#hym6" name="Aggiungi Immobile" gr:x="0" gr:y="0">
+  <OperationUnits>
+    <InputCollectorUnit id="mov2#mpkg2#hym6#icu7" gr:x="-10" gr:y="225">
+      <OKLink id="mov2#mpkg2#hym6#icu7#oln3" name="OKFlow1" to="mov2#mpkg2#hym6#page10" automaticCoupling="true" ajaxOpenWindow="false" ajaxWindowUseTitle="false"/>
+    </InputCollectorUnit>
+    <OKCollectorUnit id="mov2#mpkg2#hym6#okcu2" name="Creato con successo" gr:x="1310" gr:y="220">
+      <OutputCollectorParameter id="mov2#mpkg2#hym6#okcu2#ocp2" name="ID immobile creato"/>
+    </OKCollectorUnit>
+    <KOCollectorUnit id="mov2#mpkg2#hym6#kocu2" name="Non creato" gr:x="1310" gr:y="365"/>
+    <IsNotNullUnit gr:x="815" gr:y="230" id="mov2#mpkg2#hym6#inn3" name="Is Not Null3">
+      <KOLink id="mov2#mpkg2#hym6#inn3#kln12" name="KOFlow5" to="mov2#mpkg2#hym6#page10#mssu2" gr:bendpoints="-97,73,168,18">
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#kln12#par48" name="Cliente inesistente_Shown Messages" target="mov2#mpkg2#hym6#page10#mssu2.shownMessages" sourceValue="Cliente inesistente"/>
+      </KOLink>
+      <OKLink id="mov2#mpkg2#hym6#inn3#oln13" name="OKFlow13" to="mov2#mpkg2#hym6#opg1#cru4">
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par60" name="cap_indirizzo_PASSING_cap_indirizzo" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par51" target="mov2#mpkg2#hym6#opg1#cru4.ent3#att15"/>
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par61" name="citta_indirizzo_PASSING_citta_indirizzo" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par52" target="mov2#mpkg2#hym6#opg1#cru4.ent3#att16"/>
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par62" name="cf_PASSING_Cliente.cf(ImmobileToCliente)" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par59" target="mov2#mpkg2#hym6#opg1#cru4.rel1#role2.ent4#att4"/>
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par63" name="foglio_catasto_PASSING_foglio_catasto" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par53" target="mov2#mpkg2#hym6#opg1#cru4.ent3#att17"/>
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par64" name="Immobile Object_PASSING_Immobile Object" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par54" target="mov2#mpkg2#hym6#opg1#cru4.entityBeans"/>
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par65" name="particella_catasto_PASSING_particella_catasto" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par56" target="mov2#mpkg2#hym6#opg1#cru4.ent3#att18"/>
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par66" name="sub_catasto_PASSING_sub_catasto" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par57" target="mov2#mpkg2#hym6#opg1#cru4.ent3#att19"/>
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par67" name="via_indirizzo_PASSING_via_indirizzo" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par58" target="mov2#mpkg2#hym6#opg1#cru4.ent3#att14"/>
+        <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par68" name="cf_PASSING" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par59" passing="true"/>
+      </OKLink>
+    </IsNotNullUnit>
+  </OperationUnits>
+</HybridModule>

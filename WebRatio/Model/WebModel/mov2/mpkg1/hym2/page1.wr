@@ -1,0 +1,32 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="355" gr:y="285" id="mov2#mpkg1#hym2#page1" name="Page 1" layout:pageLayout="WRDefault/Empty">
+  <ContentUnits>
+    <MultiMessageUnit gr:x="0" gr:y="0" id="mov2#mpkg1#hym2#page1#mssu4" name="Message4" linkOrder="mov2#mpkg1#hym2#page1#mssu4#ln12 mov2#mpkg1#hym2#page1#mssu4#ln13">
+      <Message xml:space="preserve">Sicuro?</Message>
+      <Link id="mov2#mpkg1#hym2#page1#mssu4#ln12" name="Sicuro" to="mov2#mpkg1#hym2#opg2#dlu1" type="normal" validate="true">
+        <LinkParameter id="mov2#mpkg1#hym2#page1#mssu4#ln12#par25" name="CF Cliente_PASSING_KeyCondition7 [cf]" sourceLinkParameter="mov2#mpkg1#hym2#icu1#ln14#par24" target="mov2#mpkg1#hym2#opg2#dlu1#su7#kcond7.ent4#att4"/>
+      </Link>
+      <Link id="mov2#mpkg1#hym2#page1#mssu4#ln13" name="Scherzavo" to="mov2#mpkg1#hym2#kocu3" automaticCoupling="true" type="normal" validate="true"/>
+    </MultiMessageUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg1#hym2#page1#mssu4">
+          <layout:Link link="mov2#mpkg1#hym2#page1#mssu4#ln12"/>
+          <layout:Link link="mov2#mpkg1#hym2#page1#mssu4#ln13"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

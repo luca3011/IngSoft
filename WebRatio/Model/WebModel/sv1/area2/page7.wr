@@ -1,0 +1,39 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="220" gr:y="125" id="sv1#area2#page7" name="Dettaglio cliente" layout:pageLayout="WRDefault/Empty">
+  <ContentUnits>
+    <DataUnit gr:x="0" gr:y="0" id="sv1#area2#page7#dau5" name="Cliente aggiunto" entity="ent4" displayAttributes="ent4#att4 ent4#att5 ent4#att6 ent4#att7 ent4#att8 ent4#att9 ent4#att10 ent4#att11 ent4#att12" linkOrder="sv1#area2#page7#dau5#ln23">
+      <Selector id="sv1#area2#page7#dau5#su5" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area2#page7#dau5#su5#kcond5" name="KeyCondition5" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#area2#page7#dau5#ln23" name="Torna ai clienti" to="sv1#area2#page6#inu2" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="-129,-58,101,77"/>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area2#page7#dau5">
+          <layout:Attribute attribute="ent4#att4"/>
+          <layout:Attribute attribute="ent4#att5"/>
+          <layout:Attribute attribute="ent4#att6"/>
+          <layout:Attribute attribute="ent4#att7"/>
+          <layout:Attribute attribute="ent4#att8"/>
+          <layout:Attribute attribute="ent4#att9"/>
+          <layout:Attribute attribute="ent4#att10"/>
+          <layout:Attribute attribute="ent4#att11"/>
+          <layout:Attribute attribute="ent4#att12"/>
+          <layout:Link link="sv1#area2#page7#dau5#ln23"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

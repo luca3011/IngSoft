@@ -1,0 +1,11 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="530" gr:y="200" id="mov2#mpkg1#hym2#opg2" name="Operation Group 2" transaction="true">
+  <OperationUnits>
+    <DeleteUnit gr:x="0" gr:y="0" id="mov2#mpkg1#hym2#opg2#dlu1" name="Delete1" entity="ent4">
+      <Selector id="mov2#mpkg1#hym2#opg2#dlu1#su7" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov2#mpkg1#hym2#opg2#dlu1#su7#kcond7" name="KeyCondition7" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov2#mpkg1#hym2#opg2#dlu1#oln9" name="OKFlow9" to="mov2#mpkg1#hym2#okcu3" automaticCoupling="true"/>
+      <KOLink id="mov2#mpkg1#hym2#opg2#dlu1#kln6" name="KOFlow6" to="mov2#mpkg1#hym2#kocu3" automaticCoupling="true"/>
+    </DeleteUnit>
+  </OperationUnits>
+</OperationGroup>

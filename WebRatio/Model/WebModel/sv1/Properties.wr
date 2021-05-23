@@ -1,8 +1,25 @@
-<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="NonIngegnere" protected="false" secure="false" landmarks="sv1#area2 sv1#area4 sv1#area3 sv1#area1" homePage="sv1#area2#page6">
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="NonIngegnere" protected="false" secure="false" landmarks="sv1#area2 sv1#area4 sv1#area3 sv1#area1" homePage="sv1#area2#page6" localized="true">
   <OperationUnits>
-    <ModuleInstanceUnit gr:x="295" gr:y="375" id="sv1#miu1" moduleId="mov2#mpkg1#hym1" action="false">
-      <OKLink id="sv1#miu1#oln3" name="OKFlow3" to="sv1#area2#page6" automaticCoupling="true" gr:bendpoints="-124,28,101,3"/>
-      <KOLink id="sv1#miu1#kln2" name="KOFlow2" to="sv1#area2#page6" automaticCoupling="true" gr:bendpoints="-128,-2,97,-27"/>
+    <ModuleInstanceUnit gr:x="305" gr:y="285" id="sv1#miu1" moduleId="mov2#mpkg1#hym1" action="false">
+      <KOLink id="sv1#miu1#kln2" name="KOFlow2" to="sv1#area2#page6" automaticCoupling="true" gr:bendpoints="137,24,447,-16;148,62,408,-18"/>
+      <OKLink id="sv1#miu1#oln2" name="OKFlow2" to="sv1#area2#page7#dau5" gr:bendpoints="92,103,202,-72" ajaxOpenWindow="true" ajaxWindowDraggable="true" ajaxWindowMinimizable="false" ajaxWindowModal="true" ajaxWindowMaximizable="false" ajaxWindowClosable="false" ajaxWindowAutoResizing="true">
+        <LinkParameter id="sv1#miu1#oln2#par4" name="CF cliente creato_KeyCondition5 [cf]" source="mov2#mpkg1#hym1#okcu1#ocp1" target="sv1#area2#page7#dau5#su5#kcond5.ent4#att4"/>
+      </OKLink>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit gr:x="900" gr:y="285" id="sv1#miu8" action="false" moduleId="mov2#mpkg2#hym6">
+      <KOLink id="sv1#miu8#kln3" name="KOFlow3" to="sv1#area4#page3" automaticCoupling="true" gr:bendpoints="109,55,343,41"/>
+      <OKLink id="sv1#miu8#oln7" name="OKFlow7" to="sv1#area4#page12#dau1" gr:bendpoints="81,117,151,-7" ajaxOpenWindow="true" ajaxWindowClosable="false" ajaxWindowAutoResizing="true">
+        <LinkParameter id="sv1#miu8#oln7#par22" name="ID immobile creato_KeyCondition6 [id_immobile]" source="mov2#mpkg2#hym6#okcu2#ocp2" target="sv1#area4#page12#dau1#su6#kcond6.ent3#att3"/>
+      </OKLink>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit gr:x="155" gr:y="160" id="sv1#miu2" action="false" moduleId="mov2#mpkg1#hym2">
+      <OKLink id="sv1#miu2#oln10" name="OKFlow10" to="sv1#area2#page6" automaticCoupling="true"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit gr:x="60" gr:y="585" id="sv1#miu3" action="false" moduleId="mov2#mpkg1#hym3">
+      <OKLink id="sv1#miu3#oln16" name="OKFlow16" to="sv1#area2#page6" automaticCoupling="true"/>
+      <KOLink id="sv1#miu3#kln13" name="KOFlow13" to="sv1#area2#page6#mssu6" gr:bendpoints="-24,-105,-4,135;-50,-144,-36,62" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true">
+        <LinkParameter id="sv1#miu3#kln13#par98" name="Problema_Shown Messages" source="mov2#mpkg1#hym3#kocu4#ocp3" target="sv1#area2#page6#mssu6.shownMessages"/>
+      </KOLink>
     </ModuleInstanceUnit>
   </OperationUnits>
 </SiteView>

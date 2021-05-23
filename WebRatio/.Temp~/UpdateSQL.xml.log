@@ -1,26 +1,28 @@
-[18 mag 2021 18:43:13] DEBUG Executing SQL script
-[18 mag 2021 18:43:13] INFO ================================================================================
-[18 mag 2021 18:43:13] INFO onError= 'stop'
-[18 mag 2021 18:43:13] INFO autoCommit= 'false'
-[18 mag 2021 18:43:13] INFO username= 'manager'
-[18 mag 2021 18:43:13] INFO outputPath= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.xml'
-[18 mag 2021 18:43:13] INFO outputLogPath= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.xml.log'
-[18 mag 2021 18:43:13] INFO encoding= ''
-[18 mag 2021 18:43:13] INFO driverClass= 'org.apache.derby.jdbc.ClientDriver'
-[18 mag 2021 18:43:13] INFO sqlScript= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.sql'
-[18 mag 2021 18:43:13] INFO eventSocketPort= '49731'
-[18 mag 2021 18:43:14] INFO statementSeparator= ';'
-[18 mag 2021 18:43:14] INFO derby.system.home= 'D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby'
-[18 mag 2021 18:43:14] INFO password= 'manager'
-[18 mag 2021 18:43:14] INFO url= 'jdbc:derby://localhost:50124/PraticaMenteDB;create=true'
-[18 mag 2021 18:43:14] INFO ================================================================================
-[18 mag 2021 18:43:14] INFO Connecting to the Database...
-[18 mag 2021 18:43:14] INFO Database connection estabilished
-[18 mag 2021 18:43:14] INFO transaction isolation: 2
-[18 mag 2021 18:43:14] DEBUG ================================================================================
-[18 mag 2021 18:43:14] DEBUG Executing SQL script file: D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.sql
-[18 mag 2021 18:43:14] DEBUG Executing statement:  create table "APP"."CLIENTE" ( "CF"  varchar(16)  not null, "NOME"  varchar(40), "COGNOME"  varchar(40), "VIA_INDIRIZZO"  varchar(75), "CITTA_INDIRIZZO"  varchar(75), "CAP_INDIRIZZO"  integer, "DATA_NASCITA"  date, "TELEFONO"  varchar(15), "EMAIL"  varchar(40), primary key ("CF") )
-[18 mag 2021 18:43:14] DEBUG ================================================================================
-[18 mag 2021 18:43:14] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
-[18 mag 2021 18:43:14] INFO Database connection closed
-[18 mag 2021 18:43:14] DEBUG Total time: 1175 milliseconds
+[23 mag 2021 12:25:46] DEBUG Executing SQL script
+[23 mag 2021 12:25:46] INFO ================================================================================
+[23 mag 2021 12:25:46] INFO onError= 'stop'
+[23 mag 2021 12:25:46] INFO autoCommit= 'false'
+[23 mag 2021 12:25:46] INFO username= 'manager'
+[23 mag 2021 12:25:46] INFO outputPath= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.xml'
+[23 mag 2021 12:25:46] INFO outputLogPath= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.xml.log'
+[23 mag 2021 12:25:46] INFO encoding= ''
+[23 mag 2021 12:25:46] INFO driverClass= 'org.apache.derby.jdbc.ClientDriver'
+[23 mag 2021 12:25:46] INFO sqlScript= 'D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.sql'
+[23 mag 2021 12:25:46] INFO eventSocketPort= '60469'
+[23 mag 2021 12:25:46] INFO statementSeparator= ';'
+[23 mag 2021 12:25:46] INFO derby.system.home= 'D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby'
+[23 mag 2021 12:25:46] INFO password= 'manager'
+[23 mag 2021 12:25:46] INFO url= 'jdbc:derby://localhost:50124/PraticaMenteDB;create=true'
+[23 mag 2021 12:25:46] INFO ================================================================================
+[23 mag 2021 12:25:46] INFO Connecting to the Database...
+[23 mag 2021 12:25:46] INFO Database connection estabilished
+[23 mag 2021 12:25:46] INFO transaction isolation: 2
+[23 mag 2021 12:25:46] DEBUG ================================================================================
+[23 mag 2021 12:25:46] DEBUG Executing SQL script file: D:\Coding\IngSoft\WebRatio\.Temp~\UpdateSQL.sql
+[23 mag 2021 12:25:46] DEBUG Executing statement:  create table "APP"."TIPOLOGIA" ( "ID_TIPOLOGIA"  integer  not null, "NOME"  varchar(255), primary key ("ID_TIPOLOGIA") )
+[23 mag 2021 12:25:46] DEBUG Executing statement:    alter table "APP"."INTERVENTO"  add column  "TIPOLOGIA_ID_TIPOLOGIA"  integer
+[23 mag 2021 12:25:46] DEBUG Executing statement:  alter table "APP"."INTERVENTO"   add constraint FK_INTERVENTO_TIPOLOGIA foreign key ("TIPOLOGIA_ID_TIPOLOGIA") references "APP"."TIPOLOGIA" ("ID_TIPOLOGIA")
+[23 mag 2021 12:25:47] DEBUG ================================================================================
+[23 mag 2021 12:25:47] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[23 mag 2021 12:25:47] INFO Database connection closed
+[23 mag 2021 12:25:47] DEBUG Total time: 604 milliseconds

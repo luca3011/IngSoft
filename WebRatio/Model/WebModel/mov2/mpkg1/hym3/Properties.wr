@@ -1,0 +1,14 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="55" gr:y="120" id="mov2#mpkg1#hym3" name="Modifica Cliente">
+  <OperationUnits>
+    <InputCollectorUnit gr:x="15" gr:y="325" id="mov2#mpkg1#hym3#icu3">
+      <InputCollectorParameter id="mov2#mpkg1#hym3#icu3#icp2" name="CF cliente"/>
+      <OKLink id="mov2#mpkg1#hym3#icu3#oln17" name="OKFlow17" to="mov2#mpkg1#hym3#opg7#seu7">
+        <LinkParameter id="mov2#mpkg1#hym3#icu3#oln17#par77" name="CF cliente_KeyCondition7 [cf]" source="mov2#mpkg1#hym3#icu3#icp2" target="mov2#mpkg1#hym3#opg7#seu7#su14#kcond12.ent4#att4"/>
+      </OKLink>
+    </InputCollectorUnit>
+    <OKCollectorUnit gr:x="980" gr:y="205" id="mov2#mpkg1#hym3#okcu4" name="OK Port4"/>
+    <KOCollectorUnit gr:x="980" gr:y="445" id="mov2#mpkg1#hym3#kocu4" name="KO Port4">
+      <OutputCollectorParameter id="mov2#mpkg1#hym3#kocu4#ocp3" name="Problema"/>
+    </KOCollectorUnit>
+  </OperationUnits>
+</HybridModule>

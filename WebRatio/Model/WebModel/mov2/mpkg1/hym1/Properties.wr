@@ -1,9 +1,11 @@
-<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="0" gr:y="0" id="mov2#mpkg1#hym1" name="Aggiungi Cliente">
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="mov2#mpkg1#hym1" name="Aggiungi Cliente" layout:singleLayout="true" layout:pageLayout="WebRatio/Basic" layout:style="WebRatio">
   <OperationUnits>
-    <InputCollectorUnit gr:x="140" gr:y="195" id="mov2#mpkg1#hym1#icu2">
-      <OKLink id="mov2#mpkg1#hym1#icu2#oln1" name="OKFlow1" to="mov2#mpkg1#hym1#page5" automaticCoupling="true"/>
+    <InputCollectorUnit gr:x="55" gr:y="215" id="mov2#mpkg1#hym1#icu2">
+      <OKLink id="mov2#mpkg1#hym1#icu2#oln1" name="OKFlow1" to="mov2#mpkg1#hym1#page5" automaticCoupling="true" ajaxOpenWindow="false" ajaxWindowUseTitle="false" ajaxWindowAutoResizing="true" ajaxWindowClosable="true" ajaxWindowDraggable="true" ajaxWindowModal="true"/>
     </InputCollectorUnit>
-    <OKCollectorUnit gr:x="965" gr:y="180" id="mov2#mpkg1#hym1#okcu1" name="Creato con successo"/>
-    <KOCollectorUnit gr:x="965" gr:y="335" id="mov2#mpkg1#hym1#kocu1" name="Non creato"/>
+    <OKCollectorUnit gr:x="1005" gr:y="225" id="mov2#mpkg1#hym1#okcu1" name="Creato con successo">
+      <OutputCollectorParameter id="mov2#mpkg1#hym1#okcu1#ocp1" name="CF cliente creato"/>
+    </OKCollectorUnit>
+    <KOCollectorUnit gr:x="1005" gr:y="365" id="mov2#mpkg1#hym1#kocu1" name="Non creato"/>
   </OperationUnits>
 </HybridModule>

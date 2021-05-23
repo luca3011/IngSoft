@@ -1,8 +1,45 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area4#page3" name="Page 3">
-  <ContentUnits/>
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="25" gr:y="0" id="sv1#area4#page3" name="Tutti gli immobili" linkOrder="sv1#area4#page3#ln19">
+  <ContentUnits>
+    <IndexUnit gr:x="0" gr:y="0" id="sv1#area4#page3#inu1" name="Simple List1" entity="ent3" displayAttributes="ent3#att14 ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19" linkOrder="sv1#area4#page3#inu1#ln21 sv1#area4#page3#inu1#ln30" customDescriptor="false">
+      <Link id="sv1#area4#page3#inu1#ln21" name="Dettaglio cliente" to="sv1#area2#page7#dau5" type="normal" validate="true" ajaxOpenWindow="true" ajaxWindowClosable="true" gr:bendpoints="-147,161,207,21" ajaxWindowAutoResizing="true" ajaxWindowDraggable="true">
+        <LinkParameter id="sv1#area4#page3#inu1#ln21#par73" name="ImmobileToCliente.cf_KeyCondition5 [cf]" source="data[].rel1#role2_ent4#att4" target="sv1#area2#page7#dau5#su5#kcond5.ent4#att4"/>
+      </Link>
+      <Link id="sv1#area4#page3#inu1#ln30" name="Elimina" to="sv1#area4#miu4" type="normal" validate="true" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="false" ajaxWindowDraggable="false">
+        <LinkParameter id="sv1#area4#page3#inu1#ln30#par105" name="id_immobile_Id immobile" source="data[].ent3#att3" target="sv1#area4#miu4.mov2#mpkg2#hym8#icu8#icp6"/>
+      </Link>
+    </IndexUnit>
+    <MultiMessageUnit id="sv1#area4#page3#mssu7" name="Message6" gr:x="55" gr:y="100"/>
+  </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
-      <layout:Cell colspan="12"/>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area4#page3#inu1">
+          <layout:Attribute attribute="ent3#att14"/>
+          <layout:Attribute attribute="ent3#att15"/>
+          <layout:Attribute attribute="ent3#att16"/>
+          <layout:Attribute attribute="ent3#att17"/>
+          <layout:Attribute attribute="ent3#att18"/>
+          <layout:Attribute attribute="ent3#att19"/>
+          <layout:Link link="sv1#area4#page3#inu1#ln21"/>
+          <layout:Link link="sv1#area4#page3#inu1#ln30"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area4#page3#mssu7"/>
+      </layout:Cell>
       <layout:Cell/>
       <layout:Cell/>
       <layout:Cell/>
@@ -16,4 +53,5 @@
       <layout:Cell/>
     </layout:Row>
   </layout:Grid>
+  <Link id="sv1#area4#page3#ln19" name="Aggiungi immobile" to="sv1#miu8" automaticCoupling="true" type="normal" validate="true"/>
 </Page>
