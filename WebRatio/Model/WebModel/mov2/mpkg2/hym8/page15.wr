@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="360" gr:y="290" id="mov2#mpkg2#hym8#page15" name="Page 15">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="360" gr:y="290" id="mov2#mpkg2#hym8#page15" name="Page 15" layout:pageLayout="WRDefault/Empty">
   <ContentUnits>
     <MultiMessageUnit gr:x="0" gr:y="0" id="mov2#mpkg2#hym8#page15#mssu10" name="Message10" linkOrder="mov2#mpkg2#hym8#page15#mssu10#ln40 mov2#mpkg2#hym8#page15#mssu10#ln41">
       <Message xml:space="preserve">Sicuro di voler eliminare l'immobile?</Message>

@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Warnings> 
-  <Warning xpath="id('mov2#mpkg1#hym3#opg8#mfu2#oln19')" rootXPath="id('mov2')" key="AUTOMATIC_COUPLING_WITHOUT_EFFECT" label="OKFlow19"> 
-    <Message>Neither explicit nor implicit parameters' bindings could be found for the flow 'OKFlow19'</Message>  
+  <Warning xpath="id('mov2#mpkg4#hym4#page9#enu5#ln24')" rootXPath="id('mov2')" key="AUTOMATIC_COUPLING_WITHOUT_EFFECT" label="Scegli intervento"> 
+    <Message>Neither explicit nor implicit parameters' bindings could be found for the flow 'Scegli intervento'</Message>  
     <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="automaticCoupling" value="">Remove the 'Automatic Coupling' property</Resolution> 
   </Warning>  
-  <Warning xpath="id('mov2#mpkg1#hym3#opg7#seu7')" rootXPath="id('mov2')" error="false" label="Modifica cliente" key="NO_OUTGOING_KO_LINKS"> 
-    <Message>No outgoing KO flow(s) for the operation 'Modifica cliente'</Message> 
+  <Warning xpath="id('mov2#mpkg4#hym4#icu4#oln15')" rootXPath="id('mov2')" key="AUTOMATIC_COUPLING_WITHOUT_EFFECT" label="OKFlow15"> 
+    <Message>Neither explicit nor implicit parameters' bindings could be found for the flow 'OKFlow15'</Message>  
+    <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="automaticCoupling" value="">Remove the 'Automatic Coupling' property</Resolution> 
   </Warning>  
-  <Warning error="false" xpath="id('mov2#mpkg1#hym3#page13')" rootXPath="id('mov2')" key="" label="Page 13"> 
-    <Message>Security Warning: the page 'Page 13' is public but no captcha field is configured on its form component</Message> 
+  <Warning xpath="id('mov2#mpkg4#hym4#opg6#inn2#oln20')" rootXPath="id('mov2')" key="AUTOMATIC_COUPLING_WITHOUT_EFFECT" label="OKFlow20"> 
+    <Message>Neither explicit nor implicit parameters' bindings could be found for the flow 'OKFlow20'</Message>  
+    <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="automaticCoupling" value="">Remove the 'Automatic Coupling' property</Resolution> 
+  </Warning>  
+  <Warning xpath="id('mov2#mpkg4#hym4#opg6#cru2#oln33')" rootXPath="id('mov2')" key="AUTOMATIC_COUPLING_WITHOUT_EFFECT" label="OKFlow33"> 
+    <Message>Neither explicit nor implicit parameters' bindings could be found for the flow 'OKFlow33'</Message>  
+    <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="automaticCoupling" value="">Remove the 'Automatic Coupling' property</Resolution> 
+  </Warning>  
+  <Warning xpath="id('mov2#mpkg4#hym4#opg6#cru2#kln7')" rootXPath="id('mov2')" key="AUTOMATIC_COUPLING_WITHOUT_EFFECT" label="KOFlow7"> 
+    <Message>Neither explicit nor implicit parameters' bindings could be found for the flow 'KOFlow7'</Message>  
+    <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="automaticCoupling" value="">Remove the 'Automatic Coupling' property</Resolution> 
+  </Warning>  
+  <Warning error="false" xpath="id('mov2#mpkg4#hym4#page11#inu4')" rootXPath="id('mov2')" key="UNSPECIFIED_SORTING_ATTRIBUTE" label="Simple List4"> 
+    <Message>Sorting attribute are unspecified for the component 'Simple List4'</Message> 
   </Warning>  
   <Warning xpath="/WebProject" rootXPath="/WebProject" key="" label="WebProject"> 
     <Message>Security Warning: the Admin Area generation is enabled</Message>  
     <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="adminArea" value="">Remove the 'Admin Area' property</Resolution> 
+  </Warning>  
+  <Warning xpath="/WebProject" rootXPath="/WebProject" key="" label="WebProject" tab="security"> 
+    <Message>Security Warning: the project contains a protected resource but the 'Protect URL' property is missing</Message>  
+    <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="protectURL" value="true">Set the 'Protect URL' property to 'true'</Resolution> 
   </Warning> 
 </Warnings>

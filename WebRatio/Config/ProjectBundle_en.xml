@@ -3,6 +3,7 @@
 <Bundle>
   <Entry key="aa">aa</Entry>
   <Entry key="ActivityInstanceNotAvailable">This activity is no more available.</Entry>
+  <Entry key="Aggiornamento">Aggiornamento</Entry>
   <Entry key="Aggiungi Cliente">Aggiungi Cliente</Entry>
   <Entry key="Aggiungi immobile">Aggiungi immobile</Entry>
   <Entry key="Aggiunta cliente">Aggiunta cliente</Entry>
@@ -18,6 +19,7 @@
   <Entry key="CheckedItemsValidationRule.eq">&lt;li&gt;${itemCount} items checked required&lt;/li&gt;</Entry>
   <Entry key="CheckedItemsValidationRule.max">&lt;li&gt;check at most ${itemCount} items&lt;/li&gt;</Entry>
   <Entry key="CheckedItemsValidationRule.min">&lt;li&gt;check at least ${itemCount} items&lt;/li&gt;</Entry>
+  <Entry key="chiusa">Chiusa</Entry>
   <Entry key="citta_indirizzo">citta_indirizzo</Entry>
   <Entry key="Cliente">Cliente</Entry>
   <Entry key="Cliente aggiunto">Cliente aggiunto</Entry>
@@ -53,12 +55,12 @@
   <Entry key="DateValidation">&lt;li&gt;the entered value should have the format ${pattern}&lt;/li&gt;</Entry>
   <Entry key="DecimalValidation">&lt;li&gt;the entered value must be a number&lt;/li&gt;</Entry>
   <Entry key="DemoUsers">Demo Users</Entry>
-  <Entry key="descrizione">descrizione</Entry>
+  <Entry key="descrizione">Descrizione</Entry>
   <Entry key="Details1">Dettaglio cliente</Entry>
   <Entry key="Dettaglio">Dettaglio</Entry>
   <Entry key="Dettaglio cliente">Dettaglio cliente</Entry>
   <Entry key="Dettaglio immobile">Dettaglio immobile</Entry>
-  <Entry key="ditta">ditta</Entry>
+  <Entry key="ditta">Ditta esecutrice</Entry>
   <Entry key="Elimina">Elimina</Entry>
   <Entry key="Elimina Cliente">Elimina Cliente</Entry>
   <Entry key="email">email</Entry>
@@ -76,8 +78,10 @@
   <Entry key="errors.footer">&lt;/ul&gt;</Entry>
   <Entry key="errors.header">&lt;ul&gt;</Entry>
   <Entry key="FloatValidation">&lt;li&gt;the entered value must be a float&lt;/li&gt;</Entry>
+  <Entry key="Flow42">Aggiungi</Entry>
   <Entry key="foglio_catasto">foglio_catasto</Entry>
   <Entry key="Form1">Form1</Entry>
+  <Entry key="Form2">Aggiunta intervento</Entry>
   <Entry key="FormNotEmptyValidationRule.error">&lt;li&gt;at least one field must be filled&lt;/li&gt;</Entry>
   <Entry key="Group">Group</Entry>
   <Entry key="groupName">groupName</Entry>
@@ -91,6 +95,7 @@
   <Entry key="HierarchicalIndex.Of">of</Entry>
   <Entry key="HierarchicalIndex.Previous">previous</Entry>
   <Entry key="HierarchicalIndex.To">to</Entry>
+  <Entry key="Hierarchy4">Tutte le pratiche</Entry>
   <Entry key="History Diagram">History Diagram</Entry>
   <Entry key="HTMLSanitizerValidationRule.error">&lt;li&gt;validation failed&lt;/li&gt;</Entry>
   <Entry key="id_immobile">id_immobile</Entry>
@@ -100,12 +105,14 @@
   <Entry key="Immobile">Immobile</Entry>
   <Entry key="ImmobileToCliente">ImmobileToCliente</Entry>
   <Entry key="Immobili">Immobili</Entry>
-  <Entry key="ingegneri_occupati">ingegneri_occupati</Entry>
+  <Entry key="ingegneri_occupati">Ingegneri occupati</Entry>
   <Entry key="Ingengere">Ingengere</Entry>
   <Entry key="Instructions">Select one of the demo users to enter the application.</Entry>
   <Entry key="IntegerValidation">&lt;li&gt;the entered value must be an integer&lt;/li&gt;</Entry>
   <Entry key="Interventi">Interventi</Entry>
   <Entry key="Intervento">Intervento</Entry>
+  <Entry key="InterventoToImmobile">Scegli immobile</Entry>
+  <Entry key="InterventoToTipologia">Scegli tipologia</Entry>
   <Entry key="JobStatus.JobDescription">Description</Entry>
   <Entry key="JobStatus.JobGroup">Group</Entry>
   <Entry key="JobStatus.JobId">ID</Entry>
@@ -127,6 +134,8 @@
   <Entry key="LikeValidationRule.startsWith">&lt;li&gt;the entered value should begin with ${value}&lt;/li&gt;</Entry>
   <Entry key="LikeValidationRule.startsWith.field">&lt;li&gt;the entered value should begin with the value of ${otherFieldName} field&lt;/li&gt;</Entry>
   <Entry key="linkConfirmMessage">Continue?</Entry>
+  <Entry key="Lista immobili">Lista immobili</Entry>
+  <Entry key="Logout">Logout</Entry>
   <Entry key="MandatoryValidationRule.error">&lt;li&gt;mandatory field&lt;/li&gt;</Entry>
   <Entry key="Message4">Message4</Entry>
   <Entry key="Modifica Cliente">Modifica Cliente</Entry>
@@ -137,8 +146,8 @@
   <Entry key="multiselectionfield.selectAll">Select All</Entry>
   <Entry key="N/D">N/D</Entry>
   <Entry key="noItemsFound">No items found.</Entry>
-  <Entry key="nome">nome</Entry>
-  <Entry key="nome_cognome">nome_cognome</Entry>
+  <Entry key="nome">Tipologia</Entry>
+  <Entry key="nome_cognome">Cliente</Entry>
   <Entry key="NonIngegnere">NonIngegnere</Entry>
   <Entry key="noProcessesFound">No processes found.</Entry>
   <Entry key="noProcessInstancesFound">No process instances found.</Entry>
@@ -147,6 +156,7 @@
   <Entry key="NoWorkItemsFound">No work items found.</Entry>
   <Entry key="oid">oid</Entry>
   <Entry key="Page 1">Page 1</Entry>
+  <Entry key="Page 2">Tutte le pratiche</Entry>
   <Entry key="Page 4">Page 4</Entry>
   <Entry key="particella_catasto">particella_catasto</Entry>
   <Entry key="password">password</Entry>
@@ -176,7 +186,7 @@
   <Entry key="Process.metadata.invalid">Processes metadata are not synchronized with the processes model. The invalid processes must be manually updated.&lt;br/&gt;Forcing the update, the active processes may no more runnable.</Entry>
   <Entry key="Process.metadata.outdated">Processes metadata are not synchronized with the processes model.</Entry>
   <Entry key="Process.metadata.updated">Processes metadata are synchronized with the processes model.</Entry>
-  <Entry key="protocollo">protocollo</Entry>
+  <Entry key="protocollo">Nr. Protocollo</Entry>
   <Entry key="Query.First">first</Entry>
   <Entry key="Query.From">from</Entry>
   <Entry key="Query.Jump">jump to</Entry>
@@ -191,6 +201,7 @@
   <Entry key="QueryUnit.wrongGrouping">All the displayed attributes must be used as grouping or aggregate function</Entry>
   <Entry key="RecaptchaValidationRule.error">&lt;li&gt;CAPTCHA verification unsuccessful. Please try again.&lt;/li&gt;</Entry>
   <Entry key="RegularExpressionValidationRule.error">&lt;li&gt;the entered value is not valid&lt;/li&gt;</Entry>
+  <Entry key="scadenza">Scadenza</Entry>
   <Entry key="Scherzavo">Scherzavo</Entry>
   <Entry key="Scroller.First">first</Entry>
   <Entry key="Scroller.From">from</Entry>
@@ -202,9 +213,12 @@
   <Entry key="Scroller.Previous">previous</Entry>
   <Entry key="Scroller.To">to</Entry>
   <Entry key="selectionfield.noselection">No selection</Entry>
+  <Entry key="Seleziona">Seleziona</Entry>
+  <Entry key="Selezione immobile">Selezione immobile</Entry>
   <Entry key="Show Activity Details">Show Activity Details</Entry>
   <Entry key="Sicuro">Sicuro</Entry>
   <Entry key="Simple List1">Lista Clienti</Entry>
+  <Entry key="Simple List3">Tutti gli interventi</Entry>
   <Entry key="Simple List6">Simple List6</Entry>
   <Entry key="sub_catasto">sub_catasto</Entry>
   <Entry key="Suggerisci Clienti">Suggerisci Clienti</Entry>
@@ -213,6 +227,7 @@
   <Entry key="TimeValidation">&lt;li&gt;the entered value should be in the format ${pattern}&lt;/li&gt;</Entry>
   <Entry key="Tipologia">Tipologia</Entry>
   <Entry key="tipologia">tipologia</Entry>
+  <Entry key="tipologia_intervento">Tipo intervento</Entry>
   <Entry key="Torna a tutti gli immobili">Torna a tutti gli immobili</Entry>
   <Entry key="Torna ai clienti">Torna ai clienti</Entry>
   <Entry key="Tutti gli immobili">Tutti gli immobili</Entry>
@@ -230,7 +245,7 @@
   <Entry key="ValueLengthValidationRule.max">&lt;li&gt;the entered value length must be at most ${length} characters&lt;/li&gt;</Entry>
   <Entry key="ValueLengthValidationRule.min">&lt;li&gt;the entered value length must be at least ${length} characters&lt;/li&gt;</Entry>
   <Entry key="ValueLengthValidationRule.neq">&lt;li&gt;the entered value length must be different from ${length} characters&lt;/li&gt;</Entry>
-  <Entry key="versione">versione</Entry>
+  <Entry key="versione">Versione</Entry>
   <Entry key="via_indirizzo">via_indirizzo</Entry>
   <Entry key="Warning">Please enter the &lt;a class="shortcuts" href="BPAdmin.do" title="Administration"&gt;Administration&lt;/a&gt; area to update the processes metadata.</Entry>
   <Entry key="Welcome">Welcome</Entry>

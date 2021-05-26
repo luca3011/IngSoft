@@ -1,0 +1,62 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="440" gr:y="165" id="mov2#mpkg3#hym9#page17" name="Page 17">
+  <ContentUnits>
+    <EntryUnit gr:x="5" gr:y="0" id="mov2#mpkg3#hym9#page17#enu2" name="Form2" entity="ent2" linkOrder="mov2#mpkg3#hym9#page17#enu2#ln45 mov2#mpkg3#hym9#page17#enu2#ln49" fieldOrder="mov2#mpkg3#hym9#page17#enu2#fld16 mov2#mpkg3#hym9#page17#enu2#fld18 mov2#mpkg3#hym9#page17#enu2#sfld2">
+      <Field id="mov2#mpkg3#hym9#page17#enu2#fld16" name="descrizione" type="string" modifiable="true" attribute="ent2#att20" contentType="text/plain"/>
+      <Field id="mov2#mpkg3#hym9#page17#enu2#fld18" name="ditta" type="string" modifiable="true" attribute="ent2#att21" contentType="text/plain"/>
+      <SelectionField id="mov2#mpkg3#hym9#page17#enu2#sfld2" name="InterventoToTipologia" type="string" role="rel4#role7" splitOutput="false"/>
+      <Link id="mov2#mpkg3#hym9#page17#enu2#ln45" name="Flow45" to="mov2#mpkg3#hym9#opg10#inn4" type="normal" validate="true" ajaxEnabled="true">
+        <LinkParameter id="mov2#mpkg3#hym9#page17#enu2#ln45#par123" name="id_immobile_PASSING_Input" sourceLinkParameter="mov2#mpkg3#hym9#page19#inu7#ln50#par120" target="mov2#mpkg3#hym9#opg10#inn4.isnotnull"/>
+      </Link>
+      <Link id="mov2#mpkg3#hym9#page17#enu2#ln46" name="Flow46" to="mov2#mpkg3#hym9#opg10#cru1" type="transport" validate="true" gr:bendpoints="220,157,-160,142">
+        <LinkParameter id="mov2#mpkg3#hym9#page17#enu2#ln46#par110" name="descrizione_descrizione" source="mov2#mpkg3#hym9#page17#enu2#fld16" target="mov2#mpkg3#hym9#opg10#cru1.ent2#att20"/>
+        <LinkParameter id="mov2#mpkg3#hym9#page17#enu2#ln46#par111" name="ditta_ditta" source="mov2#mpkg3#hym9#page17#enu2#fld18" target="mov2#mpkg3#hym9#opg10#cru1.ent2#att21"/>
+        <LinkParameter id="mov2#mpkg3#hym9#page17#enu2#ln46#par112" name="Key [id_intervento]_id_intervento" source="key.ent2#att2" target="mov2#mpkg3#hym9#opg10#cru1.ent2#att2"/>
+        <LinkParameter id="mov2#mpkg3#hym9#page17#enu2#ln46#par113" name="Intervento Object_Intervento Object" source="entityBean" target="mov2#mpkg3#hym9#opg10#cru1.entityBeans"/>
+        <LinkParameter id="mov2#mpkg3#hym9#page17#enu2#ln46#par122" name="InterventoToTipologia_Tipologia.id_tipologia(InterventoToTipologia)" source="mov2#mpkg3#hym9#page17#enu2#sfld2" target="mov2#mpkg3#hym9#opg10#cru1.rel4#role7.ent7#att30"/>
+        <LinkParameter id="mov2#mpkg3#hym9#page17#enu2#ln46#par125" name="id_immobile_PASSING_Immobile.id_immobile(InterventoToImmobile)" sourceLinkParameter="mov2#mpkg3#hym9#page19#inu7#ln50#par120" target="mov2#mpkg3#hym9#opg10#cru1.rel6#role12.ent3#att3"/>
+      </Link>
+      <Link id="mov2#mpkg3#hym9#page17#enu2#ln49" name="Selezione immobile" to="mov2#mpkg3#hym9#page19#inu7" type="normal" validate="true" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true" ajaxEnabled="true"/>
+    </EntryUnit>
+    <MultiMessageUnit gr:x="0" gr:y="110" id="mov2#mpkg3#hym9#page17#mssu11" name="Message11"/>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg3#hym9#page17#enu2">
+          <layout:Link link="mov2#mpkg3#hym9#page17#enu2#ln45"/>
+          <layout:Link link="mov2#mpkg3#hym9#page17#enu2#ln49"/>
+          <layout:Field field="mov2#mpkg3#hym9#page17#enu2#fld16"/>
+          <layout:Field field="mov2#mpkg3#hym9#page17#enu2#fld18"/>
+          <layout:Field field="mov2#mpkg3#hym9#page17#enu2#sfld2"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg3#hym9#page17#mssu11"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

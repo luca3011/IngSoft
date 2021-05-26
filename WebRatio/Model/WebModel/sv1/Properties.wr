@@ -1,4 +1,4 @@
-<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="NonIngegnere" protected="false" secure="false" landmarks="sv1#area2 sv1#area4 sv1#area3 sv1#area1" homePage="sv1#area2#page6" localized="true">
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="Ingegnere" protected="true" secure="false" landmarks="sv1#area2 sv1#area4 sv1#area3 sv1#area1" homePage="sv1#area2#page6" localized="true">
   <OperationUnits>
     <ModuleInstanceUnit gr:x="305" gr:y="285" id="sv1#miu1" moduleId="mov2#mpkg1#hym1" action="false">
       <KOLink id="sv1#miu1#kln2" name="KOFlow2" to="sv1#area2#page6" automaticCoupling="true" gr:bendpoints="137,24,447,-16;148,62,408,-18"/>
@@ -12,13 +12,29 @@
         <LinkParameter id="sv1#miu8#oln7#par22" name="ID immobile creato_KeyCondition6 [id_immobile]" source="mov2#mpkg2#hym6#okcu2#ocp2" target="sv1#area4#page12#dau1#su6#kcond6.ent3#att3"/>
       </OKLink>
     </ModuleInstanceUnit>
-    <ModuleInstanceUnit gr:x="155" gr:y="160" id="sv1#miu2" action="false" moduleId="mov2#mpkg1#hym2">
+    <ModuleInstanceUnit gr:x="255" gr:y="150" id="sv1#miu2" action="false" moduleId="mov2#mpkg1#hym2">
       <OKLink id="sv1#miu2#oln10" name="OKFlow10" to="sv1#area2#page6" automaticCoupling="true"/>
     </ModuleInstanceUnit>
-    <ModuleInstanceUnit gr:x="60" gr:y="585" id="sv1#miu3" action="false" moduleId="mov2#mpkg1#hym3">
+    <ModuleInstanceUnit gr:x="50" gr:y="625" id="sv1#miu3" action="false" moduleId="mov2#mpkg1#hym3">
       <OKLink id="sv1#miu3#oln16" name="OKFlow16" to="sv1#area2#page6" automaticCoupling="true"/>
       <KOLink id="sv1#miu3#kln13" name="KOFlow13" to="sv1#area2#page6#mssu6" gr:bendpoints="-24,-105,-4,135;-50,-144,-36,62" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true">
         <LinkParameter id="sv1#miu3#kln13#par98" name="Problema_Shown Messages" source="mov2#mpkg1#hym3#kocu4#ocp3" target="sv1#area2#page6#mssu6.shownMessages"/>
+      </KOLink>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit gr:x="1255" gr:y="825" id="sv1#miu5" action="false" moduleId="mov2#mpkg4#hym4">
+      <OKLink id="sv1#miu5#oln25" name="OKFlow25" to="sv1#area1#page2" automaticCoupling="true" gr:bendpoints="110,-49,54,111"/>
+      <KOLink id="sv1#miu5#kln10" name="KOFlow10" to="sv1#area1#page2#mssu17">
+        <LinkParameter id="sv1#miu5#kln10#par93" name="Errore_Shown Messages" source="mov2#mpkg4#hym4#kocu5#ocp5" target="sv1#area1#page2#mssu17.shownMessages"/>
+      </KOLink>
+    </ModuleInstanceUnit>
+    <ParameterCollectorUnit gr:x="70" gr:y="145" id="sv1#pcu2" name="Ingegnere">
+      <OKLink id="sv1#pcu2#oln19" name="OKFlow19" to="sv1#area2#page6" automaticCoupling="true"/>
+    </ParameterCollectorUnit>
+    <LogoutUnit id="sv1#lou3" name="Logout" landmark="false" gr:x="765" gr:y="770" siteView="sv3"/>
+    <ModuleInstanceUnit gr:x="905" gr:y="735" id="sv1#miu7" action="false" moduleId="mov2#mpkg4#hym5">
+      <OKLink id="sv1#miu7#oln50" name="OKFlow50" to="sv1#area1#page2" automaticCoupling="true"/>
+      <KOLink id="sv1#miu7#kln14" name="KOFlow14" to="sv1#area1#page2#mssu17">
+        <LinkParameter id="sv1#miu7#kln14#par104" name="Aggiornamento non riuscito_Shown Messages" sourceValue="Aggiornamento non riuscito" target="sv1#area1#page2#mssu17.shownMessages"/>
       </KOLink>
     </ModuleInstanceUnit>
   </OperationUnits>

@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="240" gr:y="165" id="sv1#area4#page12" name="Dettaglio immobile" layout:pageLayout="WRDefault/Empty">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="240" gr:y="175" id="sv1#area4#page12" name="Dettaglio immobile" layout:pageLayout="WRDefault/Empty">
   <ContentUnits>
     <DataUnit gr:x="0" gr:y="0" id="sv1#area4#page12#dau1" name="Dettaglio immobile" entity="ent3" displayAttributes="ent3#att14 ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19" linkOrder="sv1#area4#page12#dau1#ln7">
       <Selector id="sv1#area4#page12#dau1#su6" defaultPolicy="fill" booleanOperator="and">

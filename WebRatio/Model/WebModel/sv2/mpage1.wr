@@ -1,0 +1,28 @@
+<MasterPage xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#mpage1" name="Master Page" gr:x="770" gr:y="220">
+  <ContentUnits>
+    <GetUnit id="sv2#mpage1#gtu2" name="Get Current User Key" gr:x="0" gr:y="180" contextParameters="UserCtxParam">
+      <Link id="sv2#mpage1#gtu2#ln3" name="Link37" to="sv2#mpage1#dau2" type="transport" automaticCoupling="true" validate="true"/>
+    </GetUnit>
+    <DataUnit id="sv2#mpage1#dau2" name="Select User" linkOrder="sv2#mpage1#dau2#ln6" gr:x="25" gr:y="0" entity="User" displayAttributes="userName">
+      <Selector id="sv2#mpage1#dau2#su18" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#mpage1#dau2#su18#kcond8" name="User" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv2#mpage1#dau2#ln6" name="Logout" to="sv2#lou1" type="normal" automaticCoupling="true" validate="true"/>
+    </DataUnit>
+  </ContentUnits>
+  <Comment xml:space="preserve">Here the information related to a specific User are shown, and also the action that an administrator User can do (Logout).</Comment>
+  <layout:CustomLocation name="User">
+    <layout:Grid containerType="cell">
+      <layout:Row>
+        <layout:Cell>
+          <layout:Unit unitId="sv2#mpage1#dau2" layout:frameLayout="None" layout:unitLayout="WRDefault/User">
+            <layout:Attribute attribute="userName"/>
+            <layout:Link link="sv2#mpage1#dau2#ln6"/>
+            <layout:LayoutParameter name="prefix-text" value="Welcome" type="unit"/>
+            <layout:LayoutParameter name="link-style" value="normal" type="link"/>
+          </layout:Unit>
+        </layout:Cell>
+      </layout:Row>
+    </layout:Grid>
+  </layout:CustomLocation>
+</MasterPage>

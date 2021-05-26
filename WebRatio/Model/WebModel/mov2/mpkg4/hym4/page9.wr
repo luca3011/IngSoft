@@ -1,0 +1,62 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="360" gr:y="165" id="mov2#mpkg4#hym4#page9" name="Page 9">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="mov2#mpkg4#hym4#page9#enu5" name="Form5" entity="ent1" linkOrder="mov2#mpkg4#hym4#page9#enu5#ln24 mov2#mpkg4#hym4#page9#enu5#ln26 mov2#mpkg4#hym4#page9#enu5#ln56">
+      <Field id="mov2#mpkg4#hym4#page9#enu5#fld20" name="protocollo" type="string" modifiable="true" attribute="ent1#att26"/>
+      <Field id="mov2#mpkg4#hym4#page9#enu5#fld22" name="descrizione" type="string" modifiable="true" attribute="ent1#att29"/>
+      <Link id="mov2#mpkg4#hym4#page9#enu5#ln24" name="Scegli intervento" to="mov2#mpkg4#hym4#page11#inu4" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="53,188,-167,-97" ajaxEnabled="true" ajaxOpenWindow="true" ajaxWindowAutoResizing="true"/>
+      <Link id="mov2#mpkg4#hym4#page9#enu5#ln26" name="Conferma" to="mov2#mpkg4#hym4#opg6#inn2" type="normal" validate="true">
+        <LinkParameter id="mov2#mpkg4#hym4#page9#enu5#ln26#par8" name="id_intervento_PASSING_Input" sourceLinkParameter="mov2#mpkg4#hym4#page11#inu4#ln25#par7" target="mov2#mpkg4#hym4#opg6#inn2.isnotnull"/>
+      </Link>
+      <Link id="mov2#mpkg4#hym4#page9#enu5#ln32" name="Flow32" to="mov2#mpkg4#hym4#opg6#cru2" type="transport" validate="true" gr:bendpoints="188,-21,-242,-56;379,-27,-176,-42">
+        <LinkParameter id="mov2#mpkg4#hym4#page9#enu5#ln32#par6" name="descrizione_descrizione" source="mov2#mpkg4#hym4#page9#enu5#fld22" target="mov2#mpkg4#hym4#opg6#cru2.ent1#att29"/>
+        <LinkParameter id="mov2#mpkg4#hym4#page9#enu5#ln32#par13" name="id_intervento_PASSING_Intervento.id_intervento(PraticaToIntervento)" sourceLinkParameter="mov2#mpkg4#hym4#page11#inu4#ln25#par7" target="mov2#mpkg4#hym4#opg6#cru2.rel9#role18.ent2#att2"/>
+        <LinkParameter id="mov2#mpkg4#hym4#page9#enu5#ln32#par15" name="Pratica Object_Pratica Object" source="entityBean" target="mov2#mpkg4#hym4#opg6#cru2.entityBeans"/>
+        <LinkParameter id="mov2#mpkg4#hym4#page9#enu5#ln32#par16" name="protocollo_protocollo" source="mov2#mpkg4#hym4#page9#enu5#fld20" target="mov2#mpkg4#hym4#opg6#cru2.ent1#att26"/>
+        <LinkParameter id="mov2#mpkg4#hym4#page9#enu5#ln32#par95" name="0_chiusa" sourceValue="0" target="mov2#mpkg4#hym4#opg6#cru2.ent1#att34"/>
+        <LinkParameter id="mov2#mpkg4#hym4#page9#enu5#ln32#par102" name="Checked oid_PASSING_ingegneri_occupati" sourceLinkParameter="mov2#mpkg4#hym4#page20#mciu1#ln62#par101" target="mov2#mpkg4#hym4#opg6#cru2.ent1#att27"/>
+      </Link>
+      <Link id="mov2#mpkg4#hym4#page9#enu5#ln56" name="Scegli ingegneri occupati" to="mov2#mpkg4#hym4#page20#mciu1" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="-53,135,-63,-135" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true"/>
+    </EntryUnit>
+    <MultiMessageUnit gr:x="140" gr:y="65" id="mov2#mpkg4#hym4#page9#mssu5" name="Message5"/>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg4#hym4#page9#enu5">
+          <layout:Link link="mov2#mpkg4#hym4#page9#enu5#ln24"/>
+          <layout:Link link="mov2#mpkg4#hym4#page9#enu5#ln26"/>
+          <layout:Link link="mov2#mpkg4#hym4#page9#enu5#ln56"/>
+          <layout:Field field="mov2#mpkg4#hym4#page9#enu5#fld20"/>
+          <layout:Field field="mov2#mpkg4#hym4#page9#enu5#fld22"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg4#hym4#page9#mssu5"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

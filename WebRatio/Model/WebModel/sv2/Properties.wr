@@ -1,3 +1,8 @@
-<SiteView id="sv2" name="Ingengere" protected="false" secure="false">
-  <OperationUnits/>
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2" name="NonIngengere" protected="true" secure="false" landmarks="sv2#area5 sv2#area6" homePage="sv2#area6#page14">
+  <OperationUnits>
+    <LogoutUnit id="sv2#lou1" name="Logout" landmark="false" gr:x="810" gr:y="105" siteView="sv3"/>
+    <ParameterCollectorUnit gr:x="145" gr:y="55" id="sv2#pcu1" name="NonIngegnere">
+      <OKLink id="sv2#pcu1#oln44" name="OKFlow44" to="sv2#area6#page14" automaticCoupling="true"/>
+    </ParameterCollectorUnit>
+  </OperationUnits>
 </SiteView>

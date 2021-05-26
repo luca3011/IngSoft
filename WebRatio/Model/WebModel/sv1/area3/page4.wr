@@ -1,8 +1,17 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area3#page4" name="Page 4">
-  <ContentUnits/>
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area3#page4" name="Page 4" linkOrder="sv1#area3#page4#ln42">
+  <ContentUnits>
+    <IndexUnit gr:x="0" gr:y="0" id="sv1#area3#page4#inu3" name="Simple List3" entity="ent2" displayAttributes="ent2#att20 ent2#att21 rel4#role7.ent7#att31 rel6#role12.rel1#role2.ent4#att23"/>
+  </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
-      <layout:Cell colspan="12"/>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area3#page4#inu3">
+          <layout:Attribute attribute="ent2#att20"/>
+          <layout:Attribute attribute="ent2#att21"/>
+          <layout:Attribute attribute="rel4#role7.ent7#att31"/>
+          <layout:Attribute attribute="rel6#role12.rel1#role2.ent4#att23"/>
+        </layout:Unit>
+      </layout:Cell>
       <layout:Cell/>
       <layout:Cell/>
       <layout:Cell/>
@@ -16,4 +25,5 @@
       <layout:Cell/>
     </layout:Row>
   </layout:Grid>
+  <Link id="sv1#area3#page4#ln42" name="Flow42" to="sv1#area3#miu6" automaticCoupling="true" type="normal" validate="true"/>
 </Page>
