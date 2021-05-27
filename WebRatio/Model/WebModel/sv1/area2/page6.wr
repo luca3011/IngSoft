@@ -1,12 +1,13 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area2#page6" name="Tutti i clienti" linkOrder="sv1#area2#page6#ln4" ajaxEnabled="false">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area2#page6" name="Tutti i clienti" linkOrder="sv1#area2#page6#ln4" ajaxEnabled="false" layout:style="WebRatio">
   <ContentUnits>
-    <IndexUnit gr:x="0" gr:y="0" id="sv1#area2#page6#inu2" name="Simple List1" entity="ent4" displayAttributes="ent4#att5 ent4#att6 ent4#att11 ent4#att23" linkOrder="sv1#area2#page6#inu2#ln10 sv1#area2#page6#inu2#ln18 sv1#area2#page6#inu2#ln27">
+    <IndexUnit gr:x="0" gr:y="0" id="sv1#area2#page6#inu2" name="Simple List1" entity="ent4" displayAttributes="ent4#att5 ent4#att6 ent4#att11 ent4#att23" linkOrder="sv1#area2#page6#inu2#ln10 sv1#area2#page6#inu2#ln27 sv1#area2#page6#inu2#ln12">
       <Link id="sv1#area2#page6#inu2#ln10" name="Dettaglio" to="sv1#area2#page7#dau5" automaticCoupling="true" type="normal" validate="true" ajaxOpenWindow="true" ajaxEnabled="true" ajaxWindowClosable="true" ajaxWindowAutoResizing="true" ajaxWindowModal="true" ajaxWindowDraggable="true"/>
-      <Link id="sv1#area2#page6#inu2#ln18" name="Elimina Cliente" to="sv1#miu2" type="normal" validate="true" ajaxOpenWindow="true">
-        <LinkParameter id="sv1#area2#page6#inu2#ln18#par26" name="cf_CF Cliente" source="data[].ent4#att4" target="sv1#miu2.mov2#mpkg1#hym2#icu1#icp1"/>
+      <Link id="sv1#area2#page6#inu2#ln27" name="Modifica Cliente" to="sv1#area2#miu11" type="normal" validate="true">
+        <LinkParameter id="sv1#area2#page6#inu2#ln27#par88" name="cf_CF cliente" source="data[].ent4#att4" target="sv1#area2#miu11.mov2#mpkg1#hym3#icu3#icp2"/>
       </Link>
-      <Link id="sv1#area2#page6#inu2#ln27" name="Modifica Cliente" to="sv1#miu3" type="normal" validate="true">
-        <LinkParameter id="sv1#area2#page6#inu2#ln27#par88" name="cf_CF cliente" source="data[].ent4#att4" target="sv1#miu3.mov2#mpkg1#hym3#icu3#icp2"/>
+      <Link id="sv1#area2#page6#inu2#ln12" name="Visualizza immobili" to="sv1#area4#page1#inu4" type="normal" validate="true" gr:bendpoints="139,182,-436,-88;190,223,-365,-12">
+        <LinkParameter id="sv1#area2#page6#inu2#ln12#par10" name="cf_PASSING" source="data[].ent4#att4" passing="true"/>
+        <LinkParameter id="sv1#area2#page6#inu2#ln12#par15" name="cf_AttCondition3" source="data[].ent4#att4" target="sv1#area4#page1#inu4#su9#acond3"/>
       </Link>
     </IndexUnit>
     <MultiMessageUnit gr:x="55" gr:y="120" id="sv1#area2#page6#mssu6" name="Message6"/>
@@ -20,8 +21,8 @@
           <layout:Attribute attribute="ent4#att11"/>
           <layout:Attribute attribute="ent4#att23"/>
           <layout:Link link="sv1#area2#page6#inu2#ln10"/>
-          <layout:Link link="sv1#area2#page6#inu2#ln18"/>
           <layout:Link link="sv1#area2#page6#inu2#ln27"/>
+          <layout:Link link="sv1#area2#page6#inu2#ln12"/>
         </layout:Unit>
       </layout:Cell>
       <layout:Cell/>

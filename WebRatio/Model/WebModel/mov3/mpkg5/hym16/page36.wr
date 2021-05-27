@@ -1,0 +1,39 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="410" gr:y="120" id="mov3#mpkg5#hym16#page36" name="Page 21">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym16#page36#enu14" name="Form6" entity="ent6" linkOrder="mov3#mpkg5#hym16#page36#enu14#ln61" fieldOrder="mov3#mpkg5#hym16#page36#enu14#fld49 mov3#mpkg5#hym16#page36#enu14#fld50 mov3#mpkg5#hym16#page36#enu14#fld51">
+      <Field id="mov3#mpkg5#hym16#page36#enu14#fld49" name="versione" type="integer" attribute="ent6#att24" preloaded="true"/>
+      <Field id="mov3#mpkg5#hym16#page36#enu14#fld50" name="descrizione" type="string" modifiable="true" attribute="ent6#att28"/>
+      <Field id="mov3#mpkg5#hym16#page36#enu14#fld51" name="scadenza" type="date" attribute="ent6#att33" modifiable="true"/>
+      <Link id="mov3#mpkg5#hym16#page36#enu14#ln61" name="Aggiungi" to="mov3#mpkg5#hym16#opg18#cru12" type="normal" validate="true">
+        <LinkParameter id="mov3#mpkg5#hym16#page36#enu14#ln61#par160" name="Aggiornamento Object_Aggiornamento Object" source="entityBean" target="mov3#mpkg5#hym16#opg18#cru12.entityBeans"/>
+        <LinkParameter id="mov3#mpkg5#hym16#page36#enu14#ln61#par161" name="descrizione_descrizione" source="mov3#mpkg5#hym16#page36#enu14#fld50" target="mov3#mpkg5#hym16#opg18#cru12.ent6#att28"/>
+        <LinkParameter id="mov3#mpkg5#hym16#page36#enu14#ln61#par162" name="scadenza_scadenza" source="mov3#mpkg5#hym16#page36#enu14#fld51" target="mov3#mpkg5#hym16#opg18#cru12.ent6#att33"/>
+        <LinkParameter id="mov3#mpkg5#hym16#page36#enu14#ln61#par163" name="versione_versione" source="mov3#mpkg5#hym16#page36#enu14#fld49" target="mov3#mpkg5#hym16#opg18#cru12.ent6#att24"/>
+        <LinkParameter id="mov3#mpkg5#hym16#page36#enu14#ln61#par164" name="ID_pratica_PASSING_Pratica.id_pratica(AggiornamentoToPratica)" sourceLinkParameter="mov3#mpkg5#hym16#icu16#ln60#par159" target="mov3#mpkg5#hym16#opg18#cru12.rel5#role10.ent1#att1"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov3#mpkg5#hym16#page36#enu14">
+          <layout:Field field="mov3#mpkg5#hym16#page36#enu14#fld49"/>
+          <layout:Field field="mov3#mpkg5#hym16#page36#enu14#fld50"/>
+          <layout:Field field="mov3#mpkg5#hym16#page36#enu14#fld51"/>
+          <layout:Link link="mov3#mpkg5#hym16#page36#enu14#ln61"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

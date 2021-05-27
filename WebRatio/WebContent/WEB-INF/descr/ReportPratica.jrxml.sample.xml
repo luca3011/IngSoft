@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report>
+  <Hierarchy6 dataSize="10">
+    <i18n.protocollo>protocollo</i18n.protocollo>
+    <i18n.descrizione>descrizione</i18n.descrizione>
+    <i18n.dataScadenza>dataScadenza</i18n.dataScadenza>
+    <Pratica>
+      <protocollo>String Value 0</protocollo>
+      <descrizione>String Value 0</descrizione>
+      <dataScadenza>2007-10-01</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+    <Pratica>
+      <protocollo>String Value 1</protocollo>
+      <descrizione>String Value 1</descrizione>
+      <dataScadenza>2007-10-02</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+    <Pratica>
+      <protocollo>String Value 2</protocollo>
+      <descrizione>String Value 2</descrizione>
+      <dataScadenza>2007-10-03</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+    <Pratica>
+      <protocollo>String Value 3</protocollo>
+      <descrizione>String Value 3</descrizione>
+      <dataScadenza>2007-10-04</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+    <Pratica>
+      <protocollo>String Value 4</protocollo>
+      <descrizione>String Value 4</descrizione>
+      <dataScadenza>2007-10-05</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+    <Pratica>
+      <protocollo>String Value 5</protocollo>
+      <descrizione>String Value 5</descrizione>
+      <dataScadenza>2007-10-06</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+    <Pratica>
+      <protocollo>String Value 6</protocollo>
+      <descrizione>String Value 6</descrizione>
+      <dataScadenza>2007-10-07</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+    <Pratica>
+      <protocollo>String Value 7</protocollo>
+      <descrizione>String Value 7</descrizione>
+      <dataScadenza>2007-10-08</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+    <Pratica>
+      <protocollo>String Value 8</protocollo>
+      <descrizione>String Value 8</descrizione>
+      <dataScadenza>2007-10-09</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+    <Pratica>
+      <protocollo>String Value 9</protocollo>
+      <descrizione>String Value 9</descrizione>
+      <dataScadenza>2007-10-10</dataScadenza>
+      <Level3>
+        <i18n.versione>versione</i18n.versione>
+        <i18n.descrizione>descrizione</i18n.descrizione>
+        <i18n.scadenza>scadenza</i18n.scadenza>
+        <Aggiornamento>
+          <versione>100</versione>
+          <descrizione>String Value 0</descrizione>
+          <scadenza>2007-10-01</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>101</versione>
+          <descrizione>String Value 1</descrizione>
+          <scadenza>2007-10-02</scadenza>
+        </Aggiornamento>
+        <Aggiornamento>
+          <versione>102</versione>
+          <descrizione>String Value 2</descrizione>
+          <scadenza>2007-10-03</scadenza>
+        </Aggiornamento>
+      </Level3>
+    </Pratica>
+  </Hierarchy6>
+</Report>

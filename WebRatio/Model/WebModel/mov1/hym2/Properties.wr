@@ -1,0 +1,13 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="250" gr:y="130" id="mov1#hym2" name="Scrittura Log">
+  <OperationUnits>
+    <InputCollectorUnit gr:x="180" gr:y="205" id="mov1#hym2#icu1" linkOrder="mov1#hym2#icu1#ln41">
+      <OKLink id="mov1#hym2#icu1#oln15" name="OKFlow15" to="mov1#hym2#opg2#tmu2" automaticCoupling="false"/>
+      <InputCollectorParameter id="mov1#hym2#icu1#icp1" name="ID_entit&#224;"/>
+      <InputCollectorParameter id="mov1#hym2#icu1#icp3" name="Operazione eseguita"/>
+      <Link id="mov1#hym2#icu1#ln41" name="Flow41" to="mov1#hym2#opg2#csvu4" type="transport" validate="true" gr:bendpoints="174,-61,-376,-51;467,-62,-83,-52">
+        <LinkParameter id="mov1#hym2#icu1#ln41#par96" name="ID_entit&#224;_ID_entit&#224;" source="mov1#hym2#icu1#icp1" target="mov1#hym2#opg2#csvu4#csvc5"/>
+        <LinkParameter id="mov1#hym2#icu1#ln41#par98" name="Operazione eseguita_Operazione eseguita" source="mov1#hym2#icu1#icp3" target="mov1#hym2#opg2#csvu4#csvc4"/>
+      </Link>
+    </InputCollectorUnit>
+  </OperationUnits>
+</HybridModule>

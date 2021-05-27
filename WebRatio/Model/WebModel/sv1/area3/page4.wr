@@ -1,6 +1,11 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area3#page4" name="Page 4" linkOrder="sv1#area3#page4#ln42">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area3#page4" name="Tutti gli interventi" linkOrder="sv1#area3#page4#ln42">
   <ContentUnits>
-    <IndexUnit gr:x="0" gr:y="0" id="sv1#area3#page4#inu3" name="Simple List3" entity="ent2" displayAttributes="ent2#att20 ent2#att21 rel4#role7.ent7#att31 rel6#role12.rel1#role2.ent4#att23"/>
+    <IndexUnit gr:x="0" gr:y="0" id="sv1#area3#page4#inu3" name="Simple List3" entity="ent2" displayAttributes="ent2#att20 ent2#att21 rel4#role7.ent7#att31 rel6#role12.rel1#role2.ent4#att23" linkOrder="sv1#area3#page4#inu3#ln32">
+      <Link id="sv1#area3#page4#inu3#ln32" name="Flow32" to="sv1#area1#page15#hinu3" type="normal" validate="true" gr:bendpoints="133,64,93,-350;373,64,333,-350;369,244,329,-170">
+        <LinkParameter id="sv1#area3#page4#inu3#ln32#par24" name="id_intervento_AttCondition7 [Hierarchy4]" source="data[].ent2#att2" target="sv1#area1#page15#hinu3#su20#acond7"/>
+        <LinkParameter id="sv1#area3#page4#inu3#ln32#par25" name="id_intervento_PASSING" source="data[].ent2#att2" passing="true"/>
+      </Link>
+    </IndexUnit>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
@@ -10,6 +15,7 @@
           <layout:Attribute attribute="ent2#att21"/>
           <layout:Attribute attribute="rel4#role7.ent7#att31"/>
           <layout:Attribute attribute="rel6#role12.rel1#role2.ent4#att23"/>
+          <layout:Link link="sv1#area3#page4#inu3#ln32"/>
         </layout:Unit>
       </layout:Cell>
       <layout:Cell/>

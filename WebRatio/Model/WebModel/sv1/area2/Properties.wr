@@ -1,3 +1,10 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1#area2" name="Clienti" landmark="true" gr:x="45" gr:y="260" defaultPage="sv1#area2#page6">
-  <OperationUnits/>
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1#area2" name="Clienti" landmark="true" gr:x="45" gr:y="210" defaultPage="sv1#area2#page6">
+  <OperationUnits>
+    <ModuleInstanceUnit gr:x="10" gr:y="265" id="sv1#area2#miu11" action="false" moduleId="mov2#mpkg1#hym3">
+      <OKLink id="sv1#area2#miu11#oln59" name="OKFlow16" to="sv1#area2#page6" automaticCoupling="true"/>
+      <KOLink id="sv1#area2#miu11#kln33" name="KOFlow13" to="sv1#area2#page6#mssu6" gr:bendpoints="-24,-105,-4,135;-50,-144,-36,62" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true">
+        <LinkParameter id="sv1#area2#miu11#kln33#par169" name="Problema_Shown Messages" source="mov2#mpkg1#hym3#kocu4#ocp3" target="sv1#area2#page6#mssu6.shownMessages"/>
+      </KOLink>
+    </ModuleInstanceUnit>
+  </OperationUnits>
 </Area>

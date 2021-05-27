@@ -1,13 +1,14 @@
 <OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="730" gr:y="170" id="mov2#mpkg1#hym1#opg3" name="Operation Group 2" transaction="true">
   <OperationUnits>
-    <CreateUnit gr:x="0" gr:y="0" id="mov2#mpkg1#hym1#opg3#cru3" name="Create1" entity="ent4">
-      <KOLink id="mov2#mpkg1#hym1#opg3#cru3#kln4" name="KOFlow1" to="mov2#mpkg1#hym1#page5#mssu1" gr:bendpoints="-8,72,312,2">
+    <CreateUnit gr:x="0" gr:y="0" id="mov2#mpkg1#hym1#opg3#cru3" name="Create1" entity="ent4" linkOrder="mov2#mpkg1#hym1#opg3#cru3#ln58">
+      <KOLink id="mov2#mpkg1#hym1#opg3#cru3#kln4" name="KOFlow1" to="mov2#mpkg1#hym1#page5#mssu1" gr:bendpoints="-179,69,146,-1">
         <LinkParameter id="mov2#mpkg1#hym1#opg3#cru3#kln4#par12" name="Errore di inserimento_Shown Messages" sourceValue="Errore di inserimento" target="mov2#mpkg1#hym1#page5#mssu1.shownMessages"/>
       </KOLink>
       <OKLink id="mov2#mpkg1#hym1#opg3#cru3#oln5" name="OKFlow2" to="mov2#mpkg1#hym1#okcu1" customDescriptor="false">
         <LinkParameter id="mov2#mpkg1#hym1#opg3#cru3#oln5#par1" name="cf_PASSING" source="ent4#att4Array" passing="true"/>
         <LinkParameter id="mov2#mpkg1#hym1#opg3#cru3#oln5#par3" name="cf_CF cliente creato" source="ent4#att4Array" target="mov2#mpkg1#hym1#okcu1#ocp1"/>
       </OKLink>
+      <Link id="mov2#mpkg1#hym1#opg3#cru3#ln58" name="Flow58" to="mov2#mpkg1#hym1#miu9" automaticCoupling="true" type="transport" validate="true" gr:bendpoints="-137,102,-127,-43;-139,145,-129,0"/>
     </CreateUnit>
   </OperationUnits>
 </OperationGroup>

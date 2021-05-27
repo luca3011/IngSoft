@@ -8,9 +8,7 @@
     </OKCollectorUnit>
     <KOCollectorUnit id="mov2#mpkg2#hym6#kocu2" name="Non creato" gr:x="1310" gr:y="365"/>
     <IsNotNullUnit gr:x="815" gr:y="230" id="mov2#mpkg2#hym6#inn3" name="Is Not Null3">
-      <KOLink id="mov2#mpkg2#hym6#inn3#kln12" name="KOFlow5" to="mov2#mpkg2#hym6#page10#mssu2" gr:bendpoints="-97,73,168,18">
-        <LinkParameter id="mov2#mpkg2#hym6#inn3#kln12#par48" name="Cliente inesistente_Shown Messages" target="mov2#mpkg2#hym6#page10#mssu2.shownMessages" sourceValue="Cliente inesistente"/>
-      </KOLink>
+      <KOLink id="mov2#mpkg2#hym6#inn3#kln12" name="KOFlow5" to="mov2#mpkg2#hym6#page10#mssu2" gr:bendpoints="-97,73,168,18"/>
       <OKLink id="mov2#mpkg2#hym6#inn3#oln13" name="OKFlow13" to="mov2#mpkg2#hym6#opg1#cru4">
         <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par60" name="cap_indirizzo_PASSING_cap_indirizzo" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par51" target="mov2#mpkg2#hym6#opg1#cru4.ent3#att15"/>
         <LinkParameter id="mov2#mpkg2#hym6#inn3#oln13#par61" name="citta_indirizzo_PASSING_citta_indirizzo" sourceLinkParameter="mov2#mpkg2#hym6#opg1#seu2#oln12#par52" target="mov2#mpkg2#hym6#opg1#cru4.ent3#att16"/>

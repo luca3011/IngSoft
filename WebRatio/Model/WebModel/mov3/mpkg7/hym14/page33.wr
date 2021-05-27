@@ -1,0 +1,51 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="550" gr:y="455" id="mov3#mpkg7#hym14#page33" name="Selezione immobile" layout:pageLayout="WRDefault/Empty">
+  <ContentUnits>
+    <IndexUnit gr:x="0" gr:y="0" id="mov3#mpkg7#hym14#page33#inu11" name="Lista immobili" entity="ent3" displayAttributes="rel1#role2.ent4#att23 ent3#att14 ent3#att16 ent3#att15 ent3#att17 ent3#att18 ent3#att19" linkOrder="mov3#mpkg7#hym14#page33#inu11#ln50">
+      <Link id="mov3#mpkg7#hym14#page33#inu11#ln50" name="Seleziona" to="mov3#mpkg7#hym14#page34#enu12" type="normal" validate="true" gr:bendpoints="66,-3,236,227;63,-111,223,119" ajaxEnabled="true">
+        <LinkParameter id="mov3#mpkg7#hym14#page33#inu11#ln50#par137" name="id_immobile_PASSING" source="data[].ent3#att3" passing="true"/>
+      </Link>
+      <SortAttribute attribute="rel1#role2.ent4#att23" order="ascending"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov3#mpkg7#hym14#page33#inu11">
+          <layout:Link link="mov3#mpkg7#hym14#page33#inu11#ln50"/>
+          <layout:Attribute attribute="rel1#role2.ent4#att23"/>
+          <layout:Attribute attribute="ent3#att14"/>
+          <layout:Attribute attribute="ent3#att16"/>
+          <layout:Attribute attribute="ent3#att15"/>
+          <layout:Attribute attribute="ent3#att17"/>
+          <layout:Attribute attribute="ent3#att18"/>
+          <layout:Attribute attribute="ent3#att19"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

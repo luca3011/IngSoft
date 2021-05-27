@@ -1,0 +1,10 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="0" gr:y="0" id="mov3#mpkg7#hym14" name="Aggiungi Intervento">
+  <OperationUnits>
+    <InputCollectorUnit gr:x="75" gr:y="155" id="mov3#mpkg7#hym14#icu14">
+      <OKLink id="mov3#mpkg7#hym14#icu14#oln45" name="OKFlow29" to="mov3#mpkg7#hym14#opg15#seu5" automaticCoupling="true"/>
+    </InputCollectorUnit>
+    <OKCollectorUnit gr:x="1020" gr:y="450" id="mov3#mpkg7#hym14#okcu11" name="OK Port"/>
+    <KOCollectorUnit gr:x="1020" gr:y="215" id="mov3#mpkg7#hym14#kocu11" name="KO Port"/>
+    <ModuleInstanceUnit gr:x="810" gr:y="460" id="mov3#mpkg7#hym14#miu8" action="false" moduleId="mov1#hym2"/>
+  </OperationUnits>
+</HybridModule>

@@ -1,0 +1,15 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="0" gr:y="0" id="mov3#mpkg5#hym16" name="Aggiungi aggiornamento">
+  <OperationUnits>
+    <InputCollectorUnit gr:x="55" gr:y="85" id="mov3#mpkg5#hym16#icu16">
+      <InputCollectorParameter id="mov3#mpkg5#hym16#icu16#icp7" name="ID_pratica"/>
+      <OKLink id="mov3#mpkg5#hym16#icu16#oln54" name="OKFlow49" to="mov3#mpkg5#hym16#opg19#seu9">
+        <LinkParameter id="mov3#mpkg5#hym16#icu16#oln54#par158" name="ID_pratica_KeyCondition18 [id_pratica]" source="mov3#mpkg5#hym16#icu16#icp7" target="mov3#mpkg5#hym16#opg19#seu9#su17#kcond11.ent1#att1"/>
+      </OKLink>
+      <Link id="mov3#mpkg5#hym16#icu16#ln60" name="Flow67" to="mov3#mpkg5#hym16#page36#enu14" type="transport" validate="true">
+        <LinkParameter id="mov3#mpkg5#hym16#icu16#ln60#par159" name="ID_pratica_PASSING" source="mov3#mpkg5#hym16#icu16#icp7" passing="true"/>
+      </Link>
+    </InputCollectorUnit>
+    <OKCollectorUnit gr:x="965" gr:y="110" id="mov3#mpkg5#hym16#okcu13" name="OK Port6"/>
+    <KOCollectorUnit gr:x="965" gr:y="225" id="mov3#mpkg5#hym16#kocu13" name="KO Port6"/>
+  </OperationUnits>
+</HybridModule>

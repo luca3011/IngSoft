@@ -1,0 +1,60 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="55" gr:y="295" id="sv1#area4#page1" name="Immobili di cliente">
+  <ContentUnits>
+    <DataUnit gr:x="190" gr:y="10" id="sv1#area4#page1#dau3" name="Cliente" entity="ent4" displayAttributes="ent4#att23">
+      <Selector id="sv1#area4#page1#dau3#su7" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area4#page1#dau3#su7#kcond7" name="KeyCondition7" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+    <IndexUnit gr:x="0" gr:y="0" id="sv1#area4#page1#inu4" name="Simple List4" entity="ent3" displayAttributes="ent3#att14 ent3#att16 ent3#att15 ent3#att17 ent3#att18 ent3#att19">
+      <Selector id="sv1#area4#page1#inu4#su9" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="sv1#area4#page1#inu4#su9#acond3" name="AttCondition3" predicate="eq" booleanOperator="or" implied="false" attributes="rel1#role2.ent4#att4" ignoreCase="false"/>
+      </Selector>
+      <Link id="sv1#area4#page1#inu4#ln14" name="Flow14" to="sv1#area4#page1#dau3" type="transport" validate="true">
+        <LinkParameter id="sv1#area4#page1#inu4#ln14#par16" name="cf_PASSING_KeyCondition7 [cf]" sourceLinkParameter="sv1#area2#page6#inu2#ln12#par10" target="sv1#area4#page1#dau3#su7#kcond7.ent4#att4"/>
+      </Link>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area4#page1#dau3">
+          <layout:Attribute attribute="ent4#att23"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area4#page1#inu4">
+          <layout:Attribute attribute="ent3#att14"/>
+          <layout:Attribute attribute="ent3#att16"/>
+          <layout:Attribute attribute="ent3#att15"/>
+          <layout:Attribute attribute="ent3#att17"/>
+          <layout:Attribute attribute="ent3#att18"/>
+          <layout:Attribute attribute="ent3#att19"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

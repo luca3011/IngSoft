@@ -1,25 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<DBError>java.sql.SQLException: DERBY SQL error: SQLCODE: -1, SQLSTATE: XJ040, SQLERRMC: Failed to start database 'PraticaMenteDB', see the next exception for details.::SQLSTATE: XSDB6Another instance of Derby may have already booted the database D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby\PraticaMenteDB.
-	at org.apache.derby.client.am.SQLExceptionFactory40.getSQLException(Unknown Source)
-	at org.apache.derby.client.am.SqlException.getSQLException(Unknown Source)
-	at org.apache.derby.jdbc.ClientDriver.connect(Unknown Source)
-	at java.sql.DriverManager.getConnection(DriverManager.java:571)
-	at java.sql.DriverManager.getConnection(DriverManager.java:215)
-	at com.webratio.commons.db.metadata.MetaDataRetriever.runAnt(MetaDataRetriever.java:132)
-	at com.webratio.commons.db.metadata.MetaDataRetriever.main(MetaDataRetriever.java:51)
-Caused by: org.apache.derby.client.am.SqlException: DERBY SQL error: SQLCODE: -1, SQLSTATE: XJ040, SQLERRMC: Failed to start database 'PraticaMenteDB', see the next exception for details.::SQLSTATE: XSDB6Another instance of Derby may have already booted the database D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby\PraticaMenteDB.
-	at org.apache.derby.client.am.Connection.completeSqlca(Unknown Source)
-	at org.apache.derby.client.net.NetConnectionReply.parseRdbAccessFailed(Unknown Source)
-	at org.apache.derby.client.net.NetConnectionReply.parseAccessRdbError(Unknown Source)
-	at org.apache.derby.client.net.NetConnectionReply.parseACCRDBreply(Unknown Source)
-	at org.apache.derby.client.net.NetConnectionReply.readAccessDatabase(Unknown Source)
-	at org.apache.derby.client.net.NetConnection.readSecurityCheckAndAccessRdb(Unknown Source)
-	at org.apache.derby.client.net.NetConnection.flowSecurityCheckAndAccessRdb(Unknown Source)
-	at org.apache.derby.client.net.NetConnection.flowUSRIDPWDconnect(Unknown Source)
-	at org.apache.derby.client.net.NetConnection.flowConnect(Unknown Source)
-	at org.apache.derby.client.net.NetConnection.&lt;init&gt;(Unknown Source)
-	at org.apache.derby.client.net.NetConnection40.&lt;init&gt;(Unknown Source)
-	at org.apache.derby.client.net.ClientJDBCObjectFactoryImpl40.newNetConnection(Unknown Source)
-	... 5 more
-</DBError>
+<DBMetaData driverMajorVersion="10" driverMinorVersion="5" driverVersion="10.5.3.0 - (802917)" productVersion="10.5.3.0 - (802917)" identifierQuoteString="&quot;" transactionLevel="Read Committed" driverName="Apache Derby Network Client JDBC Driver" productName="Apache Derby">
+  <Schema name="APP"/>
+  <Schema name="NULLID"/>
+  <Schema name="SQLJ"/>
+  <Schema name="SYSCAT"/>
+  <Schema name="SYSCS_DIAG"/>
+  <Schema name="SYSCS_UTIL"/>
+  <Schema name="SYSFUN"/>
+  <Schema name="SYSPROC"/>
+  <Schema name="SYSSTAT"/>
+  <Table schema="APP" ignoreIndexes="false" name="AGGIORNAMENTO" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="ID_AGGIORNAMENTO" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="VERSIONE" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="DESCRIZIONE" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="PRATICA_ID_PRATICA" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="91" indexed="unknown" autoIncrement="false" type="DATE" size="10" decimalDigits="0" name="SCADENZA" primaryKey="false" notNull="false"/>
+    <ForeignKey localColumnName="PRATICA_ID_PRATICA" foreignColumnName="ID_PRATICA" name="FK_AGGIORNAMENTO_PRATICA" foreignTableName="PRATICA" foreignSchemaName="APP"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="CLIENTE" type="TABLE" refreshed="true">
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="16" decimalDigits="0" name="CF" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="40" decimalDigits="0" name="NOME" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="40" decimalDigits="0" name="COGNOME" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="75" decimalDigits="0" name="VIA_INDIRIZZO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="75" decimalDigits="0" name="CITTA_INDIRIZZO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="CAP_INDIRIZZO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="91" indexed="unknown" autoIncrement="false" type="DATE" size="10" decimalDigits="0" name="DATA_NASCITA" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="15" decimalDigits="0" name="TELEFONO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="40" decimalDigits="0" name="EMAIL" primaryKey="false" notNull="false"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="GROUP" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="OID" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="GROUPNAME" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="MODULE_OID" primaryKey="false" notNull="false"/>
+    <ForeignKey localColumnName="MODULE_OID" foreignColumnName="OID" name="FK_GROUP_MODULE" foreignTableName="MODULE" foreignSchemaName="APP"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="GROUP_MODULE" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="GROUP_OID" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="MODULE_OID" primaryKey="true" notNull="true"/>
+    <ForeignKey localColumnName="GROUP_OID" foreignColumnName="OID" name="FK_GROUP_MODULE_GROUP" foreignTableName="GROUP" foreignSchemaName="APP"/>
+    <ForeignKey localColumnName="MODULE_OID" foreignColumnName="OID" name="FK_GROUP_MODULE_MODULE" foreignTableName="MODULE" foreignSchemaName="APP"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="IMMOBILE" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="ID_IMMOBILE" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="VIA_INDIRIZZO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="CAP_INDIRIZZO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="CITTA_INDIRIZZO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="FOGLIO_CATASTO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="PARTICELLA_CATASTO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="SUB_CATASTO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="16" decimalDigits="0" name="CLIENTE_CF" primaryKey="false" notNull="false"/>
+    <ForeignKey localColumnName="CLIENTE_CF" foreignColumnName="CF" name="FK_IMMOBILE_CLIENTE" foreignTableName="CLIENTE" foreignSchemaName="APP"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="INTERVENTO" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="ID_INTERVENTO" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="DESCRIZIONE" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="DITTA" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="IMMOBILE_ID_IMMOBILE" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="TIPOLOGIA_ID_TIPOLOGIA" primaryKey="false" notNull="false"/>
+    <ForeignKey localColumnName="IMMOBILE_ID_IMMOBILE" foreignColumnName="ID_IMMOBILE" name="FK_INTERVENTO_IMMOBILE" foreignTableName="IMMOBILE" foreignSchemaName="APP"/>
+    <ForeignKey localColumnName="TIPOLOGIA_ID_TIPOLOGIA" foreignColumnName="ID_TIPOLOGIA" name="FK_INTERVENTO_TIPOLOGIA" foreignTableName="TIPOLOGIA" foreignSchemaName="APP"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="MODULE" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="OID" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="MODULEID" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="MODULENAME" primaryKey="false" notNull="false"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="PRATICA" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="ID_PRATICA" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="PROTOCOLLO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="INGEGNERI_OCCUPATI" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="DESCRIZIONE" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="INTERVENTO_ID_INTERVENTO" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="5" indexed="unknown" autoIncrement="false" type="SMALLINT" size="5" decimalDigits="0" name="CHIUSA" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="91" indexed="unknown" autoIncrement="false" type="DATE" size="10" decimalDigits="0" name="DATA_SCADENZA" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="GIORNI_SCADENZA" primaryKey="false" notNull="false"/>
+    <ForeignKey localColumnName="INTERVENTO_ID_INTERVENTO" foreignColumnName="ID_INTERVENTO" name="FK_PRATICA_INTERVENTO" foreignTableName="INTERVENTO" foreignSchemaName="APP"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="TIPOLOGIA" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="ID_TIPOLOGIA" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="NOME" primaryKey="false" notNull="false"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="USER" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="OID" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="USERNAME" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="PASSWORD" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="EMAIL" primaryKey="false" notNull="false"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="GROUP_OID" primaryKey="false" notNull="false"/>
+    <ForeignKey localColumnName="GROUP_OID" foreignColumnName="OID" name="FK_USER_GROUP" foreignTableName="GROUP" foreignSchemaName="APP"/>
+  </Table>
+  <Table schema="APP" ignoreIndexes="false" name="USER_GROUP" type="TABLE" refreshed="true">
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="USER_OID" primaryKey="true" notNull="true"/>
+    <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INTEGER" size="10" decimalDigits="0" name="GROUP_OID" primaryKey="true" notNull="true"/>
+    <ForeignKey localColumnName="GROUP_OID" foreignColumnName="OID" name="FK_USER_GROUP_GROUP" foreignTableName="GROUP" foreignSchemaName="APP"/>
+    <ForeignKey localColumnName="USER_OID" foreignColumnName="OID" name="FK_USER_GROUP_USER" foreignTableName="USER" foreignSchemaName="APP"/>
+  </Table>
+</DBMetaData>

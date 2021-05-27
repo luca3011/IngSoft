@@ -1,0 +1,30 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="485" gr:y="155" id="mov1#hym2#opg2" name="Creazione log" transaction="true">
+  <OperationUnits>
+    <CSVUnit gr:x="285" gr:y="20" id="mov1#hym2#opg2#csvu4" name="CSVUnit2" mode="WRITE" separator=";">
+      <CSVColumn id="mov1#hym2#opg2#csvu4#csvc3" name="Utente"/>
+      <CSVColumn id="mov1#hym2#opg2#csvu4#csvc4" name="Operazione eseguita"/>
+      <CSVColumn id="mov1#hym2#opg2#csvu4#csvc5" name="ID_entit&#224;"/>
+    </CSVUnit>
+    <TimeUnit gr:x="0" gr:y="25" id="mov1#hym2#opg2#tmu2" name="Time1">
+      <Link id="mov1#hym2#opg2#tmu2#ln36" name="Flow34" to="mov1#hym2#opg2#csvu4" type="transport" validate="true" gr:bendpoints="61,209,-224,214;220,209,-65,214">
+        <LinkParameter id="mov1#hym2#opg2#tmu2#ln36#par39" name="Current/Input Date_CSV File Name" source="currentTimestamp" target="mov1#hym2#opg2#csvu4.csvFileName"/>
+        <LinkParameter id="mov1#hym2#opg2#tmu2#ln36#par92" name=";_Separator Character" sourceValue=";" target="mov1#hym2#opg2#csvu4.sep"/>
+        <LinkParameter id="mov1#hym2#opg2#tmu2#ln36#par93" name="Current/Input Timestamp_Timestamp" source="currentTimestamp" target="mov1#hym2#opg2#csvu4#csvc2"/>
+      </Link>
+      <OKLink id="mov1#hym2#opg2#tmu2#oln16" name="OKFlow16" to="mov1#hym2#opg2#seu1"/>
+    </TimeUnit>
+    <GetUnit gr:x="125" gr:y="175" id="mov1#hym2#opg2#gtu3" name="Get3" contextParameters="UserCtxParam" linkOrder="mov1#hym2#opg2#gtu3#ln37">
+      <Link id="mov1#hym2#opg2#gtu3#ln37" name="Flow37" to="mov1#hym2#opg2#seu1" type="transport" validate="true">
+        <LinkParameter id="mov1#hym2#opg2#gtu3#ln37#par41" name="UserCtxParam.oid_KeyCondition13 [oid]" source="mov1#hym2#opg2#gtu3.UserCtxParam" target="mov1#hym2#opg2#seu1#su21#kcond13.userOID"/>
+      </Link>
+    </GetUnit>
+    <SelectorUnit gr:x="140" gr:y="0" id="mov1#hym2#opg2#seu1" name="Selector1" entity="User" distinctAttributes="userName">
+      <Selector id="mov1#hym2#opg2#seu1#su21" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#hym2#opg2#seu1#su21#kcond13" name="KeyCondition13" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#hym2#opg2#seu1#oln20" name="OKFlow20" to="mov1#hym2#opg2#csvu4">
+        <LinkParameter id="mov1#hym2#opg2#seu1#oln20#par99" name="userName_Utente" source="userNameArray" target="mov1#hym2#opg2#csvu4#csvc3"/>
+      </OKLink>
+    </SelectorUnit>
+  </OperationUnits>
+</OperationGroup>

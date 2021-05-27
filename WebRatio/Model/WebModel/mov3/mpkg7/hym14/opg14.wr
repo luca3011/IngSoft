@@ -1,0 +1,18 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="625" gr:y="180" id="mov3#mpkg7#hym14#opg14" name="Operazione persistenza intervento" transaction="true">
+  <OperationUnits>
+    <CreateUnit gr:x="200" gr:y="0" id="mov3#mpkg7#hym14#opg14#cru10" name="Crea immobile" entity="ent2" skipBlankRecords="false" linkOrder="mov3#mpkg7#hym14#opg14#cru10#ln43">
+      <KOLink id="mov3#mpkg7#hym14#opg14#cru10#kln26" name="KOFlow18" to="mov3#mpkg7#hym14#kocu11" automaticCoupling="true"/>
+      <OKLink id="mov3#mpkg7#hym14#opg14#cru10#oln46" name="OKFlow30" to="mov3#mpkg7#hym14#okcu11" automaticCoupling="true"/>
+      <Link id="mov3#mpkg7#hym14#opg14#cru10#ln43" name="Flow43" to="mov3#mpkg7#hym14#miu8" type="transport" validate="true" gr:bendpoints="-148,160,-108,-85;-154,241,-114,-4">
+        <LinkParameter id="mov3#mpkg7#hym14#opg14#cru10#ln43#par100" name="id_intervento_ID_entit&#224;" source="ent2#att2Array" target="mov3#mpkg7#hym14#miu8.mov1#hym2#icu1#icp1"/>
+        <LinkParameter id="mov3#mpkg7#hym14#opg14#cru10#ln43#par101" name="Creazione intervento_Operazione eseguita" sourceValue="Creazione intervento" target="mov3#mpkg7#hym14#miu8.mov1#hym2#icu1#icp3"/>
+      </Link>
+    </CreateUnit>
+    <IsNotNullUnit gr:x="0" gr:y="10" id="mov3#mpkg7#hym14#opg14#inn8" name="Immobile Is Not Null">
+      <OKLink id="mov3#mpkg7#hym14#opg14#inn8#oln47" name="OKFlow32" to="mov3#mpkg7#hym14#opg14#cru10"/>
+      <KOLink id="mov3#mpkg7#hym14#opg14#inn8#kln27" name="KOFlow19" to="mov3#mpkg7#hym14#page34#mssu11">
+        <LinkParameter id="mov3#mpkg7#hym14#opg14#inn8#kln27#par138" name="Immobile non selezionato_Shown Messages" sourceValue="Immobile non selezionato" target="mov3#mpkg7#hym14#page34#mssu11.shownMessages"/>
+      </KOLink>
+    </IsNotNullUnit>
+  </OperationUnits>
+</OperationGroup>

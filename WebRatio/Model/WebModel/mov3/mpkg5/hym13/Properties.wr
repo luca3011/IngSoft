@@ -1,0 +1,11 @@
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="25" gr:y="60" id="mov3#mpkg5#hym13" name="Aggiungi pratica">
+  <OperationUnits>
+    <InputCollectorUnit gr:x="95" gr:y="170" id="mov3#mpkg5#hym13#icu13">
+      <OKLink id="mov3#mpkg5#hym13#icu13#oln37" name="OKFlow15" to="mov3#mpkg5#hym13#page30#enu11" automaticCoupling="true"/>
+    </InputCollectorUnit>
+    <OKCollectorUnit gr:x="1185" gr:y="235" id="mov3#mpkg5#hym13#okcu10" name="OK Port5"/>
+    <KOCollectorUnit gr:x="1185" gr:y="460" id="mov3#mpkg5#hym13#kocu10" name="KO Port5">
+      <OutputCollectorParameter id="mov3#mpkg5#hym13#kocu10#ocp7" name="Errore"/>
+    </KOCollectorUnit>
+  </OperationUnits>
+</HybridModule>

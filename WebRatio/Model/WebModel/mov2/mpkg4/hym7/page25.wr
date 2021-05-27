@@ -1,0 +1,42 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="490" gr:y="170" id="mov2#mpkg4#hym7#page25" name="Report Pratica" layout:style="Reports" layout:pageLayout="Reports/Default" layout:frameLayout="WRDefault/Empty">
+  <ContentUnits>
+    <HierarchicalIndexUnit gr:x="0" gr:y="0" id="mov2#mpkg4#hym7#page25#hinu6" name="Hierarchy6" sortable="false" entity="ent1" displayAttributes="ent1#att26 ent1#att29 ent1#att32">
+      <SortAttribute attribute="ent1#att26" order="ascending"/>
+      <HierarchicalIndexLevel id="mov2#mpkg4#hym7#page25#hinu6#hiulvl3" name="Level3" entity="ent6" role="rel5#role9" displayAttributes="ent6#att24 ent6#att28 ent6#att33">
+        <SortAttribute attribute="ent6#att24" order="ascending"/>
+      </HierarchicalIndexLevel>
+    </HierarchicalIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov2#mpkg4#hym7#page25#hinu6">
+          <layout:Attribute attribute="ent1#att26"/>
+          <layout:Attribute attribute="ent1#att29"/>
+          <layout:Attribute attribute="ent1#att32"/>
+          <layout:Attribute attribute="ent6#att24"/>
+          <layout:Attribute attribute="ent6#att28"/>
+          <layout:Attribute attribute="ent6#att33"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <layout:CustomLocation name="Excel File Name">
+    <layout:Grid containerType="cell">
+      <layout:Row>
+        <layout:Cell/>
+      </layout:Row>
+    </layout:Grid>
+  </layout:CustomLocation>
+</Page>

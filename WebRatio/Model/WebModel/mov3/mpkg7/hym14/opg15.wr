@@ -1,0 +1,12 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="270" gr:y="450" id="mov3#mpkg7#hym14#opg15" name="Riempimento menu tipologia" transaction="true">
+  <OperationUnits>
+    <SelectorUnit gr:x="0" gr:y="0" id="mov3#mpkg7#hym14#opg15#seu5" name="Selettore tipologie" entity="ent7" distinct="false" distinctAttributes="ent7#att31">
+      <SortAttribute attribute="ent7#att30" order="ascending"/>
+      <Link id="mov3#mpkg7#hym14#opg15#seu5#ln57" name="Flow48" to="mov3#mpkg7#hym14#page34#enu12" type="transport" validate="true">
+        <LinkParameter id="mov3#mpkg7#hym14#opg15#seu5#ln57#par146" name="nome_InterventoToTipologia [label]" source="ent7#att31Array" target="mov3#mpkg7#hym14#page34#enu12#sfld2_label"/>
+        <LinkParameter id="mov3#mpkg7#hym14#opg15#seu5#ln57#par147" name="nome_InterventoToTipologia [output]" source="ent7#att30Array" target="mov3#mpkg7#hym14#page34#enu12#sfld2_output"/>
+      </Link>
+      <OKLink id="mov3#mpkg7#hym14#opg15#seu5#oln48" name="OKFlow31" to="mov3#mpkg7#hym14#page34#enu12" automaticCoupling="true" gr:bendpoints="139,-69,-21,111"/>
+    </SelectorUnit>
+  </OperationUnits>
+</OperationGroup>

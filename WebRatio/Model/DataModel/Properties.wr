@@ -1,20 +1,20 @@
 <DataModel xmlns:db="http://www.webratio.com/2006/WebML/Database" xmlns:gr="http://www.webratio.com/2006/WebML/Graph" packageName="com.webratio.webapp">
-  <Entity id="User" name="User" duration="persistent" gr:x="95" gr:y="125" gr:hideAttributes="false" attributeOrder="userOID userName password email" volatileStorage="database" db:database="db1" db:table="USER">
+  <Entity id="User" name="User" duration="persistent" gr:x="200" gr:y="120" gr:hideAttributes="false" attributeOrder="userOID userName password email" volatileStorage="database" db:database="db1" db:table="USER">
     <Attribute name="oid" id="userOID" type="integer" key="true" db:column="OID"/>
     <Attribute name="userName" id="userName" type="string" db:column="USERNAME"/>
     <Attribute name="password" id="password" type="password" db:column="PASSWORD"/>
     <Attribute name="email" id="email" type="string" db:column="EMAIL"/>
   </Entity>
-  <Entity id="Group" name="Group" duration="persistent" gr:x="455" gr:y="160" gr:hideAttributes="false" attributeOrder="groupOID groupName" db:database="db1" db:table="GROUP">
+  <Entity id="Group" name="Group" duration="persistent" gr:x="455" gr:y="140" gr:hideAttributes="false" attributeOrder="groupOID groupName" db:database="db1" db:table="GROUP">
     <Attribute name="oid" id="groupOID" type="integer" key="true" db:column="OID"/>
     <Attribute name="groupName" id="groupName" type="string" db:column="GROUPNAME"/>
   </Entity>
-  <Entity id="Module" name="Module" duration="persistent" gr:x="750" gr:y="155" gr:hideAttributes="false" attributeOrder="moduleOID moduleID moduleName" db:database="db1" db:table="MODULE">
+  <Entity id="Module" name="Module" duration="persistent" gr:x="680" gr:y="130" gr:hideAttributes="false" attributeOrder="moduleOID moduleID moduleName" db:database="db1" db:table="MODULE">
     <Attribute name="oid" id="moduleOID" type="integer" key="true" db:column="OID"/>
     <Attribute name="moduleID" id="moduleID" type="string" db:column="MODULEID"/>
     <Attribute name="moduleName" id="moduleName" type="string" db:column="MODULENAME"/>
   </Entity>
-  <Relationship id="User2Group_Group2User" name="User_Group" sourceEntity="User" targetEntity="Group" gr:bendpoints="162,5,-158,5" db:database="db1" db:table="USER_GROUP">
+  <Relationship id="User2Group_Group2User" name="User_Group" sourceEntity="User" targetEntity="Group" gr:bendpoints="127,5,-123,0" db:database="db1" db:table="USER_GROUP">
     <RelationshipRole1 id="User2Group" name="groups" maxCard="N">
       <db:JoinColumn attribute="userOID" name="USER_OID"/>
     </RelationshipRole1>
@@ -22,7 +22,7 @@
       <db:JoinColumn attribute="groupOID" name="GROUP_OID"/>
     </RelationshipRole2>
   </Relationship>
-  <Relationship id="User2DefaultGroup_DefaultGroup2User" name="User_DefaultGroup" sourceEntity="User" targetEntity="Group" gr:bendpoints="122,42,-118,42" db:database="db1" db:table="USER">
+  <Relationship id="User2DefaultGroup_DefaultGroup2User" name="User_DefaultGroup" sourceEntity="User" targetEntity="Group" gr:bendpoints="127,42,-123,37" db:database="db1" db:table="USER">
     <RelationshipRole1 id="User2DefaultGroup" name="defaultGroup" maxCard="1">
       <db:JoinColumn attribute="userOID" name="OID"/>
     </RelationshipRole1>
@@ -38,7 +38,7 @@
       <db:JoinColumn attribute="moduleOID" name="MODULE_OID"/>
     </RelationshipRole2>
   </Relationship>
-  <Relationship id="Group2Module_Module2Group" name="Group_Module" sourceEntity="Group" targetEntity="Module" gr:bendpoints="125,41,-130,46" db:database="db1" db:table="GROUP_MODULE">
+  <Relationship id="Group2Module_Module2Group" name="Group_Module" sourceEntity="Group" targetEntity="Module" gr:bendpoints="112,41,-118,36" db:database="db1" db:table="GROUP_MODULE">
     <RelationshipRole1 id="Group2Module" name="modules" maxCard="N">
       <db:JoinColumn attribute="groupOID" name="GROUP_OID"/>
     </RelationshipRole1>
@@ -46,7 +46,7 @@
       <db:JoinColumn attribute="moduleOID" name="MODULE_OID"/>
     </RelationshipRole2>
   </Relationship>
-  <Entity gr:x="980" gr:y="345" id="ent1" name="Pratica" duration="persistent" db:database="db1" attributeOrder="ent1#att1 ent1#att26 ent1#att27 ent1#att29 ent1#att34 ent1#att35 ent1#att32 ent1#att36" db:table="PRATICA">
+  <Entity gr:x="800" gr:y="305" id="ent1" name="Pratica" duration="persistent" db:database="db1" attributeOrder="ent1#att1 ent1#att26 ent1#att27 ent1#att29 ent1#att34 ent1#att35 ent1#att32 ent1#att36" db:table="PRATICA">
     <Attribute id="ent1#att1" key="true" name="id_pratica" type="integer" db:column="ID_PRATICA"/>
     <Attribute id="ent1#att26" name="protocollo" type="string" db:column="PROTOCOLLO"/>
     <Attribute id="ent1#att27" name="ingegneri_occupati" type="string" db:column="INGEGNERI_OCCUPATI"/>
@@ -56,14 +56,13 @@
     <Attribute id="ent1#att32" name="data_scadenza" type="date" db:column="DATA_SCADENZA"/>
     <Attribute id="ent1#att36" name="giorni_scadenza" type="integer" db:column="GIORNI_SCADENZA"/>
   </Entity>
-  <Entity gr:x="725" gr:y="365" id="ent2" name="Intervento" duration="persistent" attributeOrder="ent2#att2 ent2#att20 ent2#att21" db:database="db1" db:table="INTERVENTO">
+  <Entity gr:x="560" gr:y="355" id="ent2" name="Intervento" duration="persistent" attributeOrder="ent2#att2 ent2#att20 ent2#att21" db:database="db1" db:table="INTERVENTO">
     <Attribute id="ent2#att2" key="true" name="id_intervento" type="integer" db:column="ID_INTERVENTO"/>
     <Attribute id="ent2#att20" name="descrizione" type="string" db:column="DESCRIZIONE"/>
     <Attribute id="ent2#att21" name="ditta" type="string" db:column="DITTA"/>
   </Entity>
-  <db:Database id="db1" name="PraticaMenteDB" type="Apache Derby" runtimeType="Apache Derby" url="jdbc:derby://localhost:50124/PraticaMenteDB;create=true" username="manager" cryptedPassword="true" password="bWFuYWdlcg==" schema="APP">
-  </db:Database>
-  <Entity gr:x="395" gr:y="350" id="ent3" name="Immobile" duration="persistent" attributeOrder="ent3#att3 ent3#att14 ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19" db:database="db1" db:table="IMMOBILE">
+  <db:Database id="db1" name="PraticaMenteDB" type="Apache Derby" runtimeType="Apache Derby" url="jdbc:derby://localhost:50124/PraticaMenteDB;create=true" username="manager" cryptedPassword="true" password="bWFuYWdlcg==" schema="APP"/>
+  <Entity gr:x="310" gr:y="315" id="ent3" name="Immobile" duration="persistent" attributeOrder="ent3#att3 ent3#att14 ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19" db:database="db1" db:table="IMMOBILE">
     <Attribute id="ent3#att3" key="true" name="id_immobile" type="integer" db:column="ID_IMMOBILE"/>
     <Attribute id="ent3#att14" name="via_indirizzo" type="string" db:column="VIA_INDIRIZZO"/>
     <Attribute id="ent3#att15" name="cap_indirizzo" type="integer" db:column="CAP_INDIRIZZO"/>
@@ -72,7 +71,7 @@
     <Attribute id="ent3#att18" name="particella_catasto" type="integer" db:column="PARTICELLA_CATASTO"/>
     <Attribute id="ent3#att19" name="sub_catasto" type="integer" db:column="SUB_CATASTO"/>
   </Entity>
-  <Entity gr:x="105" gr:y="300" id="ent4" name="Cliente" duration="persistent" attributeOrder="ent4#att4 ent4#att5 ent4#att6 ent4#att7 ent4#att8 ent4#att9 ent4#att10 ent4#att11 ent4#att12 ent4#att23" db:database="db1" db:isView="false" db:table="CLIENTE">
+  <Entity gr:x="80" gr:y="285" id="ent4" name="Cliente" duration="persistent" attributeOrder="ent4#att4 ent4#att5 ent4#att6 ent4#att7 ent4#att8 ent4#att9 ent4#att10 ent4#att11 ent4#att12 ent4#att23" db:database="db1" db:isView="false" db:table="CLIENTE">
     <Attribute id="ent4#att4" key="true" name="cf" type="string" db:column="CF"/>
     <Attribute id="ent4#att5" name="nome" type="string" db:column="NOME"/>
     <Attribute id="ent4#att6" name="cognome" type="string" db:column="COGNOME"/>
@@ -92,7 +91,7 @@
       <db:JoinColumn attribute="ent3#att3" name="ID_IMMOBILE"/>
     </RelationshipRole2>
   </Relationship>
-  <Entity gr:x="735" gr:y="555" id="ent7" name="Tipologia" duration="persistent" attributeOrder="ent7#att30 ent7#att31" db:database="db1" db:table="TIPOLOGIA">
+  <Entity gr:x="560" gr:y="505" id="ent7" name="Tipologia" duration="persistent" attributeOrder="ent7#att30 ent7#att31" db:database="db1" db:table="TIPOLOGIA">
     <Attribute id="ent7#att30" key="true" name="id_tipologia" type="integer" db:column="ID_TIPOLOGIA"/>
     <Attribute id="ent7#att31" name="nome" type="string" db:column="NOME"/>
   </Entity>
@@ -120,7 +119,7 @@
       <db:JoinColumn attribute="ent1#att1" name="ID_PRATICA"/>
     </RelationshipRole2>
   </Relationship>
-  <Entity gr:x="1255" gr:y="360" id="ent6" name="Aggiornamento" duration="persistent" attributeOrder="ent6#att22 ent6#att24 ent6#att28 ent6#att33" db:database="db1" db:table="AGGIORNAMENTO">
+  <Entity gr:x="1070" gr:y="345" id="ent6" name="Aggiornamento" duration="persistent" attributeOrder="ent6#att22 ent6#att24 ent6#att28 ent6#att33" db:database="db1" db:table="AGGIORNAMENTO">
     <Attribute id="ent6#att22" key="true" name="id_aggiornamento" type="integer" db:column="ID_AGGIORNAMENTO"/>
     <Attribute id="ent6#att24" name="versione" type="integer" db:column="VERSIONE"/>
     <Attribute id="ent6#att28" name="descrizione" type="string" db:column="DESCRIZIONE"/>

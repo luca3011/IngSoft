@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="200" gr:y="380" id="mov2#mpkg2#hym6#page16" name="Suggerisci Clienti" layout:pageLayout="WRDefault/Autocomplete" layout:attributeLayout="WRDefault/Simple">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="290" gr:y="395" id="mov2#mpkg2#hym6#page16" name="Suggerisci Clienti" layout:pageLayout="WRDefault/Autocomplete" layout:attributeLayout="WRDefault/Simple">
   <ContentUnits>
     <IndexUnit gr:x="0" gr:y="0" id="mov2#mpkg2#hym6#page16#inu6" name="Simple List6" entity="ent4" displayAttributes="ent4#att4" maxResults="5">
       <Selector id="mov2#mpkg2#hym6#page16#inu6#su12" defaultPolicy="fill" booleanOperator="and">

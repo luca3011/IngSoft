@@ -1,0 +1,19 @@
+<Job xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="490" gr:y="230" id="wsv2#job2" name="Riempi tipologia">
+  <OperationUnits>
+    <InitJobUnit id="wsv2#job2#iju2" name="Inizio" gr:x="0" gr:y="5">
+      <OKLink id="wsv2#job2#iju2#oln33" name="OKFlow24" to="wsv2#job2#qu1" automaticCoupling="true"/>
+    </InitJobUnit>
+    <QueryUnit gr:x="165" gr:y="5" id="wsv2#job2#qu1" name="Insert" mode="select" language="HQL" db="db1">
+      <QueryText xml:space="preserve">INSERT INTO APP.TIPOLOGIA
+(ID_TIPOLOGIA, NOME)
+VALUES(1, 'SCIA');
+INSERT INTO APP.TIPOLOGIA
+(ID_TIPOLOGIA, NOME)
+VALUES(2, 'CILA');
+INSERT INTO APP.TIPOLOGIA
+(ID_TIPOLOGIA, NOME)
+VALUES(3, 'Permesso di costruire');</QueryText>
+    </QueryUnit>
+  </OperationUnits>
+  <Trigger id="wsv2#job2#trg3" name="Trigger3" schedulePolicy="startup"/>
+</Job>

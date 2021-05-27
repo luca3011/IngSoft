@@ -1,6 +1,6 @@
-<Job xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="255" gr:y="165" id="wsv1#job1" name="Job1">
+<Job xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="215" gr:y="245" id="wsv1#job1" name="Job1">
   <OperationUnits>
-    <InitJobUnit id="wsv1#job1#iju1" name="Init Job" gr:x="0" gr:y="10"/>
+    <InitJobUnit id="wsv1#job1#iju1" name="Init Job" gr:x="0" gr:y="0"/>
   </OperationUnits>
   <Trigger id="wsv1#job1#trg1" name="Trigger1" schedulePolicy="everyDay" hours="0" minutes="0" seconds="0"/>
   <Trigger id="wsv1#job1#trg2" name="Trigger2" schedulePolicy="startup"/>

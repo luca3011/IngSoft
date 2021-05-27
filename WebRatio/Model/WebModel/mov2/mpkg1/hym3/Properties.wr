@@ -1,4 +1,4 @@
-<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="55" gr:y="120" id="mov2#mpkg1#hym3" name="Modifica Cliente">
+<HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="5" gr:y="70" id="mov2#mpkg1#hym3" name="Modifica Cliente">
   <OperationUnits>
     <InputCollectorUnit gr:x="15" gr:y="325" id="mov2#mpkg1#hym3#icu3">
       <InputCollectorParameter id="mov2#mpkg1#hym3#icu3#icp2" name="CF cliente"/>

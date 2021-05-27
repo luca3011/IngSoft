@@ -1,0 +1,16 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="750" gr:y="180" id="mov3#mpkg5#hym13#opg13" name="Operation Group 6" transaction="true">
+  <OperationUnits>
+    <IsNotNullUnit gr:x="0" gr:y="15" id="mov3#mpkg5#hym13#opg13#inn7" name="Is Not Null2">
+      <OKLink id="mov3#mpkg5#hym13#opg13#inn7#oln38" name="OKFlow20" to="mov3#mpkg5#hym13#opg13#cru9" automaticCoupling="true"/>
+      <KOLink id="mov3#mpkg5#hym13#opg13#inn7#kln24" name="KOFlow5" to="mov3#mpkg5#hym13#page30#mssu10">
+        <LinkParameter id="mov3#mpkg5#hym13#opg13#inn7#kln24#par135" name="Seleziona un intervento_Shown Messages" sourceValue="Seleziona un intervento" target="mov3#mpkg5#hym13#page30#mssu10.shownMessages"/>
+      </KOLink>
+    </IsNotNullUnit>
+    <CreateUnit gr:x="165" gr:y="0" id="mov3#mpkg5#hym13#opg13#cru9" name="Create2" entity="ent1">
+      <KOLink id="mov3#mpkg5#hym13#opg13#cru9#kln25" name="KOFlow7" to="mov3#mpkg5#hym13#kocu10">
+        <LinkParameter id="mov3#mpkg5#hym13#opg13#cru9#kln25#par136" name="Errore creazione pratica_Errore" sourceValue="Errore creazione pratica" target="mov3#mpkg5#hym13#kocu10#ocp7"/>
+      </KOLink>
+      <OKLink id="mov3#mpkg5#hym13#opg13#cru9#oln39" name="OKFlow46" to="mov3#mpkg5#hym13#okcu10" automaticCoupling="true"/>
+    </CreateUnit>
+  </OperationUnits>
+</OperationGroup>

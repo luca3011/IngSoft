@@ -1,3 +1,5 @@
 <Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area6" name="Clienti" defaultPage="sv2#area6#page14" landmark="true" gr:x="110" gr:y="147">
-  <OperationUnits/>
+  <OperationUnits>
+    <ModuleInstanceUnit gr:x="30" gr:y="300" id="sv2#area6#miu7" action="false" moduleId="mov1#hym2"/>
+  </OperationUnits>
 </Area>

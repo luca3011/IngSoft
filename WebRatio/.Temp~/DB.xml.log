@@ -1,1 +1,153 @@
-[26 mag 2021 11:49:45] Database connection closed
+[26 mag 2021 16:15:00] Building database metadata model
+[26 mag 2021 16:15:00] Properties: {partialRefresh=false, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@7ec23849, includeTables=true, username=manager, outputLogPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml.log, readIndexes=null, driverClass=org.apache.derby.jdbc.ClientDriver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.DerbyMetaDataProvider, outputPath=D:\Coding\IngSoft\WebRatio\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=D:\Coding\WebRatio\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:derby://localhost:50124/PraticaMenteDB;create=true, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=true, retrieveAllNames=false, tablesToRefresh=, eventSocketPort=55298}
+[26 mag 2021 16:15:00] URL: jdbc:derby://localhost:50124/PraticaMenteDB;create=true
+[26 mag 2021 16:15:00] Product name: Apache Derby
+[26 mag 2021 16:15:00] Product version: 10.5.3.0 - (802917)
+[26 mag 2021 16:15:00] Driver name: Apache Derby Network Client JDBC Driver
+[26 mag 2021 16:15:00] Driver version: 10.5.3.0 - (802917)
+[26 mag 2021 16:15:00] Driver major version: 10
+[26 mag 2021 16:15:00] Driver minor version: 5
+[26 mag 2021 16:15:00] Identifier quote string: 5
+[26 mag 2021 16:15:00] Retrieving schemas
+[26 mag 2021 16:15:00]   Found schema: APP
+[26 mag 2021 16:15:00]   Found schema: NULLID
+[26 mag 2021 16:15:00]   Found schema: SQLJ
+[26 mag 2021 16:15:00]   Found schema: SYS
+[26 mag 2021 16:15:00]   Found schema: SYSCAT
+[26 mag 2021 16:15:00]   Found schema: SYSCS_DIAG
+[26 mag 2021 16:15:00]   Found schema: SYSCS_UTIL
+[26 mag 2021 16:15:00]   Found schema: SYSFUN
+[26 mag 2021 16:15:00]   Found schema: SYSIBM
+[26 mag 2021 16:15:00]   Found schema: SYSPROC
+[26 mag 2021 16:15:00]   Found schema: SYSSTAT
+[26 mag 2021 16:15:00] Retrieving [TABLE, VIEW, SYNONYM] for schema 'APP'
+[26 mag 2021 16:15:00]   Found 'APP.AGGIORNAMENTO' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.CLIENTE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.GROUP' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.GROUP_MODULE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.IMMOBILE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.INTERVENTO' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.MODULE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.PRATICA' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.TIPOLOGIA' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.USER' [type = TABLE]
+[26 mag 2021 16:15:00]   Found 'APP.USER_GROUP' [type = TABLE]
+[26 mag 2021 16:15:00] Retrieving [TABLE, VIEW, SYNONYM] for schema 'NULLID'
+[26 mag 2021 16:15:00] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SQLJ'
+[26 mag 2021 16:15:00] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCAT'
+[26 mag 2021 16:15:00] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_DIAG'
+[26 mag 2021 16:15:00] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_UTIL'
+[26 mag 2021 16:15:00] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSFUN'
+[26 mag 2021 16:15:00] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSPROC'
+[26 mag 2021 16:15:00] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSSTAT'
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.AGGIORNAMENTO' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: ID_AGGIORNAMENTO [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: VERSIONE [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: DESCRIZIONE [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: PRATICA_ID_PRATICA [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: SCADENZA [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.AGGIORNAMENTO' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: ID_AGGIORNAMENTO
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.CLIENTE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: CF [type = VARCHAR][SQL/XOPEN type = 12][size = 16][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: NOME [type = VARCHAR][SQL/XOPEN type = 12][size = 40][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: COGNOME [type = VARCHAR][SQL/XOPEN type = 12][size = 40][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: VIA_INDIRIZZO [type = VARCHAR][SQL/XOPEN type = 12][size = 75][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: CITTA_INDIRIZZO [type = VARCHAR][SQL/XOPEN type = 12][size = 75][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: CAP_INDIRIZZO [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: DATA_NASCITA [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: TELEFONO [type = VARCHAR][SQL/XOPEN type = 12][size = 15][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 40][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.CLIENTE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: CF
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.GROUP' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: GROUPNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: MODULE_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.GROUP' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: OID
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.GROUP_MODULE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: GROUP_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: MODULE_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.GROUP_MODULE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: GROUP_OID
+[26 mag 2021 16:15:00]   Found primary key column: MODULE_OID
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.IMMOBILE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: ID_IMMOBILE [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: VIA_INDIRIZZO [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: CAP_INDIRIZZO [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: CITTA_INDIRIZZO [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: FOGLIO_CATASTO [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: PARTICELLA_CATASTO [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: SUB_CATASTO [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: CLIENTE_CF [type = VARCHAR][SQL/XOPEN type = 12][size = 16][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.IMMOBILE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: ID_IMMOBILE
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.INTERVENTO' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: ID_INTERVENTO [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: DESCRIZIONE [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: DITTA [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: IMMOBILE_ID_IMMOBILE [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: TIPOLOGIA_ID_TIPOLOGIA [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.INTERVENTO' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: ID_INTERVENTO
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.MODULE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: MODULEID [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: MODULENAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.MODULE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: OID
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.PRATICA' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: ID_PRATICA [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: PROTOCOLLO [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: INGEGNERI_OCCUPATI [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: DESCRIZIONE [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: INTERVENTO_ID_INTERVENTO [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: CHIUSA [type = SMALLINT][SQL/XOPEN type = 5][size = 5][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: DATA_SCADENZA [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: GIORNI_SCADENZA [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.PRATICA' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: ID_PRATICA
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.TIPOLOGIA' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: ID_TIPOLOGIA [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: NOME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.TIPOLOGIA' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: ID_TIPOLOGIA
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.USER' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: USERNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: PASSWORD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: GROUP_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.USER' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: OID
+[26 mag 2021 16:15:00] Retrieving columns for 'APP.USER_GROUP' [type = TABLE]
+[26 mag 2021 16:15:00]   Found column: USER_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00]   Found column: GROUP_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[26 mag 2021 16:15:00] Retrieving primary keys for 'APP.USER_GROUP' [type = TABLE]
+[26 mag 2021 16:15:00]   Found primary key column: USER_OID
+[26 mag 2021 16:15:00]   Found primary key column: GROUP_OID
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.AGGIORNAMENTO' [type = TABLE]
+[26 mag 2021 16:15:00]   Found foreign key: column PRATICA_ID_PRATICA references PRATICA(ID_PRATICA)
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.CLIENTE' [type = TABLE]
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.GROUP' [type = TABLE]
+[26 mag 2021 16:15:00]   Found foreign key: column MODULE_OID references MODULE(OID)
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.GROUP_MODULE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found foreign key: column GROUP_OID references GROUP(OID)
+[26 mag 2021 16:15:00]   Found foreign key: column MODULE_OID references MODULE(OID)
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.IMMOBILE' [type = TABLE]
+[26 mag 2021 16:15:00]   Found foreign key: column CLIENTE_CF references CLIENTE(CF)
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.INTERVENTO' [type = TABLE]
+[26 mag 2021 16:15:00]   Found foreign key: column IMMOBILE_ID_IMMOBILE references IMMOBILE(ID_IMMOBILE)
+[26 mag 2021 16:15:00]   Found foreign key: column TIPOLOGIA_ID_TIPOLOGIA references TIPOLOGIA(ID_TIPOLOGIA)
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.MODULE' [type = TABLE]
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.PRATICA' [type = TABLE]
+[26 mag 2021 16:15:00]   Found foreign key: column INTERVENTO_ID_INTERVENTO references INTERVENTO(ID_INTERVENTO)
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.TIPOLOGIA' [type = TABLE]
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.USER' [type = TABLE]
+[26 mag 2021 16:15:00]   Found foreign key: column GROUP_OID references GROUP(OID)
+[26 mag 2021 16:15:00] Retrieving foreign keys for 'APP.USER_GROUP' [type = TABLE]
+[26 mag 2021 16:15:00]   Found foreign key: column GROUP_OID references GROUP(OID)
+[26 mag 2021 16:15:00]   Found foreign key: column USER_OID references USER(OID)
+[26 mag 2021 16:15:00] Database metadata retrieved (162 ms)
+[26 mag 2021 16:15:00] Database connection closed

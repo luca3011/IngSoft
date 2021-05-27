@@ -1,0 +1,21 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="285" gr:y="310" id="mov3#mpkg5#hym16#opg19" name="Ottieni numero versione" transaction="true">
+  <OperationUnits>
+    <SelectorUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym16#opg19#seu9" name="Selector9" entity="ent1" distinctAttributes="max(rel5#role9.ent6#att24)">
+      <Selector id="mov3#mpkg5#hym16#opg19#seu9#su17" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov3#mpkg5#hym16#opg19#seu9#su17#kcond11" name="KeyCondition18" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov3#mpkg5#hym16#opg19#seu9#oln56" name="OKFlow52" to="mov3#mpkg5#hym16#opg19#mathu4">
+        <LinkParameter id="mov3#mpkg5#hym16#opg19#seu9#oln56#par165" name="versione_versione" source="ent6#att24Array" target="mov3#mpkg5#hym16#opg19#mathu4#mathv3"/>
+      </OKLink>
+      <KOLink id="mov3#mpkg5#hym16#opg19#seu9#kln31" name="KOFlow21" to="mov3#mpkg5#hym16#page36#enu14">
+        <LinkParameter id="mov3#mpkg5#hym16#opg19#seu9#kln31#par166" name="1_versione" sourceValue="1" target="mov3#mpkg5#hym16#page36#enu14#fld49_slot"/>
+      </KOLink>
+    </SelectorUnit>
+    <MathUnit gr:x="215" gr:y="15" id="mov3#mpkg5#hym16#opg19#mathu4" name="Math1" resultType="integer" defaultExpression="versione + 1">
+      <MathVariable id="mov3#mpkg5#hym16#opg19#mathu4#mathv3" name="versione"/>
+      <OKLink id="mov3#mpkg5#hym16#opg19#mathu4#oln57" name="OKFlow53" to="mov3#mpkg5#hym16#page36#enu14">
+        <LinkParameter id="mov3#mpkg5#hym16#opg19#mathu4#oln57#par167" name="Result_versione" source="result" target="mov3#mpkg5#hym16#page36#enu14#fld49_slot"/>
+      </OKLink>
+    </MathUnit>
+  </OperationUnits>
+</OperationGroup>

@@ -1,0 +1,78 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area1#page15" name="Pratiche di intervento">
+  <ContentUnits>
+    <DataUnit gr:x="0" gr:y="140" id="sv1#area1#page15#dau8" name="Details8" entity="ent2" displayAttributes="ent2#att20 ent2#att21">
+      <Selector id="sv1#area1#page15#dau8#su19" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area1#page15#dau8#su19#kcond10" name="KeyCondition10" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+    <HierarchicalIndexUnit id="sv1#area1#page15#hinu3" name="Hierarchy4" gr:x="0" gr:y="0" sortable="false" entity="ent1" displayAttributes="ent1#att26 ent1#att29 ent1#att35">
+      <HierarchicalIndexLevel id="sv1#area1#page15#hinu3#hiulvl6" name="Aggiornamento" entity="ent6" role="rel5#role9" displayAttributes="ent6#att24 ent6#att28 ent6#att33">
+        <SortAttribute attribute="ent6#att24" order="ascending"/>
+      </HierarchicalIndexLevel>
+      <Link id="sv1#area1#page15#hinu3#ln33" name="Flow33" to="sv1#area1#page15#dau8" type="transport" validate="true">
+        <LinkParameter id="sv1#area1#page15#hinu3#ln33#par26" name="id_intervento_PASSING_KeyCondition10 [id_intervento]" sourceLinkParameter="sv1#area3#page4#inu3#ln32#par25" target="sv1#area1#page15#dau8#su19#kcond10.ent2#att2"/>
+      </Link>
+      <Selector id="sv1#area1#page15#hinu3#su20" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="sv1#area1#page15#hinu3#su20#acond7" name="AttCondition7" predicate="eq" booleanOperator="or" implied="false" attributes="rel9#role18.ent2#att2"/>
+      </Selector>
+    </HierarchicalIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page15#dau8">
+          <layout:Attribute attribute="ent2#att20"/>
+          <layout:Attribute attribute="ent2#att21"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page15#hinu3">
+          <layout:Attribute attribute="ent1#att26"/>
+          <layout:Attribute attribute="ent1#att29"/>
+          <layout:Attribute attribute="ent1#att35"/>
+          <layout:Attribute attribute="ent6#att24"/>
+          <layout:Attribute attribute="ent6#att28"/>
+          <layout:Attribute attribute="ent6#att33"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

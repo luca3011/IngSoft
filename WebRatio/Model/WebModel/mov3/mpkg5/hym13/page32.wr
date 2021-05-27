@@ -1,0 +1,33 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="310" gr:y="435" id="mov3#mpkg5#hym13#page32" name="Page 11" layout:pageLayout="WRDefault/Empty">
+  <ContentUnits>
+    <IndexUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym13#page32#inu10" name="Simple List4" entity="ent2" displayAttributes="ent2#att20 ent2#att21 rel4#role7.ent7#att31 rel6#role12.rel1#role2.ent4#att23" linkOrder="mov3#mpkg5#hym13#page32#inu10#ln49">
+      <Link id="mov3#mpkg5#hym13#page32#inu10#ln49" name="Flow25" to="mov3#mpkg5#hym13#page30#enu11" type="normal" validate="true" gr:bendpoints="-123,-121,97,164" ajaxEnabled="true">
+        <LinkParameter id="mov3#mpkg5#hym13#page32#inu10#ln49#par134" name="id_intervento_PASSING" source="data[].ent2#att2" passing="true"/>
+      </Link>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov3#mpkg5#hym13#page32#inu10">
+          <layout:Attribute attribute="ent2#att20"/>
+          <layout:Attribute attribute="ent2#att21"/>
+          <layout:Attribute attribute="rel4#role7.ent7#att31"/>
+          <layout:Attribute attribute="rel6#role12.rel1#role2.ent4#att23"/>
+          <layout:Link link="mov3#mpkg5#hym13#page32#inu10#ln49"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>
