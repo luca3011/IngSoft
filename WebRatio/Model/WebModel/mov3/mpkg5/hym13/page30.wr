@@ -1,6 +1,6 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="360" gr:y="165" id="mov3#mpkg5#hym13#page30" name="Page 9">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="360" gr:y="165" id="mov3#mpkg5#hym13#page30" name="Aggiungi pratica">
   <ContentUnits>
-    <EntryUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym13#page30#enu11" name="Form5" entity="ent1" linkOrder="mov3#mpkg5#hym13#page30#enu11#ln44 mov3#mpkg5#hym13#page30#enu11#ln45 mov3#mpkg5#hym13#page30#enu11#ln47">
+    <EntryUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym13#page30#enu11" name="Dati pratica" entity="ent1" linkOrder="mov3#mpkg5#hym13#page30#enu11#ln44 mov3#mpkg5#hym13#page30#enu11#ln45 mov3#mpkg5#hym13#page30#enu11#ln47">
       <Field id="mov3#mpkg5#hym13#page30#enu11#fld42" name="protocollo" type="string" modifiable="true" attribute="ent1#att26"/>
       <Field id="mov3#mpkg5#hym13#page30#enu11#fld43" name="descrizione" type="string" modifiable="true" attribute="ent1#att29"/>
       <Link id="mov3#mpkg5#hym13#page30#enu11#ln44" name="Scegli intervento" to="mov3#mpkg5#hym13#page32#inu10" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="53,188,-167,-97" ajaxEnabled="true" ajaxOpenWindow="true" ajaxWindowAutoResizing="true"/>
@@ -17,18 +17,63 @@
       </Link>
       <Link id="mov3#mpkg5#hym13#page30#enu11#ln47" name="Scegli ingegneri occupati" to="mov3#mpkg5#hym13#page31#mciu3" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="-53,135,-63,-135" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true"/>
     </EntryUnit>
-    <MultiMessageUnit gr:x="140" gr:y="65" id="mov3#mpkg5#hym13#page30#mssu10" name="Message5"/>
+    <MultiMessageUnit gr:x="140" gr:y="65" id="mov3#mpkg5#hym13#page30#mssu10" name="Errore"/>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
       <layout:Cell colspan="12">
-        <layout:Unit unitId="mov3#mpkg5#hym13#page30#enu11">
-          <layout:Link link="mov3#mpkg5#hym13#page30#enu11#ln44"/>
-          <layout:Link link="mov3#mpkg5#hym13#page30#enu11#ln45"/>
-          <layout:Link link="mov3#mpkg5#hym13#page30#enu11#ln47"/>
+        <layout:Unit unitId="mov3#mpkg5#hym13#page30#enu11" manualLinks="true">
           <layout:Field field="mov3#mpkg5#hym13#page30#enu11#fld42"/>
           <layout:Field field="mov3#mpkg5#hym13#page30#enu11#fld43"/>
         </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Link unitId="mov3#mpkg5#hym13#page30#enu11" link="mov3#mpkg5#hym13#page30#enu11#ln44"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Link unitId="mov3#mpkg5#hym13#page30#enu11" link="mov3#mpkg5#hym13#page30#enu11#ln47"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Link unitId="mov3#mpkg5#hym13#page30#enu11" link="mov3#mpkg5#hym13#page30#enu11#ln45"/>
       </layout:Cell>
       <layout:Cell/>
       <layout:Cell/>

@@ -1,30 +1,34 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="280" gr:y="20" id="sv1#area1#page2" name="Tutte le pratiche" linkOrder="sv1#area1#page2#ln20">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="475" gr:y="20" id="sv1#area1#page2" name="Tutte le pratiche" linkOrder="sv1#area1#page2#ln20">
   <ContentUnits>
-    <HierarchicalIndexUnit gr:x="0" gr:y="0" id="sv1#area1#page2#hinu4" name="Hierarchy4" sortable="false" entity="ent1" displayAttributes="ent1#att26 ent1#att29 ent1#att35" linkOrder="sv1#area1#page2#hinu4#ln64 sv1#area1#page2#hinu4#ln9">
+    <HierarchicalIndexUnit gr:x="0" gr:y="0" id="sv1#area1#page2#hinu4" name="Lista pratiche" sortable="false" entity="ent1" displayAttributes="ent1#att26 ent1#att29 ent1#att35 ent1#att34 ent1#att32" linkOrder="sv1#area1#page2#hinu4#ln64 sv1#area1#page2#hinu4#ln9">
       <HierarchicalIndexLevel id="sv1#area1#page2#hinu4#hiulvl4" name="Aggiornamento" entity="ent6" role="rel5#role9" displayAttributes="ent6#att24 ent6#att28 ent6#att33">
         <SortAttribute attribute="ent6#att24" order="ascending"/>
       </HierarchicalIndexLevel>
       <Link id="sv1#area1#page2#hinu4#ln64" name="Aggiungi" to="sv1#area1#miu5" type="normal" validate="true">
         <LinkParameter id="sv1#area1#page2#hinu4#ln64#par103" name="id_pratica(Hierarchy4)_ID_pratica" source="data[].ent1#att1" target="sv1#area1#miu5.mov3#mpkg5#hym16#icu16#icp7"/>
       </Link>
-      <Link id="sv1#area1#page2#hinu4#ln9" name="Flow9" to="sv1#area1#miu3" type="normal" validate="true">
+      <Link id="sv1#area1#page2#hinu4#ln9" name="Esporta" to="sv1#area1#miu3" type="normal" validate="true">
         <LinkParameter id="sv1#area1#page2#hinu4#ln9#par9" name="id_pratica(Hierarchy4)_ID_pratica" source="data[].ent1#att1" target="sv1#area1#miu3.mov2#mpkg4#hym7#icu6#icp4"/>
       </Link>
+      <SortAttribute attribute="ent1#att32" order="ascending"/>
+      <SortAttribute attribute="ent1#att26" order="ascending"/>
     </HierarchicalIndexUnit>
-    <MultiMessageUnit gr:x="35" gr:y="125" id="sv1#area1#page2#mssu17" name="Message17"/>
+    <MultiMessageUnit gr:x="5" gr:y="160" id="sv1#area1#page2#mssu17" name="Messaggio errore"/>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
       <layout:Cell colspan="12">
         <layout:Unit unitId="sv1#area1#page2#hinu4">
+          <layout:Link link="sv1#area1#page2#hinu4#ln64"/>
+          <layout:Link link="sv1#area1#page2#hinu4#ln9"/>
           <layout:Attribute attribute="ent1#att26"/>
           <layout:Attribute attribute="ent1#att29"/>
           <layout:Attribute attribute="ent1#att35"/>
+          <layout:Attribute attribute="ent1#att34"/>
+          <layout:Attribute attribute="ent1#att32"/>
           <layout:Attribute attribute="ent6#att24"/>
           <layout:Attribute attribute="ent6#att28"/>
           <layout:Attribute attribute="ent6#att33"/>
-          <layout:Link link="sv1#area1#page2#hinu4#ln64"/>
-          <layout:Link link="sv1#area1#page2#hinu4#ln9"/>
         </layout:Unit>
       </layout:Cell>
       <layout:Cell/>

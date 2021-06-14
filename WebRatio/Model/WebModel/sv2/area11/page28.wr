@@ -1,0 +1,34 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area11#page28" name="Tutti gli interventi" gr:x="0" gr:y="0">
+  <ContentUnits>
+    <IndexUnit id="sv2#area11#page28#inu15" name="Lista interventi" linkOrder="sv2#area11#page28#inu15#ln72" gr:x="0" gr:y="0" entity="ent2" displayAttributes="ent2#att20 ent2#att21 rel4#role7.ent7#att31 rel6#role12.rel1#role2.ent4#att23">
+      <Link id="sv2#area11#page28#inu15#ln72" name="Mostra Pratiche" to="sv2#area7#page20#hinu2" type="normal" validate="true" gr:bendpoints="-124,0,161,-580;-129,163,156,-417;-137,411,148,-169">
+        <LinkParameter id="sv2#area11#page28#inu15#ln72#par112" name="id_intervento_AttCondition7 [Hierarchy4]" source="data[].ent2#att2" target="sv2#area7#page20#hinu2#su27#acond8"/>
+        <LinkParameter id="sv2#area11#page28#inu15#ln72#par113" name="id_intervento_PASSING" source="data[].ent2#att2" passing="true"/>
+      </Link>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area11#page28#inu15">
+          <layout:Attribute attribute="ent2#att20"/>
+          <layout:Attribute attribute="ent2#att21"/>
+          <layout:Attribute attribute="rel4#role7.ent7#att31"/>
+          <layout:Attribute attribute="rel6#role12.rel1#role2.ent4#att23"/>
+          <layout:Link link="sv2#area11#page28#inu15#ln72"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -1,11 +1,11 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area1#page15" name="Pratiche di intervento">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="195" gr:y="0" id="sv1#area1#page15" name="Pratiche di intervento">
   <ContentUnits>
-    <DataUnit gr:x="0" gr:y="140" id="sv1#area1#page15#dau8" name="Details8" entity="ent2" displayAttributes="ent2#att20 ent2#att21">
+    <DataUnit gr:x="50" gr:y="135" id="sv1#area1#page15#dau8" name="Intervento" entity="ent2" displayAttributes="ent2#att20 ent2#att21">
       <Selector id="sv1#area1#page15#dau8#su19" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="sv1#area1#page15#dau8#su19#kcond10" name="KeyCondition10" predicate="in" implied="false"/>
       </Selector>
     </DataUnit>
-    <HierarchicalIndexUnit id="sv1#area1#page15#hinu3" name="Hierarchy4" gr:x="0" gr:y="0" sortable="false" entity="ent1" displayAttributes="ent1#att26 ent1#att29 ent1#att35">
+    <HierarchicalIndexUnit id="sv1#area1#page15#hinu3" name="Lista pratiche" gr:x="0" gr:y="0" sortable="true" entity="ent1" displayAttributes="ent1#att26 ent1#att29 ent1#att35 ent1#att34" linkOrder="sv1#area1#page15#hinu3#ln8" gr:showAllParts="false">
       <HierarchicalIndexLevel id="sv1#area1#page15#hinu3#hiulvl6" name="Aggiornamento" entity="ent6" role="rel5#role9" displayAttributes="ent6#att24 ent6#att28 ent6#att33">
         <SortAttribute attribute="ent6#att24" order="ascending"/>
       </HierarchicalIndexLevel>
@@ -15,6 +15,12 @@
       <Selector id="sv1#area1#page15#hinu3#su20" defaultPolicy="fill" booleanOperator="and">
         <AttributesCondition id="sv1#area1#page15#hinu3#su20#acond7" name="AttCondition7" predicate="eq" booleanOperator="or" implied="false" attributes="rel9#role18.ent2#att2"/>
       </Selector>
+      <Link id="sv1#area1#page15#hinu3#ln8" name="Flow8" to="sv1#area1#page9#dau9" type="normal" validate="true">
+        <LinkParameter id="sv1#area1#page15#hinu3#ln8#par4" name="id_pratica(Lista pratiche)_KeyCondition15 [id_pratica]" source="data[].ent1#att1" target="sv1#area1#page9#dau9#su22#kcond15.ent1#att1"/>
+      </Link>
+      <DefaultSortAttribute attribute="ent1#att26" order="ascending"/>
+      <DefaultSortAttribute attribute="ent1#att32" order="ascending"/>
+      <SortAttribute attribute="ent1#att36" order="ascending"/>
     </HierarchicalIndexUnit>
   </ContentUnits>
   <layout:Grid containerType="grid">
@@ -40,9 +46,11 @@
     <layout:Row>
       <layout:Cell colspan="12">
         <layout:Unit unitId="sv1#area1#page15#hinu3">
+          <layout:Link link="sv1#area1#page15#hinu3#ln8"/>
           <layout:Attribute attribute="ent1#att26"/>
           <layout:Attribute attribute="ent1#att29"/>
           <layout:Attribute attribute="ent1#att35"/>
+          <layout:Attribute attribute="ent1#att34"/>
           <layout:Attribute attribute="ent6#att24"/>
           <layout:Attribute attribute="ent6#att28"/>
           <layout:Attribute attribute="ent6#att33"/>

@@ -5,7 +5,7 @@
         <KeyCondition id="sv1#area4#page1#dau3#su7#kcond7" name="KeyCondition7" predicate="in" implied="false"/>
       </Selector>
     </DataUnit>
-    <IndexUnit gr:x="0" gr:y="0" id="sv1#area4#page1#inu4" name="Simple List4" entity="ent3" displayAttributes="ent3#att14 ent3#att16 ent3#att15 ent3#att17 ent3#att18 ent3#att19">
+    <IndexUnit gr:x="0" gr:y="0" id="sv1#area4#page1#inu4" name="Lista immobili" entity="ent3" displayAttributes="ent3#att14 ent3#att16 ent3#att15 ent3#att17 ent3#att18 ent3#att19">
       <Selector id="sv1#area4#page1#inu4#su9" defaultPolicy="fill" booleanOperator="and">
         <AttributesCondition id="sv1#area4#page1#inu4#su9#acond3" name="AttCondition3" predicate="eq" booleanOperator="or" implied="false" attributes="rel1#role2.ent4#att4" ignoreCase="false"/>
       </Selector>

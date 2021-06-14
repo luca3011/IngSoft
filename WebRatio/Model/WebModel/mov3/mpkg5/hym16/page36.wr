@@ -1,6 +1,6 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="410" gr:y="120" id="mov3#mpkg5#hym16#page36" name="Page 21">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="410" gr:y="120" id="mov3#mpkg5#hym16#page36" name="Aggiorna pratica">
   <ContentUnits>
-    <EntryUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym16#page36#enu14" name="Form6" entity="ent6" linkOrder="mov3#mpkg5#hym16#page36#enu14#ln61" fieldOrder="mov3#mpkg5#hym16#page36#enu14#fld49 mov3#mpkg5#hym16#page36#enu14#fld50 mov3#mpkg5#hym16#page36#enu14#fld51">
+    <EntryUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym16#page36#enu14" name="Dati aggiornamento" entity="ent6" linkOrder="mov3#mpkg5#hym16#page36#enu14#ln61" fieldOrder="mov3#mpkg5#hym16#page36#enu14#fld49 mov3#mpkg5#hym16#page36#enu14#fld50 mov3#mpkg5#hym16#page36#enu14#fld51">
       <Field id="mov3#mpkg5#hym16#page36#enu14#fld49" name="versione" type="integer" attribute="ent6#att24" preloaded="true"/>
       <Field id="mov3#mpkg5#hym16#page36#enu14#fld50" name="descrizione" type="string" modifiable="true" attribute="ent6#att28"/>
       <Field id="mov3#mpkg5#hym16#page36#enu14#fld51" name="scadenza" type="date" attribute="ent6#att33" modifiable="true"/>

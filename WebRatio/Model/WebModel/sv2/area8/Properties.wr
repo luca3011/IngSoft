@@ -1,0 +1,16 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area8" name="Clienti" defaultPage="sv2#area8#page21" landmark="true" gr:x="20" gr:y="745">
+  <OperationUnits>
+    <ModuleInstanceUnit id="sv2#area8#miu14" gr:x="10" gr:y="265" action="false" moduleId="mov2#mpkg1#hym3">
+      <OKLink id="sv2#area8#miu14#oln24" name="OKFlow16" to="sv2#area8#page21" automaticCoupling="true" gr:bendpoints="-34,-45,-10,139"/>
+      <KOLink id="sv2#area8#miu14#kln10" name="KOFlow13" to="sv2#area8#page21#mssu5" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true">
+        <LinkParameter id="sv2#area8#miu14#kln10#par102" name="Problema_Shown Messages" source="mov2#mpkg1#hym3#kocu4#ocp3" target="sv2#area8#page21#mssu5.shownMessages"/>
+      </KOLink>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit id="sv2#area8#miu15" gr:x="210" gr:y="25" moduleId="mov2#mpkg1#hym1" action="false">
+      <KOLink id="sv2#area8#miu15#kln13" name="KOFlow2" to="sv2#area8#page21" automaticCoupling="true" gr:bendpoints="-48,73,152,-1"/>
+      <OKLink id="sv2#area8#miu15#oln25" name="OKFlow2" to="sv2#area8#page23#dau12" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="false" ajaxWindowMaximizable="false" ajaxWindowMinimizable="false" ajaxWindowDraggable="true" ajaxWindowModal="true" gr:bendpoints="87,67,107,-83">
+        <LinkParameter id="sv2#area8#miu15#oln25#par104" name="CF cliente creato_KeyCondition5 [cf]" source="mov2#mpkg1#hym1#okcu1#ocp1" target="sv2#area8#page23#dau12#su28#kcond18.ent4#att4"/>
+      </OKLink>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</Area>

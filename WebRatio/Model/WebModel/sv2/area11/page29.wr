@@ -1,0 +1,59 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area11#page29" name="Interventi di immobile" gr:x="0" gr:y="155">
+  <ContentUnits>
+    <DataUnit id="sv2#area11#page29#dau15" name="Immobile" gr:x="255" gr:y="0" entity="ent3" displayAttributes="ent3#att14 ent3#att15 ent3#att16">
+      <Selector id="sv2#area11#page29#dau15#su32" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#area11#page29#dau15#su32#kcond21" name="KeyCondition9" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+    <IndexUnit id="sv2#area11#page29#inu16" name="Lista interventi" gr:x="0" gr:y="5" entity="ent2" displayAttributes="ent2#att20 ent2#att21">
+      <SortAttribute attribute="ent2#att21" order="ascending"/>
+      <Link id="sv2#area11#page29#inu16#ln74" name="Flow24" to="sv2#area11#page29#dau15" type="transport" validate="true">
+        <LinkParameter id="sv2#area11#page29#inu16#ln74#par114" name="InterventoToImmobile.id_immobile_KeyCondition9 [id_immobile]" source="data[].rel6#role12_ent3#att3" target="sv2#area11#page29#dau15#su32#kcond21.ent3#att3"/>
+      </Link>
+      <Selector id="sv2#area11#page29#inu16#su33" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="sv2#area11#page29#inu16#su33#acond10" name="AttCondition6" predicate="eq" booleanOperator="or" implied="false" attributes="rel6#role12.ent3#att3"/>
+      </Selector>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area11#page29#dau15">
+          <layout:Attribute attribute="ent3#att14"/>
+          <layout:Attribute attribute="ent3#att15"/>
+          <layout:Attribute attribute="ent3#att16"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area11#page29#inu16">
+          <layout:Attribute attribute="ent2#att20"/>
+          <layout:Attribute attribute="ent2#att21"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

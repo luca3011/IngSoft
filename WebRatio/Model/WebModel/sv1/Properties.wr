@@ -1,11 +1,5 @@
-<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="Ingegnere" protected="true" secure="false" landmarks="sv1#area2 sv1#area4 sv1#area3 sv1#area1" homePage="sv1#area2#page6" localized="true">
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="Ingegnere" protected="true" secure="false" landmarks="sv1#area2 sv1#area4 sv1#area3 sv1#area1" homePage="sv1#area2#page6" localized="true" customURLName="ingegnere">
   <OperationUnits>
-    <ModuleInstanceUnit gr:x="240" gr:y="285" id="sv1#miu1" moduleId="mov2#mpkg1#hym1" action="false">
-      <KOLink id="sv1#miu1#kln2" name="KOFlow2" to="sv1#area2#page6" automaticCoupling="true" gr:bendpoints="-48,73,152,-1"/>
-      <OKLink id="sv1#miu1#oln2" name="OKFlow2" to="sv1#area2#page7#dau5" ajaxOpenWindow="true" ajaxWindowDraggable="true" ajaxWindowMinimizable="false" ajaxWindowModal="true" ajaxWindowMaximizable="false" ajaxWindowClosable="false" ajaxWindowAutoResizing="true" gr:bendpoints="41,93,37,-76">
-        <LinkParameter id="sv1#miu1#oln2#par4" name="CF cliente creato_KeyCondition5 [cf]" source="mov2#mpkg1#hym1#okcu1#ocp1" target="sv1#area2#page7#dau5#su5#kcond5.ent4#att4"/>
-      </OKLink>
-    </ModuleInstanceUnit>
     <ParameterCollectorUnit gr:x="100" gr:y="115" id="sv1#pcu2" name="Ingegnere">
       <OKLink id="sv1#pcu2#oln19" name="OKFlow19" to="sv1#area2#page6" automaticCoupling="true"/>
     </ParameterCollectorUnit>

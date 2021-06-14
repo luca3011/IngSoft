@@ -1,0 +1,36 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area10#page26" name="Dettaglio immobile" layout:pageLayout="WRDefault/Empty" gr:x="225" gr:y="110">
+  <ContentUnits>
+    <DataUnit id="sv2#area10#page26#dau14" name="Dettaglio immobile" linkOrder="sv2#area10#page26#dau14#ln68" gr:x="0" gr:y="0" entity="ent3" displayAttributes="ent3#att14 ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19">
+      <Selector id="sv2#area10#page26#dau14#su31" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#area10#page26#dau14#su31#kcond20" name="KeyCondition6" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv2#area10#page26#dau14#ln68" name="Torna a tutti gli immobili" to="sv2#area10#page27" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="-73,-64,117,86;-110,-97,94,47"/>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area10#page26#dau14">
+          <layout:Attribute attribute="ent3#att14"/>
+          <layout:Attribute attribute="ent3#att15"/>
+          <layout:Attribute attribute="ent3#att16"/>
+          <layout:Attribute attribute="ent3#att17"/>
+          <layout:Attribute attribute="ent3#att18"/>
+          <layout:Attribute attribute="ent3#att19"/>
+          <layout:Link link="sv2#area10#page26#dau14#ln68"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

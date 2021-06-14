@@ -1,0 +1,10 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2#area10" name="Immobili" defaultPage="sv2#area10#page27" landmark="true" gr:x="500" gr:y="745">
+  <OperationUnits>
+    <ModuleInstanceUnit id="sv2#area10#miu16" gr:x="195" gr:y="0" action="false" moduleId="mov2#mpkg2#hym6">
+      <KOLink id="sv2#area10#miu16#kln14" name="KOFlow3" to="sv2#area10#page27#mssu8" automaticCoupling="true" gr:bendpoints="-96,66,144,-84"/>
+      <OKLink id="sv2#area10#miu16#oln26" name="OKFlow7" to="sv2#area10#page26#dau14" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="false" gr:bendpoints="81,117,151,-7">
+        <LinkParameter id="sv2#area10#miu16#oln26#par108" name="ID immobile creato_KeyCondition6 [id_immobile]" source="mov2#mpkg2#hym6#okcu2#ocp2" target="sv2#area10#page26#dau14#su31#kcond20.ent3#att3"/>
+      </OKLink>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</Area>

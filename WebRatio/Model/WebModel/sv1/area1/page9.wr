@@ -1,0 +1,60 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="15" id="sv1#area1#page9" name="Dettaglio pratica">
+  <ContentUnits>
+    <DataUnit gr:x="10" gr:y="0" id="sv1#area1#page9#dau9" name="Dettaglio pratica" entity="ent1" displayAttributes="ent1#att26 ent1#att27 ent1#att29 ent1#att34">
+      <Selector id="sv1#area1#page9#dau9#su22" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area1#page9#dau9#su22#kcond15" name="KeyCondition15" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#area1#page9#dau9#ln13" name="Flow13" to="sv1#area1#page9#inu8" type="transport" validate="true">
+        <LinkParameter id="sv1#area1#page9#dau9#ln13#par13" name="id_pratica_RoleCondition1 [id_pratica]" source="data.ent1#att1" target="sv1#area1#page9#inu8#su24#rcond1.ent1#att1"/>
+      </Link>
+    </DataUnit>
+    <IndexUnit gr:x="0" gr:y="135" id="sv1#area1#page9#inu8" name="Dettaglio aggiornamenti" entity="ent6" displayAttributes="ent6#att24 ent6#att28 ent6#att33">
+      <Selector id="sv1#area1#page9#inu8#su24" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv1#area1#page9#inu8#su24#rcond1" name="RoleCondition1" role="rel5#role9" predicate="in" implied="false"/>
+      </Selector>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page9#dau9">
+          <layout:Attribute attribute="ent1#att26"/>
+          <layout:Attribute attribute="ent1#att27"/>
+          <layout:Attribute attribute="ent1#att29"/>
+          <layout:Attribute attribute="ent1#att34"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page9#inu8">
+          <layout:Attribute attribute="ent6#att24"/>
+          <layout:Attribute attribute="ent6#att28"/>
+          <layout:Attribute attribute="ent6#att33"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

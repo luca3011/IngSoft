@@ -1,0 +1,86 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv2#area7#page20" name="Pratiche di intervento" gr:x="195" gr:y="0">
+  <ContentUnits>
+    <DataUnit id="sv2#area7#page20#dau11" name="Intervento" gr:x="50" gr:y="135" entity="ent2" displayAttributes="ent2#att20 ent2#att21">
+      <Selector id="sv2#area7#page20#dau11#su26" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv2#area7#page20#dau11#su26#kcond17" name="KeyCondition10" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+    <HierarchicalIndexUnit id="sv2#area7#page20#hinu2" name="Lista pratiche" linkOrder="sv2#area7#page20#hinu2#ln38" gr:showAllParts="false" gr:x="0" gr:y="0" sortable="true" entity="ent1" displayAttributes="ent1#att26 ent1#att29 ent1#att35 ent1#att34">
+      <HierarchicalIndexLevel id="sv2#area7#page20#hinu2#hiulvl2" name="Aggiornamento" entity="ent6" role="rel5#role9" displayAttributes="ent6#att24 ent6#att28 ent6#att33">
+        <SortAttribute attribute="ent6#att24" order="ascending"/>
+      </HierarchicalIndexLevel>
+      <Link id="sv2#area7#page20#hinu2#ln34" name="Flow33" to="sv2#area7#page20#dau11" type="transport" validate="true">
+        <LinkParameter id="sv2#area7#page20#hinu2#ln34#par90" name="id_intervento_PASSING_KeyCondition10 [id_intervento]" sourceLinkParameter="sv2#area11#page28#inu15#ln72#par113" target="sv2#area7#page20#dau11#su26#kcond17.ent2#att2"/>
+      </Link>
+      <Selector id="sv2#area7#page20#hinu2#su27" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="sv2#area7#page20#hinu2#su27#acond8" name="AttCondition7" predicate="eq" booleanOperator="or" implied="false" attributes="rel9#role18.ent2#att2"/>
+      </Selector>
+      <Link id="sv2#area7#page20#hinu2#ln38" name="Flow8" to="sv2#area7#page17#dau10" type="normal" validate="true">
+        <LinkParameter id="sv2#area7#page20#hinu2#ln38#par91" name="id_pratica(Lista pratiche)_KeyCondition15 [id_pratica]" source="data[].ent1#att1" target="sv2#area7#page17#dau10#su23#kcond16.ent1#att1"/>
+      </Link>
+      <DefaultSortAttribute attribute="ent1#att26" order="ascending"/>
+      <DefaultSortAttribute attribute="ent1#att32" order="ascending"/>
+      <SortAttribute attribute="ent1#att36" order="ascending"/>
+    </HierarchicalIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area7#page20#dau11">
+          <layout:Attribute attribute="ent2#att20"/>
+          <layout:Attribute attribute="ent2#att21"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv2#area7#page20#hinu2">
+          <layout:Link link="sv2#area7#page20#hinu2#ln38"/>
+          <layout:Attribute attribute="ent1#att26"/>
+          <layout:Attribute attribute="ent1#att29"/>
+          <layout:Attribute attribute="ent1#att35"/>
+          <layout:Attribute attribute="ent1#att34"/>
+          <layout:Attribute attribute="ent6#att24"/>
+          <layout:Attribute attribute="ent6#att28"/>
+          <layout:Attribute attribute="ent6#att33"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

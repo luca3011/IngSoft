@@ -1,6 +1,6 @@
 <Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="410" gr:y="145" id="mov2#mpkg1#hym1#page5" name="Aggiunta cliente" ajaxEnabled="true" linkOrder="mov2#mpkg1#hym1#page5#ln2" layout:pageLayout="WebRatio/Basic">
   <ContentUnits>
-    <EntryUnit gr:x="5" gr:y="0" id="mov2#mpkg1#hym1#page5#enu1" name="Form1" entity="ent4" linkOrder="mov2#mpkg1#hym1#page5#enu1#ln1">
+    <EntryUnit gr:x="5" gr:y="0" id="mov2#mpkg1#hym1#page5#enu1" name="Dati cliente" entity="ent4" linkOrder="mov2#mpkg1#hym1#page5#enu1#ln1">
       <Field id="mov2#mpkg1#hym1#page5#enu1#fld1" name="Codice Fiscale" type="string" modifiable="true" attribute="ent4#att4" preloaded="false">
         <VRules>
           <ValueLengthValidationRule id="mov2#mpkg1#hym1#page5#enu1#fld1#vl2" name="Value Length2" predicate="eq" value="16"/>

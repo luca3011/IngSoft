@@ -1,10 +1,10 @@
 <Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="385" gr:y="145" id="mov3#mpkg7#hym14#page34" name="Aggiunta intervento">
   <ContentUnits>
-    <EntryUnit gr:x="0" gr:y="80" id="mov3#mpkg7#hym14#page34#enu12" name="Form intervento" entity="ent2" linkOrder="mov3#mpkg7#hym14#page34#enu12#ln52 mov3#mpkg7#hym14#page34#enu12#ln56" fieldOrder="mov3#mpkg7#hym14#page34#enu12#fld44 mov3#mpkg7#hym14#page34#enu12#fld45 mov3#mpkg7#hym14#page34#enu12#sfld2">
+    <EntryUnit gr:x="0" gr:y="80" id="mov3#mpkg7#hym14#page34#enu12" name="Dati intervento" entity="ent2" linkOrder="mov3#mpkg7#hym14#page34#enu12#ln52 mov3#mpkg7#hym14#page34#enu12#ln56" fieldOrder="mov3#mpkg7#hym14#page34#enu12#fld44 mov3#mpkg7#hym14#page34#enu12#fld45 mov3#mpkg7#hym14#page34#enu12#sfld2">
       <Field id="mov3#mpkg7#hym14#page34#enu12#fld44" name="descrizione" type="string" modifiable="true" attribute="ent2#att20" contentType="text/plain"/>
       <Field id="mov3#mpkg7#hym14#page34#enu12#fld45" name="ditta" type="string" modifiable="true" attribute="ent2#att21" contentType="text/plain"/>
       <SelectionField id="mov3#mpkg7#hym14#page34#enu12#sfld2" name="InterventoToTipologia" type="string" role="rel4#role7" splitOutput="false"/>
-      <Link id="mov3#mpkg7#hym14#page34#enu12#ln52" name="Flow45" to="mov3#mpkg7#hym14#opg14#inn8" type="normal" validate="true" ajaxEnabled="true">
+      <Link id="mov3#mpkg7#hym14#page34#enu12#ln52" name="Conferma" to="mov3#mpkg7#hym14#opg14#inn8" type="normal" validate="true" ajaxEnabled="true">
         <LinkParameter id="mov3#mpkg7#hym14#page34#enu12#ln52#par139" name="id_immobile_PASSING_Input" sourceLinkParameter="mov3#mpkg7#hym14#page33#inu11#ln50#par137" target="mov3#mpkg7#hym14#opg14#inn8.isnotnull"/>
       </Link>
       <Link id="mov3#mpkg7#hym14#page34#enu12#ln55" name="Flow46" to="mov3#mpkg7#hym14#opg14#cru10" type="transport" validate="true" gr:bendpoints="233,62,-207,107">
@@ -17,18 +17,76 @@
       </Link>
       <Link id="mov3#mpkg7#hym14#page34#enu12#ln56" name="Selezione immobile" to="mov3#mpkg7#hym14#page33#inu11" type="normal" validate="true" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true" ajaxEnabled="true" gr:bendpoints="68,108,-92,-122;79,230,-101,0"/>
     </EntryUnit>
-    <MultiMessageUnit gr:x="0" gr:y="0" id="mov3#mpkg7#hym14#page34#mssu11" name="Message11"/>
+    <MultiMessageUnit gr:x="0" gr:y="0" id="mov3#mpkg7#hym14#page34#mssu11" name="Errore"/>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>
       <layout:Cell colspan="12">
-        <layout:Unit unitId="mov3#mpkg7#hym14#page34#enu12">
-          <layout:Link link="mov3#mpkg7#hym14#page34#enu12#ln52"/>
-          <layout:Link link="mov3#mpkg7#hym14#page34#enu12#ln56"/>
-          <layout:Field field="mov3#mpkg7#hym14#page34#enu12#fld44"/>
-          <layout:Field field="mov3#mpkg7#hym14#page34#enu12#fld45"/>
-          <layout:Field field="mov3#mpkg7#hym14#page34#enu12#sfld2"/>
-        </layout:Unit>
+        <layout:Link unitId="mov3#mpkg7#hym14#page34#enu12" link="mov3#mpkg7#hym14#page34#enu12#ln56"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Field unitId="mov3#mpkg7#hym14#page34#enu12" mode="full" field="mov3#mpkg7#hym14#page34#enu12#fld44"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Field unitId="mov3#mpkg7#hym14#page34#enu12" mode="full" field="mov3#mpkg7#hym14#page34#enu12#fld45"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Field unitId="mov3#mpkg7#hym14#page34#enu12" mode="full" field="mov3#mpkg7#hym14#page34#enu12#sfld2"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Link unitId="mov3#mpkg7#hym14#page34#enu12" link="mov3#mpkg7#hym14#page34#enu12#ln52"/>
       </layout:Cell>
       <layout:Cell/>
       <layout:Cell/>

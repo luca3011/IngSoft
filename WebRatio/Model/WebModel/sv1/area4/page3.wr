@@ -1,14 +1,14 @@
 <Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="25" id="sv1#area4#page3" name="Tutti gli immobili" linkOrder="sv1#area4#page3#ln19">
   <ContentUnits>
-    <IndexUnit gr:x="0" gr:y="0" id="sv1#area4#page3#inu1" name="Simple List1" entity="ent3" displayAttributes="ent3#att14 ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19" linkOrder="sv1#area4#page3#inu1#ln21 sv1#area4#page3#inu1#ln18" customDescriptor="false">
+    <IndexUnit gr:x="0" gr:y="0" id="sv1#area4#page3#inu1" name="Lista interventi" entity="ent3" displayAttributes="ent3#att14 ent3#att15 ent3#att16 ent3#att17 ent3#att18 ent3#att19" linkOrder="sv1#area4#page3#inu1#ln21 sv1#area4#page3#inu1#ln18" customDescriptor="false">
       <Link id="sv1#area4#page3#inu1#ln21" name="Dettaglio cliente" to="sv1#area2#page7#dau5" type="normal" validate="true" ajaxOpenWindow="true" ajaxWindowClosable="true" ajaxWindowAutoResizing="true" ajaxWindowDraggable="true">
         <LinkParameter id="sv1#area4#page3#inu1#ln21#par73" name="ImmobileToCliente.cf_KeyCondition5 [cf]" source="data[].rel1#role2_ent4#att4" target="sv1#area2#page7#dau5#su5#kcond5.ent4#att4"/>
       </Link>
-      <Link id="sv1#area4#page3#inu1#ln18" name="Flow18" to="sv1#area3#page11#inu7" type="normal" validate="true" gr:bendpoints="77,148,-547,3;146,169,-478,24;281,178,-343,33">
+      <Link id="sv1#area4#page3#inu1#ln18" name="Mostra interventi" to="sv1#area3#page11#inu7" type="normal" validate="true" gr:bendpoints="77,148,-547,3;146,169,-478,24;281,178,-343,33">
         <LinkParameter id="sv1#area4#page3#inu1#ln18#par17" name="id_immobile_AttCondition6" source="data[].ent3#att3" target="sv1#area3#page11#inu7#su16#acond6"/>
       </Link>
     </IndexUnit>
-    <MultiMessageUnit id="sv1#area4#page3#mssu7" name="Message6" gr:x="5" gr:y="95"/>
+    <MultiMessageUnit id="sv1#area4#page3#mssu7" name="Messaggio errore" gr:x="5" gr:y="95"/>
   </ContentUnits>
   <layout:Grid containerType="grid">
     <layout:Row>

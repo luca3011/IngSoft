@@ -1,13 +1,13 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1060" gr:y="615" id="sv1#area1" name="Pratiche" landmark="true" defaultPage="sv1#area1#page2">
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1025" gr:y="620" id="sv1#area1" name="Pratiche" landmark="true" defaultPage="sv1#area1#page2">
   <OperationUnits>
-    <ModuleInstanceUnit gr:x="495" gr:y="20" id="sv1#area1#miu3" action="false" moduleId="mov2#mpkg4#hym7"/>
-    <ModuleInstanceUnit gr:x="510" gr:y="105" id="sv1#area1#miu4" action="false" moduleId="mov3#mpkg5#hym13">
+    <ModuleInstanceUnit gr:x="690" gr:y="20" id="sv1#area1#miu3" action="false" moduleId="mov2#mpkg4#hym7"/>
+    <ModuleInstanceUnit gr:x="705" gr:y="105" id="sv1#area1#miu4" action="false" moduleId="mov3#mpkg5#hym13">
       <OKLink id="sv1#area1#miu4#oln10" name="OKFlow25" to="sv1#area1#page2" automaticCoupling="true" gr:bendpoints="110,-49,54,111"/>
       <KOLink id="sv1#area1#miu4#kln6" name="KOFlow10" to="sv1#area1#page2#mssu17">
         <LinkParameter id="sv1#area1#miu4#kln6#par6" name="Errore_Shown Messages" source="mov3#mpkg5#hym13#kocu10#ocp7" target="sv1#area1#page2#mssu17.shownMessages"/>
       </KOLink>
     </ModuleInstanceUnit>
-    <ModuleInstanceUnit gr:x="480" gr:y="215" id="sv1#area1#miu5" action="false" moduleId="mov3#mpkg5#hym16">
+    <ModuleInstanceUnit gr:x="675" gr:y="215" id="sv1#area1#miu5" action="false" moduleId="mov3#mpkg5#hym16">
       <OKLink id="sv1#area1#miu5#oln11" name="OKFlow50" to="sv1#area1#page2" automaticCoupling="true"/>
       <KOLink id="sv1#area1#miu5#kln7" name="KOFlow14" to="sv1#area1#page2#mssu17">
         <LinkParameter id="sv1#area1#miu5#kln7#par7" name="Aggiornamento non riuscito_Shown Messages" sourceValue="Aggiornamento non riuscito" target="sv1#area1#page2#mssu17.shownMessages"/>
