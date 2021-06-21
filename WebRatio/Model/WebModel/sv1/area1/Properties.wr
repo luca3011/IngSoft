@@ -1,15 +1,15 @@
-<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1025" gr:y="620" id="sv1#area1" name="Pratiche" landmark="true" defaultPage="sv1#area1#page2">
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="1030" gr:y="585" id="sv1#area1" name="Pratiche" landmark="true" defaultPage="sv1#area1#page2">
   <OperationUnits>
-    <ModuleInstanceUnit gr:x="690" gr:y="20" id="sv1#area1#miu3" action="false" moduleId="mov2#mpkg4#hym7"/>
-    <ModuleInstanceUnit gr:x="705" gr:y="105" id="sv1#area1#miu4" action="false" moduleId="mov3#mpkg5#hym13">
-      <OKLink id="sv1#area1#miu4#oln10" name="OKFlow25" to="sv1#area1#page2" automaticCoupling="true" gr:bendpoints="110,-49,54,111"/>
-      <KOLink id="sv1#area1#miu4#kln6" name="KOFlow10" to="sv1#area1#page2#mssu17">
+    <ModuleInstanceUnit gr:x="260" gr:y="5" id="sv1#area1#miu3" action="false" moduleId="mov2#mpkg4#hym7"/>
+    <ModuleInstanceUnit gr:x="245" gr:y="90" id="sv1#area1#miu4" action="false" moduleId="mov3#mpkg5#hym13">
+      <OKLink id="sv1#area1#miu4#oln10" name="OKFlow25" to="sv1#area1#page2" automaticCoupling="true" gr:bendpoints="-5,47,250,37;-126,47,129,37"/>
+      <KOLink id="sv1#area1#miu4#kln6" name="KOFlow10" to="sv1#area1#page2#mssu17" gr:bendpoints="33,51,293,-49;-135,57,125,-43">
         <LinkParameter id="sv1#area1#miu4#kln6#par6" name="Errore_Shown Messages" source="mov3#mpkg5#hym13#kocu10#ocp7" target="sv1#area1#page2#mssu17.shownMessages"/>
       </KOLink>
     </ModuleInstanceUnit>
-    <ModuleInstanceUnit gr:x="675" gr:y="215" id="sv1#area1#miu5" action="false" moduleId="mov3#mpkg5#hym16">
-      <OKLink id="sv1#area1#miu5#oln11" name="OKFlow50" to="sv1#area1#page2" automaticCoupling="true"/>
-      <KOLink id="sv1#area1#miu5#kln7" name="KOFlow14" to="sv1#area1#page2#mssu17">
+    <ModuleInstanceUnit gr:x="210" gr:y="195" id="sv1#area1#miu5" action="false" moduleId="mov3#mpkg5#hym16">
+      <OKLink id="sv1#area1#miu5#oln11" name="OKFlow50" to="sv1#area1#page2" automaticCoupling="true" gr:bendpoints="52,67,307,152;-130,70,125,155"/>
+      <KOLink id="sv1#area1#miu5#kln7" name="KOFlow14" to="sv1#area1#page2#mssu17" gr:bendpoints="-14,57,246,52;-149,54,111,49">
         <LinkParameter id="sv1#area1#miu5#kln7#par7" name="Aggiornamento non riuscito_Shown Messages" sourceValue="Aggiornamento non riuscito" target="sv1#area1#page2#mssu17.shownMessages"/>
       </KOLink>
     </ModuleInstanceUnit>

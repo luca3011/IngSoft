@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="520" gr:y="410" id="mov3#mpkg5#hym13#page31" name="Page 20" layout:pageLayout="WRDefault/Empty">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="500" gr:y="385" id="mov3#mpkg5#hym13#page31" name="Page 20" layout:pageLayout="WRDefault/Empty">
   <ContentUnits>
     <MultiChoiceIndexUnit id="mov3#mpkg5#hym13#page31#mciu3" entity="User" gr:x="0" gr:y="0" name="Ingegneri" displayAttributes="userName" linkOrder="mov3#mpkg5#hym13#page31#mciu3#ln48">
       <Selector id="mov3#mpkg5#hym13#page31#mciu3#su15" defaultPolicy="fill" booleanOperator="and">

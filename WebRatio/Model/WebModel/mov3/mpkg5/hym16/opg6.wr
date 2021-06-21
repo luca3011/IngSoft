@@ -1,0 +1,14 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="835" gr:y="310" id="mov3#mpkg5#hym16#opg6" name="Operation Group 6" transaction="true">
+  <OperationUnits>
+    <ModifyUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym16#opg6#mfu2" name="Update2" entity="ent1">
+      <Selector id="mov3#mpkg5#hym16#opg6#mfu2#su35" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov3#mpkg5#hym16#opg6#mfu2#su35#kcond22" name="KeyCondition22" predicate="in" implied="false"/>
+      </Selector>
+      <KOLink id="mov3#mpkg5#hym16#opg6#mfu2#kln2" name="KOFlow2" to="mov3#mpkg5#hym16#kocu13" automaticCoupling="true"/>
+      <OKLink id="mov3#mpkg5#hym16#opg6#mfu2#oln29" name="OKFlow29" to="mov3#mpkg5#hym16#opg18#cru12">
+        <LinkParameter id="mov3#mpkg5#hym16#opg6#mfu2#oln29#par154" name="id_pratica_Pratica.id_pratica(AggiornamentoToPratica)" source="ent1#att1Array" target="mov3#mpkg5#hym16#opg18#cru12.rel5#role10.ent1#att1"/>
+        <LinkParameter id="mov3#mpkg5#hym16#opg6#mfu2#oln29#par155" name="Result_PASSING_versione" sourceLinkParameter="mov3#mpkg5#hym16#opg19#mathu4#ln78#par153" target="mov3#mpkg5#hym16#opg18#cru12.ent6#att24"/>
+      </OKLink>
+    </ModifyUnit>
+  </OperationUnits>
+</OperationGroup>

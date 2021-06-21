@@ -1,6 +1,6 @@
 <HybridModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="0" gr:y="0" id="mov3#mpkg5#hym16" name="Aggiungi aggiornamento">
   <OperationUnits>
-    <InputCollectorUnit gr:x="55" gr:y="85" id="mov3#mpkg5#hym16#icu16">
+    <InputCollectorUnit gr:x="55" gr:y="85" id="mov3#mpkg5#hym16#icu16" linkOrder="mov3#mpkg5#hym16#icu16#ln76">
       <InputCollectorParameter id="mov3#mpkg5#hym16#icu16#icp7" name="ID_pratica"/>
       <OKLink id="mov3#mpkg5#hym16#icu16#oln54" name="OKFlow49" to="mov3#mpkg5#hym16#opg19#seu9">
         <LinkParameter id="mov3#mpkg5#hym16#icu16#oln54#par158" name="ID_pratica_KeyCondition18 [id_pratica]" source="mov3#mpkg5#hym16#icu16#icp7" target="mov3#mpkg5#hym16#opg19#seu9#su17#kcond11.ent1#att1"/>
@@ -8,8 +8,12 @@
       <Link id="mov3#mpkg5#hym16#icu16#ln60" name="Flow67" to="mov3#mpkg5#hym16#page36#enu14" type="transport" validate="true">
         <LinkParameter id="mov3#mpkg5#hym16#icu16#ln60#par159" name="ID_pratica_PASSING" source="mov3#mpkg5#hym16#icu16#icp7" passing="true"/>
       </Link>
+      <Link id="mov3#mpkg5#hym16#icu16#ln76" name="Flow76" to="mov3#mpkg5#hym16#opg6#mfu2" type="transport" validate="true" gr:bendpoints="89,343,-651,73;458,349,-282,79;623,339,-117,69">
+        <LinkParameter id="mov3#mpkg5#hym16#icu16#ln76#par151" name="ID_pratica_KeyCondition22 [id_pratica]" source="mov3#mpkg5#hym16#icu16#icp7" target="mov3#mpkg5#hym16#opg6#mfu2#su35#kcond22.ent1#att1"/>
+        <LinkParameter id="mov3#mpkg5#hym16#icu16#ln76#par152" name="yes_chiusa" sourceValue="yes" target="mov3#mpkg5#hym16#opg6#mfu2.ent1#att34"/>
+      </Link>
     </InputCollectorUnit>
-    <OKCollectorUnit gr:x="965" gr:y="110" id="mov3#mpkg5#hym16#okcu13" name="OK Port6"/>
-    <KOCollectorUnit gr:x="965" gr:y="225" id="mov3#mpkg5#hym16#kocu13" name="KO Port6"/>
+    <OKCollectorUnit gr:x="1095" gr:y="95" id="mov3#mpkg5#hym16#okcu13" name="OK Port6"/>
+    <KOCollectorUnit gr:x="1095" gr:y="235" id="mov3#mpkg5#hym16#kocu13" name="KO Port6"/>
   </OperationUnits>
 </HybridModule>

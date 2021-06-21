@@ -1,0 +1,48 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="420" gr:y="145" id="mov2#mpkg4#hym7#opg4" name="Operation Group 4" transaction="true">
+  <OperationUnits>
+    <SelectorUnit gr:x="50" gr:y="0" id="mov2#mpkg4#hym7#opg4#seu3" name="Selector3" entity="ent1">
+      <Selector id="mov2#mpkg4#hym7#opg4#seu3#su2" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov2#mpkg4#hym7#opg4#seu3#su2#kcond2" name="KeyCondition2" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov2#mpkg4#hym7#opg4#seu3#oln21" name="OKFlow21" to="mov2#mpkg4#hym7#opg4#seu4">
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu3#oln21#par20" name="id_pratica_AttCondition11" source="ent1#att1Array" target="mov2#mpkg4#hym7#opg4#seu4#su34#acond11"/>
+      </OKLink>
+      <Link id="mov2#mpkg4#hym7#opg4#seu3#ln28" name="Flow28" to="mov2#mpkg4#hym7#opg4#csvu1" type="transport" validate="true">
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu3#ln28#par21" name="chiusa_chiusa" source="ent1#att34Array" target="mov2#mpkg4#hym7#opg4#csvu1#csvc7"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu3#ln28#par23" name="descrizione_descrizione" source="ent1#att29Array" target="mov2#mpkg4#hym7#opg4#csvu1#csvc2"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu3#ln28#par94" name="protocollo_protocollo" source="ent1#att26Array" target="mov2#mpkg4#hym7#opg4#csvu1#csvc1"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu3#ln28#par95" name="data_scadenza_scadenza" source="ent1#att32Array" target="mov2#mpkg4#hym7#opg4#csvu1#csvc8"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu3#ln28#par115" name=";_Separator Character" sourceValue=";" target="mov2#mpkg4#hym7#opg4#csvu1.sep"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu3#ln28#par116" name="tipologia_intervento_tipo" source="ent1#att35Array" target="mov2#mpkg4#hym7#opg4#csvu1#csvc6"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu3#ln28#par122" name="PROVA_CSV File Name" target="mov2#mpkg4#hym7#opg4#csvu1.csvFileName" sourceValue="EXPORT"/>
+      </Link>
+    </SelectorUnit>
+    <CSVUnit gr:x="295" gr:y="20" id="mov2#mpkg4#hym7#opg4#csvu1" name="CSVUnit1" mode="WRITE" separator=";">
+      <CSVColumn id="mov2#mpkg4#hym7#opg4#csvu1#csvc1" name="protocollo"/>
+      <CSVColumn id="mov2#mpkg4#hym7#opg4#csvu1#csvc2" name="descrizione"/>
+      <CSVColumn id="mov2#mpkg4#hym7#opg4#csvu1#csvc6" name="tipo"/>
+      <CSVColumn id="mov2#mpkg4#hym7#opg4#csvu1#csvc7" name="chiusa"/>
+      <CSVColumn id="mov2#mpkg4#hym7#opg4#csvu1#csvc8" name="scadenza"/>
+    </CSVUnit>
+    <CSVUnit gr:x="295" gr:y="195" id="mov2#mpkg4#hym7#opg4#csvu2" name="CSVUnit2" mode="WRITE" separator=";">
+      <OKLink id="mov2#mpkg4#hym7#opg4#csvu2#oln23" name="OKFlow23" to="mov2#mpkg4#hym7#opg4#csvu1" automaticCoupling="true"/>
+      <CSVColumn id="mov2#mpkg4#hym7#opg4#csvu2#csvc9" name="descrizione"/>
+      <CSVColumn id="mov2#mpkg4#hym7#opg4#csvu2#csvc10" name="versione"/>
+      <CSVColumn id="mov2#mpkg4#hym7#opg4#csvu2#csvc11" name="scadenza"/>
+    </CSVUnit>
+    <SelectorUnit gr:x="0" gr:y="175" id="mov2#mpkg4#hym7#opg4#seu4" name="Selector4" entity="ent6" distinctAttributes="ent6#att24 ent6#att28 ent6#att33">
+      <Selector id="mov2#mpkg4#hym7#opg4#seu4#su34" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="mov2#mpkg4#hym7#opg4#seu4#su34#acond11" name="AttCondition11" predicate="eq" booleanOperator="or" implied="false" attributes="rel5#role10.ent1#att1"/>
+      </Selector>
+      <Link id="mov2#mpkg4#hym7#opg4#seu4#ln29" name="Flow29" to="mov2#mpkg4#hym7#opg4#csvu2" type="transport" validate="true">
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu4#ln29#par118" name="descrizione_descrizione" source="ent6#att28Array" target="mov2#mpkg4#hym7#opg4#csvu2#csvc9"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu4#ln29#par119" name="scadenza_scadenza" source="ent6#att33Array" target="mov2#mpkg4#hym7#opg4#csvu2#csvc11"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu4#ln29#par120" name=";_Separator Character" sourceValue=";" target="mov2#mpkg4#hym7#opg4#csvu2.sep"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu4#ln29#par121" name="versione_versione" source="ent6#att24Array" target="mov2#mpkg4#hym7#opg4#csvu2#csvc10"/>
+        <LinkParameter id="mov2#mpkg4#hym7#opg4#seu4#ln29#par150" name="EXPORT_AGGIORNAMENTI_CSV File Name" sourceValue="EXPORT_AGGIORNAMENTI" target="mov2#mpkg4#hym7#opg4#csvu2.csvFileName"/>
+      </Link>
+      <SortAttribute attribute="ent6#att24" order="ascending"/>
+      <OKLink id="mov2#mpkg4#hym7#opg4#seu4#oln22" name="OKFlow22" to="mov2#mpkg4#hym7#opg4#csvu2" automaticCoupling="true" gr:bendpoints="156,46,-69,46"/>
+    </SelectorUnit>
+  </OperationUnits>
+</OperationGroup>

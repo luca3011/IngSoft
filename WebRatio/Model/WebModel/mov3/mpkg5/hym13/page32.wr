@@ -1,7 +1,7 @@
 <Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="310" gr:y="435" id="mov3#mpkg5#hym13#page32" name="Page 11" layout:pageLayout="WRDefault/Empty">
   <ContentUnits>
     <IndexUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym13#page32#inu10" name="Interventi" entity="ent2" displayAttributes="ent2#att20 ent2#att21 rel4#role7.ent7#att31 rel6#role12.rel1#role2.ent4#att23" linkOrder="mov3#mpkg5#hym13#page32#inu10#ln49">
-      <Link id="mov3#mpkg5#hym13#page32#inu10#ln49" name="Scegli" to="mov3#mpkg5#hym13#page30#enu11" type="normal" validate="true" gr:bendpoints="-123,-121,97,164" ajaxEnabled="true">
+      <Link id="mov3#mpkg5#hym13#page32#inu10#ln49" name="Scegli" to="mov3#mpkg5#hym13#page30#enu11" type="normal" validate="true" gr:bendpoints="40,-106,-5,164" ajaxEnabled="true">
         <LinkParameter id="mov3#mpkg5#hym13#page32#inu10#ln49#par134" name="id_intervento_PASSING" source="data[].ent2#att2" passing="true"/>
       </Link>
     </IndexUnit>

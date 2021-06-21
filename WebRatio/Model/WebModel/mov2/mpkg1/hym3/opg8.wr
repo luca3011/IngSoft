@@ -1,13 +1,17 @@
 <OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="730" gr:y="280" id="mov2#mpkg1#hym3#opg8" name="Operation Group 8" transaction="true">
   <OperationUnits>
-    <ModifyUnit gr:x="135" gr:y="0" id="mov2#mpkg1#hym3#opg8#mfu1" name="Update1" entity="ent4">
+    <ModifyUnit gr:x="135" gr:y="0" id="mov2#mpkg1#hym3#opg8#mfu1" name="Update1" entity="ent4" linkOrder="mov2#mpkg1#hym3#opg8#mfu1#ln31">
       <Selector id="mov2#mpkg1#hym3#opg8#mfu1#su1" defaultPolicy="fill" booleanOperator="and">
         <KeyCondition id="mov2#mpkg1#hym3#opg8#mfu1#su1#kcond1" name="KeyCondition1" predicate="in" implied="false"/>
       </Selector>
       <KOLink id="mov2#mpkg1#hym3#opg8#mfu1#kln1" name="KOFlow1" to="mov2#mpkg1#hym3#kocu4">
         <LinkParameter id="mov2#mpkg1#hym3#opg8#mfu1#kln1#par42" name="Errore aggiornamento dati_Problema" sourceValue="Errore aggiornamento dati" target="mov2#mpkg1#hym3#kocu4#ocp3"/>
       </KOLink>
-      <OKLink id="mov2#mpkg1#hym3#opg8#mfu1#oln4" name="OKFlow4" to="mov2#mpkg1#hym3#okcu4" automaticCoupling="true"/>
+      <OKLink id="mov2#mpkg1#hym3#opg8#mfu1#oln4" name="OKFlow4" to="mov2#mpkg1#hym3#miu7" automaticCoupling="true"/>
+      <Link id="mov2#mpkg1#hym3#opg8#mfu1#ln31" name="Flow31" to="mov2#mpkg1#hym3#miu7" type="transport" validate="true" gr:bendpoints="-32,-109,-127,41">
+        <LinkParameter id="mov2#mpkg1#hym3#opg8#mfu1#ln31#par18" name="cf_ID_entit&#224;" source="ent4#att4Array" target="mov2#mpkg1#hym3#miu7.mov1#hym2#icu1#icp1"/>
+        <LinkParameter id="mov2#mpkg1#hym3#opg8#mfu1#ln31#par117" name="MODIFICATO CLIENTE_Operazione eseguita" sourceValue="abc" target="mov2#mpkg1#hym3#miu7.mov1#hym2#icu1#icp3"/>
+      </Link>
     </ModifyUnit>
     <IsNotNullUnit gr:x="0" gr:y="20" id="mov2#mpkg1#hym3#opg8#inn1" name="Is Not Null1">
       <OKLink id="mov2#mpkg1#hym3#opg8#inn1#oln14" name="OKFlow14" to="mov2#mpkg1#hym3#opg8#mfu1" automaticCoupling="true"/>

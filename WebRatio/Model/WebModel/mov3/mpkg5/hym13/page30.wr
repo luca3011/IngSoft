@@ -3,7 +3,7 @@
     <EntryUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym13#page30#enu11" name="Dati pratica" entity="ent1" linkOrder="mov3#mpkg5#hym13#page30#enu11#ln44 mov3#mpkg5#hym13#page30#enu11#ln45 mov3#mpkg5#hym13#page30#enu11#ln47">
       <Field id="mov3#mpkg5#hym13#page30#enu11#fld42" name="protocollo" type="string" modifiable="true" attribute="ent1#att26"/>
       <Field id="mov3#mpkg5#hym13#page30#enu11#fld43" name="descrizione" type="string" modifiable="true" attribute="ent1#att29"/>
-      <Link id="mov3#mpkg5#hym13#page30#enu11#ln44" name="Scegli intervento" to="mov3#mpkg5#hym13#page32#inu10" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="53,188,-167,-97" ajaxEnabled="true" ajaxOpenWindow="true" ajaxWindowAutoResizing="true"/>
+      <Link id="mov3#mpkg5#hym13#page30#enu11#ln44" name="Scegli intervento" to="mov3#mpkg5#hym13#page32#inu10" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="-48,148,-3,-122" ajaxEnabled="true" ajaxOpenWindow="true" ajaxWindowAutoResizing="true"/>
       <Link id="mov3#mpkg5#hym13#page30#enu11#ln45" name="Conferma" to="mov3#mpkg5#hym13#opg13#inn7" type="normal" validate="true">
         <LinkParameter id="mov3#mpkg5#hym13#page30#enu11#ln45#par126" name="id_intervento_PASSING_Input" sourceLinkParameter="mov3#mpkg5#hym13#page32#inu10#ln49#par134" target="mov3#mpkg5#hym13#opg13#inn7.isnotnull"/>
       </Link>
@@ -15,7 +15,7 @@
         <LinkParameter id="mov3#mpkg5#hym13#page30#enu11#ln46#par131" name="0_chiusa" sourceValue="0" target="mov3#mpkg5#hym13#opg13#cru9.ent1#att34"/>
         <LinkParameter id="mov3#mpkg5#hym13#page30#enu11#ln46#par132" name="Checked oid_PASSING_ingegneri_occupati" sourceLinkParameter="mov3#mpkg5#hym13#page31#mciu3#ln48#par133" target="mov3#mpkg5#hym13#opg13#cru9.ent1#att27"/>
       </Link>
-      <Link id="mov3#mpkg5#hym13#page30#enu11#ln47" name="Scegli ingegneri occupati" to="mov3#mpkg5#hym13#page31#mciu3" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="-53,135,-63,-135" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true"/>
+      <Link id="mov3#mpkg5#hym13#page30#enu11#ln47" name="Scegli ingegneri occupati" to="mov3#mpkg5#hym13#page31#mciu3" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="57,185,-133,-45" ajaxOpenWindow="true" ajaxWindowAutoResizing="true" ajaxWindowClosable="true"/>
     </EntryUnit>
     <MultiMessageUnit gr:x="140" gr:y="65" id="mov3#mpkg5#hym13#page30#mssu10" name="Errore"/>
   </ContentUnits>

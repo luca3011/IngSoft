@@ -1,0 +1,29 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="665" gr:y="325" id="mov3#mpkg5#hym16#page8" name="Page 8" linkOrder="mov3#mpkg5#hym16#page8#ln75" layout:frameLayout="WRDefault/Empty">
+  <ContentUnits>
+    <MultiMessageUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym16#page8#mssu3" name="Message3" linkOrder="mov3#mpkg5#hym16#page8#mssu3#ln77">
+      <Message xml:space="preserve">Sicuro di voler chiudere la pratica?</Message>
+      <Link id="mov3#mpkg5#hym16#page8#mssu3#ln77" name="Si" to="mov3#mpkg5#hym16#opg6#mfu2" automaticCoupling="true" type="normal" validate="true"/>
+    </MultiMessageUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="mov3#mpkg5#hym16#page8#mssu3">
+          <layout:Link link="mov3#mpkg5#hym16#page8#mssu3#ln77"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="mov3#mpkg5#hym16#page8#ln75" name="No" to="mov3#mpkg5#hym16#page36" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="-145,-83,150,122"/>
+</Page>

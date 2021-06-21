@@ -2,8 +2,8 @@
   <OperationUnits>
     <InputCollectorUnit gr:x="190" gr:y="190" id="mov2#mpkg4#hym7#icu6">
       <InputCollectorParameter id="mov2#mpkg4#hym7#icu6#icp4" name="ID_pratica"/>
-      <OKLink id="mov2#mpkg4#hym7#icu6#oln23" name="OKFlow23" to="mov2#mpkg4#hym7#page25#hinu6">
-        <LinkParameter id="mov2#mpkg4#hym7#icu6#oln23#par18" name="ID_pratica_current id_pratica" source="mov2#mpkg4#hym7#icu6#icp4" target="mov2#mpkg4#hym7#page25#hinu6.current.ent1#att1"/>
+      <OKLink id="mov2#mpkg4#hym7#icu6#oln2" name="OKFlow2" to="mov2#mpkg4#hym7#opg4#seu3">
+        <LinkParameter id="mov2#mpkg4#hym7#icu6#oln2#par123" name="ID_pratica_KeyCondition2 [id_pratica]" source="mov2#mpkg4#hym7#icu6#icp4" target="mov2#mpkg4#hym7#opg4#seu3#su2#kcond2.ent1#att1"/>
       </OKLink>
     </InputCollectorUnit>
   </OperationUnits>

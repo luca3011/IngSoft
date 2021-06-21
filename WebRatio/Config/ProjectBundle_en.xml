@@ -21,9 +21,11 @@
   <Entry key="cap_indirizzo">CAP</Entry>
   <Entry key="CaptchaValidationRule.error"> &lt;li&gt;the entered value did not match what was displayed&lt;/li&gt;</Entry>
   <Entry key="cf">cf</Entry>
+  <Entry key="CF Cliente">CF Cliente</Entry>
   <Entry key="CheckedItemsValidationRule.eq">&lt;li&gt;${itemCount} items checked required&lt;/li&gt;</Entry>
   <Entry key="CheckedItemsValidationRule.max">&lt;li&gt;check at most ${itemCount} items&lt;/li&gt;</Entry>
   <Entry key="CheckedItemsValidationRule.min">&lt;li&gt;check at least ${itemCount} items&lt;/li&gt;</Entry>
+  <Entry key="Chiudi pratica">Chiudi pratica</Entry>
   <Entry key="chiusa">Chiusa</Entry>
   <Entry key="citta_indirizzo">Citt&#224;</Entry>
   <Entry key="Cliente">Cliente</Entry>
@@ -94,6 +96,7 @@
   <Entry key="foglio_catasto">Foglio Catasto</Entry>
   <Entry key="Form1">Form1</Entry>
   <Entry key="Form2">Aggiunta intervento</Entry>
+  <Entry key="Form4">Modifica clienti</Entry>
   <Entry key="FormNotEmptyValidationRule.error">&lt;li&gt;at least one field must be filled&lt;/li&gt;</Entry>
   <Entry key="Group">Group</Entry>
   <Entry key="groupName">groupName</Entry>
@@ -156,6 +159,7 @@
   <Entry key="Lista pratiche">Lista pratiche</Entry>
   <Entry key="Logout">Logout</Entry>
   <Entry key="MandatoryValidationRule.error">&lt;li&gt;mandatory field&lt;/li&gt;</Entry>
+  <Entry key="Message3">Conferma</Entry>
   <Entry key="Message4">Message4</Entry>
   <Entry key="Messaggio errore">Messaggio errore</Entry>
   <Entry key="Messsaggio errore">Messsaggio errore</Entry>
@@ -168,6 +172,7 @@
   <Entry key="multiselectionfield.deselectAll">Deselect All</Entry>
   <Entry key="multiselectionfield.selectAll">Select All</Entry>
   <Entry key="N/D">N/D</Entry>
+  <Entry key="No">No</Entry>
   <Entry key="noItemsFound">No items found.</Entry>
   <Entry key="nome">Tipologia</Entry>
   <Entry key="nome_cognome">Cliente</Entry>
@@ -179,8 +184,10 @@
   <Entry key="NoWorkItemsFound">No work items found.</Entry>
   <Entry key="oid">oid</Entry>
   <Entry key="Page 1">Page 1</Entry>
+  <Entry key="Page 13">Modifica clienti</Entry>
   <Entry key="Page 2">Tutte le pratiche</Entry>
   <Entry key="Page 4">Page 4</Entry>
+  <Entry key="Page 8">Conferma</Entry>
   <Entry key="Page 9">Aggiungi Pratica</Entry>
   <Entry key="particella_catasto">Particella</Entry>
   <Entry key="password">Password</Entry>
@@ -244,6 +251,7 @@
   <Entry key="Seleziona">Seleziona</Entry>
   <Entry key="Selezione immobile">Selezione immobile</Entry>
   <Entry key="Show Activity Details">Show Activity Details</Entry>
+  <Entry key="Si">Si</Entry>
   <Entry key="Sicuro">Sicuro</Entry>
   <Entry key="Simple List1">Lista Clienti</Entry>
   <Entry key="Simple List3">Tutti gli interventi</Entry>

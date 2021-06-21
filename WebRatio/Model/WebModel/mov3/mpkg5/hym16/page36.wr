@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="410" gr:y="120" id="mov3#mpkg5#hym16#page36" name="Aggiorna pratica">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="410" gr:y="120" id="mov3#mpkg5#hym16#page36" name="Aggiorna pratica" linkOrder="mov3#mpkg5#hym16#page36#ln73">
   <ContentUnits>
     <EntryUnit gr:x="0" gr:y="0" id="mov3#mpkg5#hym16#page36#enu14" name="Dati aggiornamento" entity="ent6" linkOrder="mov3#mpkg5#hym16#page36#enu14#ln61" fieldOrder="mov3#mpkg5#hym16#page36#enu14#fld49 mov3#mpkg5#hym16#page36#enu14#fld50 mov3#mpkg5#hym16#page36#enu14#fld51">
       <Field id="mov3#mpkg5#hym16#page36#enu14#fld49" name="versione" type="integer" attribute="ent6#att24" preloaded="true"/>
@@ -17,10 +17,10 @@
     <layout:Row>
       <layout:Cell colspan="12">
         <layout:Unit unitId="mov3#mpkg5#hym16#page36#enu14">
+          <layout:Link link="mov3#mpkg5#hym16#page36#enu14#ln61"/>
           <layout:Field field="mov3#mpkg5#hym16#page36#enu14#fld49"/>
           <layout:Field field="mov3#mpkg5#hym16#page36#enu14#fld50"/>
           <layout:Field field="mov3#mpkg5#hym16#page36#enu14#fld51"/>
-          <layout:Link link="mov3#mpkg5#hym16#page36#enu14#ln61"/>
         </layout:Unit>
       </layout:Cell>
       <layout:Cell/>
@@ -36,4 +36,5 @@
       <layout:Cell/>
     </layout:Row>
   </layout:Grid>
+  <Link id="mov3#mpkg5#hym16#page36#ln73" name="Chiudi pratica" to="mov3#mpkg5#hym16#page8" automaticCoupling="true" type="normal" validate="true" ajaxOpenWindow="true" ajaxWindowUseTitle="false" ajaxWindowAutoResizing="true" ajaxWindowClosable="true"/>
 </Page>

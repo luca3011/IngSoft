@@ -6,9 +6,12 @@
         <LinkParameter id="mov2#mpkg1#hym3#icu3#oln17#par77" name="CF cliente_KeyCondition7 [cf]" source="mov2#mpkg1#hym3#icu3#icp2" target="mov2#mpkg1#hym3#opg7#seu7#su14#kcond12.ent4#att4"/>
       </OKLink>
     </InputCollectorUnit>
-    <OKCollectorUnit gr:x="980" gr:y="205" id="mov2#mpkg1#hym3#okcu4" name="OK Port4"/>
-    <KOCollectorUnit gr:x="980" gr:y="445" id="mov2#mpkg1#hym3#kocu4" name="KO Port4">
+    <OKCollectorUnit gr:x="1245" gr:y="200" id="mov2#mpkg1#hym3#okcu4" name="OK Port4"/>
+    <KOCollectorUnit gr:x="1245" gr:y="445" id="mov2#mpkg1#hym3#kocu4" name="KO Port4">
       <OutputCollectorParameter id="mov2#mpkg1#hym3#kocu4#ocp3" name="Problema"/>
     </KOCollectorUnit>
+    <ModuleInstanceUnit gr:x="930" gr:y="180" id="mov2#mpkg1#hym3#miu7" action="false" moduleId="mov1#hym2">
+      <OKLink id="mov2#mpkg1#hym3#miu7#oln30" name="OKFlow30" to="mov2#mpkg1#hym3#okcu4" automaticCoupling="true"/>
+    </ModuleInstanceUnit>
   </OperationUnits>
 </HybridModule>

@@ -44,7 +44,7 @@
         </VRules>
       </Field>
       <Field id="mov2#mpkg2#hym6#page10#enu3#fld15" name="sub_catasto" type="integer" modifiable="true" attribute="ent3#att19"/>
-      <Field id="mov2#mpkg2#hym6#page10#enu3#fld17" type="string" modifiable="true" name="ImmobileToCliente" ajaxAutocompleteEnabled="true" ajaxAutocompleteLink="mov2#mpkg2#hym6#page10#enu3#ln22" ajaxAutocompleteIndicator="true">
+      <Field id="mov2#mpkg2#hym6#page10#enu3#fld17" type="string" modifiable="true" name="CF Cliente" ajaxAutocompleteEnabled="true" ajaxAutocompleteLink="mov2#mpkg2#hym6#page10#enu3#ln22" ajaxAutocompleteIndicator="true">
         <VRules/>
       </Field>
     </EntryUnit>
